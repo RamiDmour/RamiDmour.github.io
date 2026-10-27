@@ -599,7 +599,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "scanner",
+        "screens": [
+          {
+            "layout": "documents",
+            "label": {
+              "en": "Documents",
+              "ru": "Документы"
+            }
+          },
+          {
+            "layout": "scan",
+            "label": {
+              "en": "Camera",
+              "ru": "Камера"
+            }
+          },
+          {
+            "layout": "search",
+            "label": {
+              "en": "PDF search",
+              "ru": "Поиск по PDF"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "shortly",
@@ -684,7 +711,34 @@
         }
       ],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "cinema",
+        "screens": [
+          {
+            "layout": "video",
+            "label": {
+              "en": "Discover",
+              "ru": "Сериалы"
+            }
+          },
+          {
+            "layout": "player",
+            "label": {
+              "en": "Watch",
+              "ru": "Просмотр"
+            }
+          },
+          {
+            "layout": "episodes",
+            "label": {
+              "en": "Episodes",
+              "ru": "Эпизоды"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "emcd",
@@ -741,7 +795,34 @@
         }
       ],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "finance",
+        "screens": [
+          {
+            "layout": "loans",
+            "label": {
+              "en": "Loans",
+              "ru": "Loans"
+            }
+          },
+          {
+            "layout": "coinhold",
+            "label": {
+              "en": "Coinhold",
+              "ru": "Coinhold"
+            }
+          },
+          {
+            "layout": "assets",
+            "label": {
+              "en": "Assets",
+              "ru": "Активы"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "octy",
@@ -970,7 +1051,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "finance",
+        "screens": [
+          {
+            "layout": "market",
+            "label": {
+              "en": "Marketplace",
+              "ru": "Маркетплейс"
+            }
+          },
+          {
+            "layout": "video",
+            "label": {
+              "en": "Video feed",
+              "ru": "Видеолента"
+            }
+          },
+          {
+            "layout": "assets",
+            "label": {
+              "en": "Wallet",
+              "ru": "Кошелёк"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "onetouch",
@@ -1097,7 +1205,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "property",
+        "screens": [
+          {
+            "layout": "property",
+            "label": {
+              "en": "Properties",
+              "ru": "Недвижимость"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Deal",
+              "ru": "Сделка"
+            }
+          },
+          {
+            "layout": "finance",
+            "label": {
+              "en": "Escrow",
+              "ru": "Escrow"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "meetpay",
@@ -1144,7 +1279,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "finance",
+        "screens": [
+          {
+            "layout": "assets",
+            "label": {
+              "en": "Wallet",
+              "ru": "Кошелёк"
+            }
+          },
+          {
+            "layout": "finance",
+            "label": {
+              "en": "Transfers",
+              "ru": "Переводы"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Activity",
+              "ru": "Операции"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "success-craft",
@@ -1187,7 +1349,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Workspace",
+              "ru": "Работа"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Documents",
+              "ru": "Документы"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Planning",
+              "ru": "Планирование"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "dwella",
@@ -1233,7 +1422,34 @@
       },
       "details": [],
       "link": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter",
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "property",
+        "screens": [
+          {
+            "layout": "property",
+            "label": {
+              "en": "Home",
+              "ru": "Главная"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Mortgage",
+              "ru": "Ипотека"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Calculator",
+              "ru": "Калькулятор"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "belpost",
@@ -1276,7 +1492,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "postal",
+            "label": {
+              "en": "Parcels",
+              "ru": "Отправления"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Tracking",
+              "ru": "Отслеживание"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Services",
+              "ru": "Услуги"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "rad",
@@ -1318,7 +1561,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "property",
+        "screens": [
+          {
+            "layout": "property",
+            "label": {
+              "en": "Auctions",
+              "ru": "Аукционы"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Map",
+              "ru": "Карта"
+            }
+          },
+          {
+            "layout": "property",
+            "label": {
+              "en": "Listing",
+              "ru": "Объявление"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "groshyk",
@@ -1361,7 +1631,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "market",
+            "label": {
+              "en": "Catalog",
+              "ru": "Каталог"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Offers",
+              "ru": "Предложения"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Profile",
+              "ru": "Профиль"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chesnok",
@@ -1404,7 +1701,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "market",
+            "label": {
+              "en": "Catalog",
+              "ru": "Каталог"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Offers",
+              "ru": "Предложения"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Profile",
+              "ru": "Профиль"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "sports",
@@ -1479,7 +1803,34 @@
           "details": []
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Activity",
+              "ru": "Активность"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Nutrition",
+              "ru": "Питание"
+            }
+          },
+          {
+            "layout": "research",
+            "label": {
+              "en": "Overview",
+              "ru": "Обзор"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "ai-lawyer",
@@ -1549,7 +1900,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Assistant",
+              "ru": "Помощник"
+            }
+          },
+          {
+            "layout": "documents",
+            "label": {
+              "en": "Documents",
+              "ru": "Документы"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Editor",
+              "ru": "Редактор"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "comics",
@@ -1589,7 +1967,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "cinema",
+        "screens": [
+          {
+            "layout": "video",
+            "label": {
+              "en": "Stories",
+              "ru": "Истории"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Editor",
+              "ru": "Редактор"
+            }
+          },
+          {
+            "layout": "video",
+            "label": {
+              "en": "Library",
+              "ru": "Библиотека"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "softeco",
@@ -1629,7 +2034,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "finance",
+        "screens": [
+          {
+            "layout": "finance",
+            "label": {
+              "en": "Overview",
+              "ru": "Обзор"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Portfolio",
+              "ru": "Портфель"
+            }
+          },
+          {
+            "layout": "research",
+            "label": {
+              "en": "Insights",
+              "ru": "Аналитика"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "itechart-sdk",
@@ -1668,7 +2100,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Overview",
+              "ru": "Обзор"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Workspace",
+              "ru": "Рабочее пространство"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Profile",
+              "ru": "Профиль"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "itechart-clinics",
@@ -1710,7 +2169,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Clinics",
+              "ru": "Клиники"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Map",
+              "ru": "Карта"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Profile",
+              "ru": "Профиль"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "gieksby",
@@ -1750,7 +2236,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Workspace",
+              "ru": "Рабочее пространство"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Chat",
+              "ru": "Чат"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Calls",
+              "ru": "Звонки"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "secreate",
@@ -1789,7 +2302,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "learning",
+            "label": {
+              "en": "Learn",
+              "ru": "Обучение"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Practice",
+              "ru": "Практика"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Progress",
+              "ru": "Прогресс"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "workfusion",
@@ -1855,7 +2395,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "browser",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "search",
+            "label": {
+              "en": "Document search",
+              "ru": "Поиск документов"
+            }
+          },
+          {
+            "layout": "documents",
+            "label": {
+              "en": "Results",
+              "ru": "Результаты"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Workspace",
+              "ru": "Рабочее пространство"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "crowd",
@@ -1894,7 +2461,34 @@
       },
       "details": [],
       "link": null,
-      "image": null
+      "image": null,
+      "media": {
+        "device": "browser",
+        "theme": "research",
+        "screens": [
+          {
+            "layout": "research",
+            "label": {
+              "en": "Video analysis",
+              "ru": "Видеоаналитика"
+            }
+          },
+          {
+            "layout": "research",
+            "label": {
+              "en": "Stream",
+              "ru": "Видеопоток"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Overview",
+              "ru": "Обзор"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "iot",
@@ -1955,7 +2549,34 @@
           "details": []
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "browser",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Connected device",
+              "ru": "Устройство"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Voice control",
+              "ru": "Голосовое управление"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Integration",
+              "ru": "Интеграция"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "foot-neuro",
@@ -2044,7 +2665,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "browser",
+        "theme": "research",
+        "screens": [
+          {
+            "layout": "research",
+            "label": {
+              "en": "Image analysis",
+              "ru": "Анализ изображений"
+            }
+          },
+          {
+            "layout": "research",
+            "label": {
+              "en": "Evaluation",
+              "ru": "Оценка моделей"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Batch processing",
+              "ru": "Пакетная обработка"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "tremor",
@@ -2161,7 +2809,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "phone",
+        "theme": "research",
+        "screens": [
+          {
+            "layout": "research",
+            "label": {
+              "en": "Sensor recording",
+              "ru": "Запись сенсоров"
+            }
+          },
+          {
+            "layout": "research",
+            "label": {
+              "en": "Signal",
+              "ru": "Сигнал"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Screening",
+              "ru": "Скрининг"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "ct-teacher",
@@ -2284,7 +2959,34 @@
           ]
         }
       },
-      "image": null
+      "image": null,
+      "media": {
+        "device": "browser",
+        "theme": "workspace",
+        "screens": [
+          {
+            "layout": "learning",
+            "label": {
+              "en": "Learning",
+              "ru": "Обучение"
+            }
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Exercises",
+              "ru": "Задания"
+            }
+          },
+          {
+            "layout": "video",
+            "label": {
+              "en": "Video lessons",
+              "ru": "Видеоуроки"
+            }
+          }
+        ]
+      }
     }
   ],
   "career": [
@@ -2546,16 +3248,16 @@
       "approachDescription": "ScanChamp is where mobile engineering, computer vision and backend meet. Explore an architecture walkthrough.",
       "pipeline": "Document processing stages",
       "pipelineCaption": "Architecture illustration based on the project. It does not run inference or represent measured performance.",
-      "careerLabel": "03 / CAREER",
+      "careerLabel": "02 / CAREER",
       "careerTitle": "The complete picture.",
       "careerDescription": "One career across different products. Employers stay visible in every specialization.",
       "education": "EDUCATION",
       "languages": "LANGUAGES",
-      "resumeLabel": "04 / TAKE IT WITH YOU",
+      "resumeLabel": "03 / TAKE IT WITH YOU",
       "resumeTitle": "A résumé for the role.",
       "resumeDescription": "Choose a specialization, language and level of detail. Every PDF and Word file uses a clean, single-column layout with selectable text.",
       "chooseResume": "Choose your résumé",
-      "contactLabel": "05 / LET’S TALK",
+      "contactLabel": "04 / LET’S TALK",
       "contactTitle": "Let’s talk about working together.",
       "contactNote": "Based in Poland. Available ASAP for remote full-time roles and contracts.",
       "footerNote": "Built with care. Open to what’s next.",
@@ -2661,7 +3363,40 @@
       "nextProject": "Next project",
       "caseContact": "Discuss this experience",
       "caseContext": "The product",
-      "caseDetails": "Engineering decisions"
+      "caseDetails": "Engineering decisions",
+      "screenGallery": "Project screen gallery",
+      "mobilePreview": "APP SCREENS / GALLERY",
+      "webPreview": "WORKSPACE / GALLERY",
+      "enlarge": "Enlarge",
+      "previousScreen": "Previous screen",
+      "nextScreen": "Next screen",
+      "screenSketch": "Interface sketch · original screenshots coming later",
+      "actualScreen": "Original project screenshot",
+      "mockOverview": "Overview",
+      "mockDetails": "Details",
+      "journeyLabel": "THE PERSON BEHIND THE PRODUCTS",
+      "journeyTitle": "From school projects to shipping products.",
+      "journeyIntro": "A few chapters that explain how I work today.",
+      "journeyNav": "Explore my story",
+      "journeyEarly": "Before the first job",
+      "journeyEarlyLabel": "Curiosity",
+      "journeyArchive": "2018 → 2019",
+      "journeyArchiveLabel": "First steps into work",
+      "journeyNow": "Today",
+      "journeyNowLabel": "Product ownership",
+      "journeyEarlyTitle": "I wanted to make things work.",
+      "journeyEarlyText": "School PascalABC grew into websites, desktop interfaces in Java, Android applications and a first C# game: a 3D maze with procedural generation. Exploring different technologies became a habit of understanding the whole system.",
+      "journeyArchiveTitle": "From personal projects to a profession.",
+      "journeyArchiveText": "I began looking for my first job in 2018 and started commercial development in 2019. Early public commits are still available; they are a small, tangible part of that story.",
+      "journeySearch": "First job search",
+      "journeyFirstJob": "Commercial development",
+      "journeyNowTitle": "See the system. Own the result.",
+      "journeyNowText": "Flutter is my strongest specialization. Backend, applied ML and team leadership let me connect product decisions with implementation — from starting ScanChamp to building analytics tooling and financial workflows.",
+      "journeyScan": "ScanChamp · from zero to release",
+      "journeyShortly": "Shortly · analytics tooling",
+      "journeyOcty": "Octy · architecture & leadership",
+      "moreContribution": "More of my contribution ({count})",
+      "optionalTechnical": "Technical details"
     },
     "ru": {
       "skip": "Перейти к содержимому",
@@ -2704,16 +3439,16 @@
       "approachDescription": "В ScanChamp встречаются мобильная разработка, компьютерное зрение и backend. Посмотрите, как связаны части системы.",
       "pipeline": "Этапы обработки документов",
       "pipelineCaption": "Иллюстрация архитектуры проекта. Здесь не выполняется inference и не показываются измерения производительности.",
-      "careerLabel": "03 / КАРЬЕРА",
+      "careerLabel": "02 / КАРЬЕРА",
       "careerTitle": "Полная история работы.",
       "careerDescription": "Одна карьера в разных продуктах. Места работы видны в любой специализации.",
       "education": "ОБРАЗОВАНИЕ",
       "languages": "ЯЗЫКИ",
-      "resumeLabel": "04 / РЕЗЮМЕ",
+      "resumeLabel": "03 / РЕЗЮМЕ",
       "resumeTitle": "Резюме под нужную роль.",
       "resumeDescription": "Выберите специализацию, язык и подробность. PDF и Word используют белый фон, одну колонку и выделяемый текст.",
       "chooseResume": "Выбрать резюме",
-      "contactLabel": "05 / СВЯЗАТЬСЯ",
+      "contactLabel": "04 / СВЯЗАТЬСЯ",
       "contactTitle": "Обсудим работу вместе.",
       "contactNote": "Работаю из Польши. Готов выйти ASAP на удалённую full-time работу или контракт.",
       "footerNote": "Внимание к деталям. Интерес к новым задачам.",
@@ -2819,7 +3554,40 @@
       "nextProject": "Следующий проект",
       "caseContact": "Обсудить этот опыт",
       "caseContext": "Задача продукта",
-      "caseDetails": "Инженерные решения"
+      "caseDetails": "Инженерные решения",
+      "screenGallery": "Галерея экранов проекта",
+      "mobilePreview": "ПРИЛОЖЕНИЕ / ГАЛЕРЕЯ",
+      "webPreview": "ВЕБ / ГАЛЕРЕЯ",
+      "enlarge": "Увеличить",
+      "previousScreen": "Предыдущий экран",
+      "nextScreen": "Следующий экран",
+      "screenSketch": "Эскиз интерфейса · оригинальные скриншоты позже",
+      "actualScreen": "Оригинальный скриншот проекта",
+      "mockOverview": "Обзор",
+      "mockDetails": "Подробнее",
+      "journeyLabel": "ЧЕЛОВЕК ЗА ПРОДУКТАМИ",
+      "journeyTitle": "От школьных программ — к продуктам в релизе.",
+      "journeyIntro": "Несколько глав о том, как сформировался мой подход к работе.",
+      "journeyNav": "Моя история",
+      "journeyEarly": "До первой работы",
+      "journeyEarlyLabel": "Любопытство",
+      "journeyArchive": "2018 → 2019",
+      "journeyArchiveLabel": "Первые шаги в профессию",
+      "journeyNow": "Сегодня",
+      "journeyNowLabel": "Ответственность за продукт",
+      "journeyEarlyTitle": "Хотелось создавать то, чего ещё нет.",
+      "journeyEarlyText": "Школьный PascalABC перерос в сайты, desktop-интерфейсы на Java, приложения для Android и первую игру на C#: 3D-лабиринт с автоматической генерацией. Привычка пробовать разное превратилась в стремление понимать систему целиком.",
+      "journeyArchiveTitle": "От своих проектов к профессии.",
+      "journeyArchiveText": "В 2018 году начал искать первую работу, а в 2019 — заниматься коммерческой разработкой. Ранние публичные коммиты сохранились: это небольшая, но осязаемая часть моей истории.",
+      "journeySearch": "Первый поиск работы",
+      "journeyFirstJob": "Коммерческая разработка",
+      "journeyNowTitle": "Видеть систему. Отвечать за результат.",
+      "journeyNowText": "Flutter — моя основная специализация. Backend, прикладной ML и руководство помогают связывать продуктовые решения с реализацией: от запуска ScanChamp до инфраструктуры аналитики и финансовых сценариев.",
+      "journeyScan": "ScanChamp · с нуля до релиза",
+      "journeyShortly": "Shortly · инструменты аналитики",
+      "journeyOcty": "Octy · архитектура и руководство",
+      "moreContribution": "Ещё о моём вкладе ({count})",
+      "optionalTechnical": "Технические подробности"
     }
   }
 }
