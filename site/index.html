@@ -13,8 +13,10 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/site.css">
   <link rel="stylesheet" href="assets/showcase.css">
-  <script src="assets/showcase.js" defer></script>
-  <script src="assets/portfolio.js" defer></script>
+  <link rel="stylesheet" href="assets/hero.css">
+  <script src="assets/hero.js" defer></script>
+  <script src="assets/showcase-hero.js" defer></script>
+  <script src="assets/portfolio-hero.js" defer></script>
 </head>
 <body>
   <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
@@ -33,10 +35,10 @@
           <h1 id="hero-title"><span id="hero-line">Software engineer.</span><em id="hero-accent">Across the stack.</em></h1>
           <p class="hero-focus" id="hero-focus"></p>
           <p class="hero-intro" id="hero-intro">I build mobile products, backend systems and applied ML solutions. From the first architecture decision to a working release, I connect the pieces and take responsibility for the result.</p>
-          <div class="hero-actions"><button class="button button-primary" type="button" data-open-resume><span data-i18n="download">Download résumé</span><span aria-hidden="true">↗</span></button><a class="text-link" href="#work"><span data-i18n="explore">Explore the work</span><span aria-hidden="true">↓</span></a></div>
+          <div class="hero-actions"><button class="button button-primary" type="button" data-open-resume><span data-i18n="download">Download résumé</span><span aria-hidden="true">↗</span></button><a class="button button-outline" href="mailto:timurwelike@gmail.com"><span data-i18n="writeMe">Get in touch</span><span aria-hidden="true">↗</span></a></div>
           <p class="location-line"><span data-i18n="location">Poland · Europe/Warsaw</span><span aria-hidden="true">/</span><span data-i18n="worktype">Full-time & contracts</span></p>
         </div>
-        <div class="hero-visual"><div class="portrait-frame"><img src="assets/portrait.png" width="960" height="1280" alt="Rami Dmaur" fetchpriority="high"><span class="portrait-index" aria-hidden="true">01 / RD</span></div><div class="portrait-note"><span class="note-symbol" aria-hidden="true">↗</span><p data-i18n="portraitNote">Curious about the whole system.<br>Responsible for the result.</p></div></div>
+        <div class="hero-showcase" id="hero-showcase" role="region" aria-label="Selected products" data-i18n-aria="heroProjects"></div>
       </section>
       <section class="proof-strip" aria-label="Experience highlights" data-i18n-aria="highlights"><div><strong>7<span>+</span></strong><p data-i18n="commercialYears">years in commercial engineering</p></div><div><strong>~6</strong><p data-i18n="flutterYears">years working with Flutter</p></div><div class="proof-project"><button type="button" data-project="scanchamp"><span class="mono">ScanChamp</span><strong data-i18n="proofScan">From zero to release</strong><span aria-hidden="true">↗</span></button><p data-i18n="proofScanText">Architecture, camera, OCR and backend</p></div><div class="proof-project"><button type="button" data-project="emcd"><span class="mono">EMCD</span><strong data-i18n="proofEmcd">Loans shipped</strong><span aria-hidden="true">↗</span></button><p data-i18n="proofEmcdText">Owned Loans and Coinhold in Flutter</p></div></section>
       <section class="profile-section" aria-label="Specializations" data-i18n-aria="specializations"><div class="section-kicker"><span data-i18n="chooseFocus">One engineer. Choose a focus.</span><button class="quiet-button" id="copy-profile" type="button"><span data-i18n="copyProfile">Copy profile link</span><span aria-hidden="true">↗</span></button></div><nav class="profile-tabs" id="profile-tabs" aria-label="Choose profile" data-i18n-aria="chooseProfile"></nav><div class="profile-fit"><span class="mono" data-i18n="fitLabel">Where I can help</span><p id="profile-fit"></p></div><div class="profile-foot"><p id="profile-note"></p><span class="mono" data-i18n="sharedHistory">Same career. Relevant detail.</span></div><div class="focus-skills tags" id="focus-skills" aria-label="Core technologies" data-i18n-aria="coreTech"></div></section>

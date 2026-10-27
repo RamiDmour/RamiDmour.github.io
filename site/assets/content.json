@@ -77,7 +77,14 @@
       "fit": {
         "en": "Building a product from scratch, evolving a complex mobile app or connecting mobile, backend and ML.",
         "ru": "Создать продукт с нуля, развить сложное мобильное приложение или связать клиент, backend и ML."
-      }
+      },
+      "heroProjects": [
+        "scanchamp",
+        "emcd",
+        "shortly",
+        "octy",
+        "dwella"
+      ]
     },
     "flutter": {
       "label": {
@@ -130,7 +137,14 @@
       "fit": {
         "en": "Complex Flutter products: camera and image processing, financial workflows, performance and legacy migrations.",
         "ru": "Сложные Flutter-продукты: камера и обработка изображений, финансовые сценарии, производительность и миграции legacy."
-      }
+      },
+      "heroProjects": [
+        "scanchamp",
+        "emcd",
+        "shortly",
+        "meetpay",
+        "dwella"
+      ]
     },
     "backend": {
       "label": {
@@ -194,6 +208,13 @@
         "sports",
         "iot",
         "tremor"
+      ],
+      "heroProjects": [
+        "octy",
+        "onetouch",
+        "scanchamp",
+        "workfusion",
+        "ai-lawyer"
       ]
     },
     "ml": {
@@ -252,6 +273,13 @@
         "foot-neuro",
         "tremor",
         "ct-teacher"
+      ],
+      "heroProjects": [
+        "scanchamp",
+        "octy",
+        "foot-neuro",
+        "tremor",
+        "ct-teacher"
       ]
     },
     "fullstack": {
@@ -305,7 +333,14 @@
       "fit": {
         "en": "A mobile product and its backend, taken from architecture to implementation with technical leadership for a small team.",
         "ru": "Мобильный продукт и его backend: от архитектуры до реализации с техническим руководством небольшой командой."
-      }
+      },
+      "heroProjects": [
+        "scanchamp",
+        "octy",
+        "onetouch",
+        "ai-lawyer",
+        "ct-teacher"
+      ]
     }
   },
   "projects": [
@@ -599,6 +634,50 @@
           ]
         }
       },
+      "hero": {
+        "ownership": {
+          "en": "From zero to release",
+          "ru": "С нуля до релиза"
+        },
+        "summary": {
+          "en": "A document scanner with OCR, PDF search and an editor.",
+          "ru": "Сканер документов с OCR, поиском по PDF и редактором."
+        },
+        "contribution": {
+          "en": "Started the app from scratch and took it to release; continue developing CV, OCR and camera performance.",
+          "ru": "Начал приложение с нуля и довёл до релиза; продолжаю развивать CV, OCR и производительность камеры."
+        },
+        "profiles": {
+          "backend": {
+            "ownership": {
+              "en": "Document-sharing backend",
+              "ru": "Backend обмена документами"
+            },
+            "summary": {
+              "en": "A subscription-aware service for sharing documents through expiring links.",
+              "ru": "Сервис обмена документами с доступом по подписке и временными ссылками."
+            },
+            "contribution": {
+              "en": "Built Fastify/PostgreSQL/S3 sharing with JWT sessions, transactional quotas and coordinated upload cleanup.",
+              "ru": "Разработал обмен на Fastify/PostgreSQL/S3: JWT-сессии, транзакционные квоты и координируемая очистка загрузок."
+            }
+          },
+          "ml": {
+            "ownership": {
+              "en": "CV, OCR & mobile inference",
+              "ru": "CV, OCR и мобильный inference"
+            },
+            "summary": {
+              "en": "On-device document detection, OCR and image enhancement.",
+              "ru": "Детекция документов, OCR и улучшение изображений на устройстве."
+            },
+            "contribution": {
+              "en": "Tuned models, prepared and audited datasets, compared runtimes and diagnosed inference-stage costs.",
+              "ru": "Настраивал модели, готовил и проверял датасеты, сравнивал runtime и диагностировал время этапов inference."
+            }
+          }
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -711,6 +790,20 @@
         }
       ],
       "link": null,
+      "hero": {
+        "ownership": {
+          "en": "Built analytics tooling",
+          "ru": "Создал инструменты аналитики"
+        },
+        "summary": {
+          "en": "Interactive short-form series in a vertical video feed.",
+          "ru": "Интерактивные короткие сериалы в вертикальной видеоленте."
+        },
+        "contribution": {
+          "en": "Built typed analytics code generation, shared context providers and lint rules for missing event integrations.",
+          "ru": "Создал типизированную кодогенерацию аналитики, общие providers контекста и lint для неинтегрированных событий."
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -795,6 +888,20 @@
         }
       ],
       "link": null,
+      "hero": {
+        "ownership": {
+          "en": "Shipped Loans",
+          "ru": "Выпустил Loans"
+        },
+        "summary": {
+          "en": "Loans and Coinhold inside a crypto-finance platform.",
+          "ru": "Loans и Coinhold внутри криптофинансовой платформы."
+        },
+        "contribution": {
+          "en": "Owned Flutter development and maintenance of Loans and Coinhold; released Loans to users.",
+          "ru": "Отвечал за Flutter-разработку и сопровождение Loans и Coinhold; выпустил Loans для пользователей."
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1051,6 +1158,46 @@
           ]
         }
       },
+      "hero": {
+        "ownership": {
+          "en": "Architecture & team leadership",
+          "ru": "Архитектура и руководство"
+        },
+        "summary": {
+          "en": "A video marketplace with multi-chain crypto payments.",
+          "ru": "Видеомаркетплейс с криптоплатежами в нескольких сетях."
+        },
+        "contribution": {
+          "en": "Owned architecture and backend, coordinated technical delivery and hiring, and researched ML-driven loyalty.",
+          "ru": "Отвечал за архитектуру и backend, организовывал разработку и найм, исследовал ML-модель лояльности."
+        },
+        "profiles": {
+          "backend": {
+            "ownership": {
+              "en": "Backend architecture & transactions",
+              "ru": "Архитектура backend и транзакции"
+            },
+            "contribution": {
+              "en": "Built NestJS/Prisma APIs, multi-chain balance operations, Redis-backed pricing and multi-asset checkout.",
+              "ru": "Разработал API на NestJS/Prisma, операции с балансами в нескольких сетях, курсы с Redis и оплату несколькими активами."
+            }
+          },
+          "ml": {
+            "ownership": {
+              "en": "DQN/PPO loyalty research",
+              "ru": "Исследование лояльности с DQN/PPO"
+            },
+            "summary": {
+              "en": "Reinforcement-learning research for marketplace loyalty and discounts.",
+              "ru": "Исследование обучения с подкреплением для лояльности и скидок маркетплейса."
+            },
+            "contribution": {
+              "en": "Developed DQN/PPO approaches, a custom simulation environment and tools for evaluating policy behavior.",
+              "ru": "Разрабатывал DQN/PPO, собственную среду симуляции и инструменты оценки поведения политики."
+            }
+          }
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1205,6 +1352,20 @@
           ]
         }
       },
+      "hero": {
+        "ownership": {
+          "en": "Backend & escrow ownership",
+          "ru": "Backend и escrow"
+        },
+        "summary": {
+          "en": "A real-estate marketplace with crypto escrow transactions.",
+          "ru": "Маркетплейс недвижимости со сделками через крипто-escrow."
+        },
+        "contribution": {
+          "en": "Owned the backend from listings and seller verification to Ethereum/TON escrow contracts.",
+          "ru": "Полностью взял backend: от объявлений и проверки продавцов до escrow-контрактов Ethereum и TON."
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1279,6 +1440,20 @@
       },
       "details": [],
       "link": null,
+      "hero": {
+        "ownership": {
+          "en": "Modernized a legacy wallet",
+          "ru": "Модернизировал legacy-кошелёк"
+        },
+        "summary": {
+          "en": "A crypto wallet upgraded to a modern Flutter stack.",
+          "ru": "Криптокошелёк с переходом на современный Flutter-стек."
+        },
+        "contribution": {
+          "en": "Migrated Flutter/Dart and BLoC, introduced null safety, audited dependencies and mentored junior developers.",
+          "ru": "Мигрировал Flutter/Dart и BLoC, внедрял null safety, проверял зависимости и обучал младших разработчиков."
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1422,6 +1597,20 @@
       },
       "details": [],
       "link": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter",
+      "hero": {
+        "ownership": {
+          "en": "Flutter product development",
+          "ru": "Flutter-разработка"
+        },
+        "summary": {
+          "en": "A US mortgage app with applications and lender communication.",
+          "ru": "Ипотечное приложение для США с заявками и общением с кредиторами."
+        },
+        "contribution": {
+          "en": "Contributed to the Flutter mobile client for mortgage applications and lender communication.",
+          "ru": "Участвовал в разработке Flutter-клиента ипотечного сервиса и коммуникации с кредиторами."
+        }
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1898,6 +2087,20 @@
               "ru": "Разработал Flask-backend и REST-интеграцию; реализовывал форматирование и сценарии подписания юридических текстов, созданных ИИ."
             }
           ]
+        }
+      },
+      "hero": {
+        "ownership": {
+          "en": "Connected client and backend",
+          "ru": "Связал клиент и backend"
+        },
+        "summary": {
+          "en": "AI-assisted legal text processing with a mobile client.",
+          "ru": "Обработка юридических текстов с AI и мобильным клиентом."
+        },
+        "contribution": {
+          "en": "Built a Flask backend and its client integration, including text formatting and signing workflows.",
+          "ru": "Разработал Flask-backend и интеграцию с клиентом, включая форматирование и сценарии подписания текстов."
         }
       },
       "image": null,
@@ -2395,6 +2598,21 @@
           ]
         }
       },
+      "hero": {
+        "ownership": {
+          "en": "Built document search",
+          "ru": "Разработал поиск документов"
+        },
+        "summary": {
+          "en": "Full-text search for enterprise documentation.",
+          "ru": "Полнотекстовый поиск по корпоративной документации."
+        },
+        "contribution": {
+          "en": "Developed search on Node.js and then Elasticsearch; improved responsiveness and integrated it with the web app.",
+          "ru": "Разрабатывал поиск на Node.js, затем Elasticsearch; оптимизировал отклик и интегрировал с веб-приложением."
+        },
+        "label": "WorkFusion"
+      },
       "image": null,
       "media": {
         "device": "browser",
@@ -2665,6 +2883,20 @@
           ]
         }
       },
+      "hero": {
+        "ownership": {
+          "en": "Model evaluation & desktop tooling",
+          "ru": "Оценка моделей и desktop-инструменты"
+        },
+        "summary": {
+          "en": "An academic prototype for image-based foot-condition classification.",
+          "ru": "Учебный прототип классификации состояния стоп по изображениям."
+        },
+        "contribution": {
+          "en": "Compared vision models with fine-tuning and cross-validation; built batch predictions in PyQt6.",
+          "ru": "Сравнивал CV-модели с fine-tuning и cross-validation; создал пакетный вывод предсказаний в PyQt6."
+        }
+      },
       "image": null,
       "media": {
         "device": "browser",
@@ -2807,6 +3039,20 @@
               "ru": "Разработал сбор акселерометра/гироскопа, Flask API подготовки и бинарный классификатор TensorFlow/Keras со скрининговой рекомендацией."
             }
           ]
+        }
+      },
+      "hero": {
+        "ownership": {
+          "en": "Sensors → API → classifier",
+          "ru": "Сенсоры → API → классификатор"
+        },
+        "summary": {
+          "en": "An academic smartphone-sensor classification prototype.",
+          "ru": "Учебный прототип классификации сенсорных данных смартфона."
+        },
+        "contribution": {
+          "en": "Built Flutter sensor collection, a Flask preparation API and a TensorFlow/Keras classifier.",
+          "ru": "Разработал сбор сенсорных данных во Flutter, Flask API подготовки и классификатор TensorFlow/Keras."
         }
       },
       "image": null,
@@ -2957,6 +3203,32 @@
               "ru": "Исследовал AI-генерацию заданий/видеоуроков и синтез речи; интегрировал модельные инструменты и рендеринг в личный учебный прототип."
             }
           ]
+        }
+      },
+      "hero": {
+        "ownership": {
+          "en": "Explored AI content pipelines",
+          "ru": "Исследовал AI-конвейеры контента"
+        },
+        "summary": {
+          "en": "A personal learning-platform prototype with AI-generated content.",
+          "ru": "Личный прототип учебной платформы с AI-генерацией контента."
+        },
+        "contribution": {
+          "en": "Explored exercises, video lessons and speech synthesis; integrated content pipelines and rendering tools.",
+          "ru": "Исследовал задания, видеоуроки и синтез речи; интегрировал контентные конвейеры и инструменты рендеринга."
+        },
+        "profiles": {
+          "backend": {
+            "ownership": {
+              "en": "Python backend & content workflows",
+              "ru": "Python-backend и контентные процессы"
+            },
+            "contribution": {
+              "en": "Developed FastAPI/aiogram components with async SQLAlchemy, PostgreSQL, Redis and content-generation workflows.",
+              "ru": "Развивал FastAPI/aiogram с async SQLAlchemy, PostgreSQL, Redis и процессами генерации контента."
+            }
+          }
         }
       },
       "image": null,
@@ -3396,7 +3668,16 @@
       "journeyShortly": "Shortly · analytics tooling",
       "journeyOcty": "Octy · architecture & leadership",
       "moreContribution": "More of my contribution ({count})",
-      "optionalTechnical": "Technical details"
+      "optionalTechnical": "Technical details",
+      "heroProjects": "Selected products",
+      "heroCarouselRole": "carousel",
+      "heroSelectProject": "Choose a project",
+      "heroShowProject": "Show {name}",
+      "heroCounter": "Project {current} of {total}",
+      "heroScreens": "Screens",
+      "heroContribution": "What I owned",
+      "heroCatalog": "Explore the full catalog",
+      "heroSwipe": "Swipe or use the arrows"
     },
     "ru": {
       "skip": "Перейти к содержимому",
@@ -3587,7 +3868,16 @@
       "journeyShortly": "Shortly · инструменты аналитики",
       "journeyOcty": "Octy · архитектура и руководство",
       "moreContribution": "Ещё о моём вкладе ({count})",
-      "optionalTechnical": "Технические подробности"
+      "optionalTechnical": "Технические подробности",
+      "heroProjects": "Избранные продукты",
+      "heroCarouselRole": "карусель",
+      "heroSelectProject": "Выбрать проект",
+      "heroShowProject": "Показать {name}",
+      "heroCounter": "Проект {current} из {total}",
+      "heroScreens": "Экраны",
+      "heroContribution": "За что отвечал",
+      "heroCatalog": "Весь каталог проектов",
+      "heroSwipe": "Листайте свайпом или стрелками"
     }
   }
 }
