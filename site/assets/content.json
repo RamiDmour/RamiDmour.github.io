@@ -1,0 +1,2825 @@
+{
+  "version": 1,
+  "updated": "2026-10-27",
+  "person": {
+    "name": "Rami Dmaur",
+    "email": "timurwelike@gmail.com",
+    "github": "https://github.com/RamiDmour",
+    "telegram": "https://t.me/RamiDmour",
+    "linkedin": "https://www.linkedin.com/in/rami-dmaur-19b5201b3/",
+    "location": {
+      "en": "Poland · Remote",
+      "ru": "Польша · Удалённо"
+    },
+    "availability": {
+      "en": "Available ASAP · Full-time / Contract",
+      "ru": "Готов выйти ASAP · Full-time / Контракт"
+    },
+    "timezone": "Europe/Warsaw",
+    "education": {
+      "en": "BSUIR, 2023 · Faculty of Computer-Aided Design · Electronics and Software Engineering",
+      "ru": "БГУИР, 2023 · Факультет компьютерного проектирования · Инженер-электроник-программист"
+    },
+    "languages": {
+      "en": "Russian — native; English — B2; Arabic — A1",
+      "ru": "Русский — родной; английский — B2; арабский — A1"
+    }
+  },
+  "profiles": {
+    "software": {
+      "label": {
+        "en": "Software Engineer",
+        "ru": "Software Engineer"
+      },
+      "title": {
+        "en": "Software engineer.",
+        "ru": "Software engineer."
+      },
+      "accent": {
+        "en": "Flutter at the core.",
+        "ru": "Flutter — основа."
+      },
+      "intro": {
+        "en": "My core expertise is Flutter. I also build backend services, integrate ML and lead small teams — so I can own the decisions that connect an application to the whole product.",
+        "ru": "Моя основная экспертиза — Flutter. Также разрабатываю backend, интегрирую ML и руковожу небольшими командами: могу отвечать за приложение и решения, связывающие весь продукт."
+      },
+      "summary": {
+        "en": "Software Engineer with 7+ years of commercial experience and around 6 years working with Flutter. Experience includes TypeScript/Node.js and Python backend development, applied ML, architecture and leading small teams. Built products from scratch, delivered financial features and modernized legacy applications.",
+        "ru": "Software Engineer с 7+ годами коммерческого опыта и около 6 лет работы с Flutter. Опыт включает backend на TypeScript/Node.js и Python, прикладной ML, архитектуру и руководство небольшими командами. Создавал продукты с нуля, выпускал финансовые функции и модернизировал legacy-приложения."
+      },
+      "skills": [
+        "Flutter / Dart",
+        "TypeScript / Node.js",
+        "Python",
+        "PostgreSQL",
+        "Applied ML",
+        "Architecture",
+        "Team leadership"
+      ],
+      "order": [
+        "scanchamp",
+        "shortly",
+        "emcd",
+        "octy",
+        "onetouch",
+        "meetpay",
+        "success-craft",
+        "dwella"
+      ],
+      "resumeTitle": {
+        "en": "Software Engineer",
+        "ru": "Software Engineer"
+      },
+      "focusLabel": {
+        "en": "Senior Flutter · Backend · Applied ML · Technical leadership",
+        "ru": "Senior Flutter · Backend · Прикладной ML · Руководство"
+      },
+      "fit": {
+        "en": "Building a product from scratch, evolving a complex mobile app or connecting mobile, backend and ML.",
+        "ru": "Создать продукт с нуля, развить сложное мобильное приложение или связать клиент, backend и ML."
+      }
+    },
+    "flutter": {
+      "label": {
+        "en": "Flutter",
+        "ru": "Flutter"
+      },
+      "title": {
+        "en": "Flutter engineer.",
+        "ru": "Flutter engineer."
+      },
+      "accent": {
+        "en": "Beyond the interface.",
+        "ru": "Глубже интерфейса."
+      },
+      "intro": {
+        "en": "Responsive mobile experiences, native integrations and maintainable architecture. I work with camera pipelines, financial workflows and the difficult parts of existing codebases.",
+        "ru": "Отзывчивые приложения, нативные интеграции и поддерживаемая архитектура. Работаю с камерой, финансовыми сценариями и сложными участками существующего кода."
+      },
+      "summary": {
+        "en": "Senior Flutter Engineer with around 6 years working with Flutter and 7+ years in commercial software development. Experience in native plugins, Dart FFI, image processing, performance optimization, financial workflows and legacy migrations. Delivered EMCD Loans and started ScanChamp from scratch.",
+        "ru": "Senior Flutter Engineer. Около 6 лет работы с Flutter и 7+ лет коммерческой разработки. Нативные плагины, Dart FFI, обработка изображений, оптимизация, финансовые сценарии и миграции legacy. Довёл EMCD Loans до релиза и начал ScanChamp с нуля."
+      },
+      "skills": [
+        "Flutter / Dart",
+        "BLoC / Cubit",
+        "Native plugins / FFI",
+        "Kotlin / Swift",
+        "OpenCV",
+        "CI/CD",
+        "Legacy migrations"
+      ],
+      "order": [
+        "scanchamp",
+        "emcd",
+        "shortly",
+        "meetpay",
+        "success-craft",
+        "dwella",
+        "groshyk",
+        "rad"
+      ],
+      "resumeTitle": {
+        "en": "Senior Flutter Engineer",
+        "ru": "Senior Flutter Engineer"
+      },
+      "focusLabel": {
+        "en": "Senior Flutter · Native integrations · Architecture",
+        "ru": "Senior Flutter · Нативные интеграции · Архитектура"
+      },
+      "fit": {
+        "en": "Complex Flutter products: camera and image processing, financial workflows, performance and legacy migrations.",
+        "ru": "Сложные Flutter-продукты: камера и обработка изображений, финансовые сценарии, производительность и миграции legacy."
+      }
+    },
+    "backend": {
+      "label": {
+        "en": "Backend",
+        "ru": "Backend"
+      },
+      "title": {
+        "en": "Backend engineer.",
+        "ru": "Backend engineer."
+      },
+      "accent": {
+        "en": "Built around the product.",
+        "ru": "С пониманием продукта."
+      },
+      "intro": {
+        "en": "APIs, data models and services that fit the whole system. My mobile background helps me design the contract between a server and the people using it.",
+        "ru": "API, модели данных и сервисы в контексте всей системы. Опыт мобильной разработки помогает проектировать взаимодействие сервера с приложением и пользователем."
+      },
+      "summary": {
+        "en": "Software Engineer with backend development experience in TypeScript/Node.js and Python. Designed APIs and data models, implemented financial operations, multi-chain integrations, escrow workflows and document sharing. Experience with NestJS, Fastify, FastAPI, Flask, PostgreSQL, Redis and Docker.",
+        "ru": "Software Engineer с опытом backend-разработки на TypeScript/Node.js и Python. Проектировал API и модели данных, реализовывал финансовые операции, multi-chain-интеграции, escrow и обмен документами. Работал с NestJS, Fastify, FastAPI, Flask, PostgreSQL, Redis и Docker."
+      },
+      "skills": [
+        "TypeScript / Node.js",
+        "Python",
+        "NestJS / Fastify",
+        "FastAPI / Flask",
+        "PostgreSQL / Redis",
+        "Docker",
+        "REST / OpenAPI"
+      ],
+      "order": [
+        "scanchamp",
+        "octy",
+        "onetouch",
+        "ai-lawyer",
+        "workfusion",
+        "ct-teacher",
+        "sports",
+        "iot"
+      ],
+      "resumeTitle": {
+        "en": "Backend Engineer",
+        "ru": "Backend Engineer"
+      },
+      "focusLabel": {
+        "en": "TypeScript / Python · APIs · Data models",
+        "ru": "TypeScript / Python · API · Модели данных"
+      },
+      "fit": {
+        "en": "APIs and services for financial operations, marketplaces and document workflows, designed with the client application in mind.",
+        "ru": "API и сервисы для финансовых операций, маркетплейсов и документов с пониманием потребностей клиентского приложения."
+      },
+      "resumeProjects": [
+        "octy",
+        "onetouch",
+        "scanchamp",
+        "workfusion",
+        "ai-lawyer",
+        "ct-teacher",
+        "sports",
+        "iot",
+        "tremor"
+      ]
+    },
+    "ml": {
+      "label": {
+        "en": "Applied ML",
+        "ru": "Прикладной ML"
+      },
+      "title": {
+        "en": "Applied ML engineer.",
+        "ru": "Applied ML engineer."
+      },
+      "accent": {
+        "en": "From model to product.",
+        "ru": "От модели к продукту."
+      },
+      "intro": {
+        "en": "Computer vision, OCR and model evaluation connected to real applications. I investigate the data, compare approaches and work through deployment constraints.",
+        "ru": "Компьютерное зрение, OCR и оценка моделей в прикладных системах. Исследую данные, сравниваю подходы и учитываю ограничения интеграции на устройствах."
+      },
+      "summary": {
+        "en": "Software Engineer with applied ML experience in computer vision, OCR, dataset preparation, model evaluation and mobile inference integration. Developed reinforcement learning models with TensorFlow/Keras and educational vision and sensor classifiers. Combines ML research with application engineering.",
+        "ru": "Software Engineer с опытом прикладного ML: компьютерное зрение, OCR, подготовка датасетов, оценка моделей и мобильный inference. Разрабатывал RL-модели на TensorFlow/Keras и учебные классификаторы изображений и сенсорных данных. Соединяю исследование моделей с разработкой приложений."
+      },
+      "skills": [
+        "Computer vision / OCR",
+        "TensorFlow / Keras",
+        "TFLite / ONNX Runtime",
+        "OpenCV",
+        "Dataset evaluation",
+        "DQN / PPO",
+        "Python"
+      ],
+      "order": [
+        "scanchamp",
+        "octy",
+        "foot-neuro",
+        "tremor",
+        "ct-teacher",
+        "crowd"
+      ],
+      "resumeTitle": {
+        "en": "Software Engineer Applied ML",
+        "ru": "Software Engineer Applied ML"
+      },
+      "focusLabel": {
+        "en": "Computer vision · OCR · Mobile inference",
+        "ru": "Компьютерное зрение · OCR · Мобильный inference"
+      },
+      "fit": {
+        "en": "Computer vision and OCR in applications: dataset preparation, model comparison, runtime integration and performance diagnostics.",
+        "ru": "Компьютерное зрение и OCR в приложениях: подготовка данных, сравнение моделей, интеграция runtime и диагностика производительности."
+      },
+      "resumeProjects": [
+        "scanchamp",
+        "octy",
+        "foot-neuro",
+        "tremor",
+        "ct-teacher"
+      ]
+    },
+    "fullstack": {
+      "label": {
+        "en": "Full Stack",
+        "ru": "Full Stack"
+      },
+      "title": {
+        "en": "Full stack engineer.",
+        "ru": "Full stack engineer."
+      },
+      "accent": {
+        "en": "One connected system.",
+        "ru": "Единая система."
+      },
+      "intro": {
+        "en": "Mobile clients, backend services and data, designed together. I bridge disciplines, make architecture decisions and help small teams deliver complete products.",
+        "ru": "Мобильный клиент, сервер и данные, спроектированные вместе. Работаю на стыке направлений, принимаю архитектурные решения и помогаю команде выпускать продукт."
+      },
+      "summary": {
+        "en": "Software Engineer connecting Flutter applications, TypeScript/Node.js and Python services, and data into complete products. Designed systems from scratch, implemented financial and document workflows, integrated ML and led small teams. Earlier experience in React and React Native.",
+        "ru": "Software Engineer, объединяющий Flutter-приложения, сервисы на TypeScript/Node.js и Python и данные в целый продукт. Проектировал системы с нуля, реализовывал финансовые и документные сценарии, интегрировал ML и руководил небольшими командами. Ранее работал с React и React Native."
+      },
+      "skills": [
+        "Flutter / Dart",
+        "TypeScript / Python",
+        "API architecture",
+        "PostgreSQL",
+        "Docker",
+        "ML integration",
+        "Technical leadership"
+      ],
+      "order": [
+        "scanchamp",
+        "octy",
+        "onetouch",
+        "ai-lawyer",
+        "sports",
+        "ct-teacher",
+        "workfusion",
+        "shortly"
+      ],
+      "resumeTitle": {
+        "en": "Full Stack Engineer",
+        "ru": "Full Stack Engineer"
+      },
+      "focusLabel": {
+        "en": "Mobile · APIs · Data · Technical leadership",
+        "ru": "Mobile · API · Данные · Руководство"
+      },
+      "fit": {
+        "en": "A mobile product and its backend, taken from architecture to implementation with technical leadership for a small team.",
+        "ru": "Мобильный продукт и его backend: от архитектуры до реализации с техническим руководством небольшой командой."
+      }
+    }
+  },
+  "projects": [
+    {
+      "id": "scanchamp",
+      "name": "ScanChamp",
+      "employer": "ScanChamp",
+      "domain": {
+        "en": "Document processing",
+        "ru": "Обработка документов"
+      },
+      "profiles": [
+        "flutter",
+        "backend",
+        "ml",
+        "fullstack"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "OpenCV",
+        "Dart FFI",
+        "TFLite",
+        "ONNX Runtime",
+        "OCR",
+        "Swift",
+        "Kotlin",
+        "Fastify",
+        "PostgreSQL",
+        "Docker",
+        "ObjectBox"
+      ],
+      "description": {
+        "en": "A document scanner with on-device vision, OCR, searchable PDFs and editing. Started from scratch, taken to release and still evolving.",
+        "ru": "Сканер документов с локальным CV, OCR, поиском по PDF и редактором. Начал с нуля, довёл до релиза и продолжаю развивать."
+      },
+      "bullets": [
+        {
+          "en": "Started the application from scratch and established its architecture; continued model tuning, OCR, image enhancement and camera optimization after the team expanded.",
+          "ru": "Начал приложение с нуля и заложил архитектуру; после расширения команды продолжил тюнинг моделей, OCR, фильтров и оптимизацию камеры."
+        },
+        {
+          "en": "Built incremental OCR-backed PDF search with persistent caching, fuzzy matching and highlighted page snippets.",
+          "ru": "Разработал инкрементальный поиск по PDF с OCR, постоянным кешем, нечётким сопоставлением и подсветкой фрагментов."
+        },
+        {
+          "en": "Implemented persistent processing isolates and performance instrumentation; created dataset and model comparison tools.",
+          "ru": "Реализовывал постоянные рабочие isolates и диагностику производительности; создавал инструменты сравнения моделей и датасетов."
+        },
+        {
+          "en": "Developed a Fastify/PostgreSQL document-sharing service with S3-compatible storage, subscription checks, transactional quotas and expiring links.",
+          "ru": "Разработал сервис обмена документами на Fastify/PostgreSQL: S3-хранилище, проверка подписки, транзакционные квоты и временные ссылки."
+        }
+      ],
+      "status": "ongoing",
+      "role": {
+        "en": "Software Engineer · Flutter / ML / Backend",
+        "ru": "Software Engineer · Flutter / ML / Backend"
+      },
+      "details": [
+        {
+          "title": {
+            "en": "Camera and concurrency",
+            "ru": "Камера и параллельная обработка"
+          },
+          "text": {
+            "en": "Persistent worker isolates and TransferableTypedData reduce repeated worker setup and image-copy overhead. The current team architecture separates live detection from full-resolution capture and discards stale frames instead of accumulating work.",
+            "ru": "Постоянные isolates и TransferableTypedData уменьшают повторную инициализацию и передачу изображений. Текущая командная архитектура разделяет live-детекцию и полноразмерную съёмку и отбрасывает устаревшие кадры."
+          }
+        },
+        {
+          "title": {
+            "en": "Computer vision and evaluation",
+            "ru": "Компьютерное зрение и оценка"
+          },
+          "text": {
+            "en": "Investigated document boundaries, OCR and image enhancement. Dataset tools track document identity, capture sessions and splits. Model/runtime comparisons include stage timings and visual inspection: a better score is not useful if the crop loses text.",
+            "ru": "Исследовал детекцию границ, OCR и улучшение изображений. Инструменты учитывают идентичность документа, сессию и split. Сравнение моделей и runtime сочетает временные метки и визуальную оценку: хороший score бесполезен, если обрезан текст."
+          }
+        },
+        {
+          "title": {
+            "en": "Search without repeated OCR",
+            "ru": "Поиск без повторного OCR"
+          },
+          "text": {
+            "en": "An observable catalog, file fingerprints and a persistent text cache support incremental indexing. Token-based fuzzy search returns page numbers, sentence snippets and highlight ranges. This is local lexical search.",
+            "ru": "Наблюдаемый каталог, fingerprints файлов и постоянный текстовый кеш обеспечивают инкрементальный индекс. Нечёткий поиск по токенам возвращает страницы, предложения и подсветку. Это локальный лексический поиск."
+          }
+        },
+        {
+          "title": {
+            "en": "Editor and document lifecycle",
+            "ru": "Редактор и жизненный цикл документа"
+          },
+          "text": {
+            "en": "Developed PDF markup and cloud synchronization. Current save rollback, atomic replacement, conflict handling and several native fixes reflect joint work with Ruslan Barysiuk, who joined later.",
+            "ru": "Разрабатывал PDF-разметку и облачную синхронизацию. Текущие механизмы отката, атомарной записи, конфликтов и ряд нативных исправлений — результат совместной работы с Русланом Барысюком, подключившимся позже."
+          }
+        },
+        {
+          "title": {
+            "en": "Backend for sharing",
+            "ru": "Backend обмена документами"
+          },
+          "text": {
+            "en": "TypeScript/Fastify, PostgreSQL, Garage object storage and Docker Compose. File validation, expiring links, range downloads and cleanup are part of the implementation.",
+            "ru": "TypeScript/Fastify, PostgreSQL, Garage и Docker Compose. Реализованы проверка файлов, временные ссылки, range-загрузка и очистка."
+          }
+        },
+        {
+          "title": {
+            "en": "Engineering diagnostics",
+            "ru": "Инженерная диагностика"
+          },
+          "text": {
+            "en": "Opt-in traces distinguish elapsed and per-stage time, first rendered frame, preprocessing, inference and worker round trips. Research candidates are separate from release defaults.",
+            "ru": "Диагностика по флагу разделяет общее время, этапы, первый кадр, подготовку, inference и обмен с worker. Исследовательские кандидаты отделены от релизных настроек."
+          }
+        }
+      ],
+      "link": null,
+      "focusOrder": {
+        "flutter": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "backend": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "ml": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "fullstack": [
+          0,
+          3,
+          1,
+          2
+        ]
+      },
+      "focusStack": {
+        "backend": [
+          "Fastify",
+          "PostgreSQL",
+          "Docker",
+          "OCR"
+        ],
+        "ml": [
+          "OpenCV",
+          "TFLite",
+          "ONNX Runtime",
+          "OCR"
+        ],
+        "flutter": [
+          "Flutter",
+          "Dart FFI",
+          "OpenCV",
+          "BLoC"
+        ],
+        "fullstack": [
+          "Flutter",
+          "Fastify",
+          "PostgreSQL",
+          "Docker"
+        ]
+      },
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Designed and implemented a document-sharing service for the ScanChamp application, with subscription-based access and expiring public links.",
+            "ru": "Спроектировал и реализовал сервис обмена документами для ScanChamp с доступом по подписке и временными публичными ссылками."
+          },
+          "bullets": [
+            {
+              "en": "Built a TypeScript/Node.js Fastify service with PostgreSQL and S3-compatible Garage storage; integrated PDF, JPEG and ZIP uploads with the application.",
+              "ru": "Разработал сервис на TypeScript/Node.js и Fastify с PostgreSQL и S3-совместимым хранилищем Garage; интегрировал загрузку PDF, JPEG и ZIP с приложением."
+            },
+            {
+              "en": "Implemented active-subscription verification through RevenueCat and exchange for short-lived JWT sessions; validated file size, format and hash.",
+              "ru": "Реализовал проверку активной подписки через RevenueCat и обмен на короткоживущий JWT; проверку размера, формата и hash файла."
+            },
+            {
+              "en": "Reserved upload quotas transactionally and separated pending and ready upload states; handled cleanup of incomplete uploads and expired objects.",
+              "ru": "Резервировал квоты загрузки транзакционно и разделил состояния pending/ready; реализовал очистку незавершённых загрузок и истёкших объектов."
+            },
+            {
+              "en": "Supported HTTP range downloads for PDF viewing, health/readiness endpoints and periodic cleanup coordinated through a PostgreSQL advisory lock.",
+              "ru": "Поддержал HTTP range-загрузку для PDF-viewer, health/readiness endpoints и периодическую очистку под PostgreSQL advisory lock."
+            }
+          ],
+          "stack": [
+            "TypeScript",
+            "Fastify",
+            "PostgreSQL",
+            "S3 / Garage",
+            "JWT",
+            "Docker Compose",
+            "Node.js",
+            "SQL",
+            "REST",
+            "RevenueCat",
+            "HTTP Range",
+            "Caddy"
+          ],
+          "details": [
+            {
+              "title": {
+                "en": "Storage consistency and deployment",
+                "ru": "Согласованность хранения и развёртывание"
+              },
+              "text": {
+                "en": "The service separates authorization, quota reservation, upload completion and public download. PostgreSQL state and object storage must remain consistent when an upload is interrupted. Docker Compose combines the service, database, Garage and Caddy; cleanup is coordinated between service instances.",
+                "ru": "Сервис разделяет авторизацию, резервирование квоты, завершение загрузки и публичное скачивание. Состояние PostgreSQL и объектное хранилище должны оставаться согласованными при прерванной загрузке. Docker Compose объединяет сервис, БД, Garage и Caddy; очистка координируется между экземплярами сервиса."
+              }
+            }
+          ],
+          "shortBullets": [
+            {
+              "en": "Built Fastify/PostgreSQL document sharing with S3-compatible storage, subscription verification, JWT sessions and expiring public links.",
+              "ru": "Разработал обмен документами на Fastify/PostgreSQL: S3-совместимое хранилище, проверка подписки, JWT-сессии и временные публичные ссылки."
+            },
+            {
+              "en": "Implemented transactional quotas, pending/ready upload states, file validation, HTTP Range and coordinated cleanup of incomplete or expired uploads.",
+              "ru": "Реализовал транзакционные квоты, состояния pending/ready, проверку файлов, HTTP Range и координируемую очистку незавершённых и истёкших загрузок."
+            }
+          ]
+        },
+        "ml": {
+          "description": {
+            "en": "Computer vision, OCR and on-device inference for a document scanner started from scratch and taken to release; development continues.",
+            "ru": "Компьютерное зрение, OCR и inference на устройстве в сканере документов, начатом с нуля и доведённом до релиза; работа продолжается."
+          },
+          "bullets": [
+            {
+              "en": "Researched and tuned document-boundary detection, OCR and image-enhancement models; continued this work after the team expanded.",
+              "ru": "Исследовал и настраивал модели определения границ документа, OCR и улучшения изображений; продолжил это направление после расширения команды."
+            },
+            {
+              "en": "Created dataset preparation and audit tools tracking document identity, capture session, split and annotation revision; checked for overlap between evaluation splits.",
+              "ru": "Создавал инструменты подготовки и аудита датасетов с идентичностью документа, сессией съёмки, split и ревизией разметки; проверкой пересечений между выборками."
+            },
+            {
+              "en": "Compared model and exported-runtime candidates using saved inputs, reports, intermediate images and stage timings; combined metric review with visual inspection of document crops.",
+              "ru": "Сравнивал модели и экспортированные runtime-варианты по сохранённым входам, отчётам, промежуточным изображениям и временным меткам; сочетал метрики с визуальной проверкой обрезки документа."
+            },
+            {
+              "en": "Integrated inference with mobile processing constraints and instrumented model loading, preprocessing, inference, postprocessing and worker round trips.",
+              "ru": "Интегрировал inference с учётом ограничений мобильной обработки; диагностировал загрузку модели, preprocessing, inference, postprocessing и обмен с worker."
+            }
+          ],
+          "stack": [
+            "Python",
+            "OpenCV",
+            "TFLite",
+            "ONNX Runtime",
+            "OCR",
+            "Dataset evaluation",
+            "Dart FFI",
+            "Mobile inference"
+          ],
+          "details": [
+            {
+              "title": {
+                "en": "Evaluation and runtime tradeoffs",
+                "ru": "Оценка качества и выбор runtime"
+              },
+              "text": {
+                "en": "Reference corners are kept separate from detector inputs so annotations do not reveal the answer. Research candidates are compared with release configurations; quality includes preserving document text, while timing is broken down by processing stage. Experimental models and diagnostic resources remain separate from store defaults.",
+                "ru": "Эталонные углы отделены от входа детектора, чтобы разметка не подсказывала ответ. Исследовательские варианты сравниваются с релизными конфигурациями; качество учитывает сохранность текста документа, а время разделяется по этапам обработки. Экспериментальные модели и диагностика отделены от store-настроек."
+              }
+            }
+          ],
+          "shortBullets": [
+            {
+              "en": "Tuned document-boundary, OCR and enhancement models; prepared datasets and compared model/runtime candidates with visual checks and stage timings.",
+              "ru": "Настраивал модели границ документа, OCR и улучшения изображений; готовил датасеты, сравнивал модели/runtime с визуальной проверкой и временными метками этапов."
+            },
+            {
+              "en": "Tracked document/session identity and dataset splits; integrated mobile inference and diagnosed preprocessing, inference and postprocessing costs.",
+              "ru": "Учитывал идентичность документа/сессии и split датасета; интегрировал мобильный inference, диагностировал preprocessing, inference и postprocessing."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "shortly",
+      "name": "Shortly",
+      "employer": {
+        "en": "Project-based development",
+        "ru": "Проектная разработка"
+      },
+      "domain": {
+        "en": "Interactive video",
+        "ru": "Интерактивное видео"
+      },
+      "profiles": [
+        "flutter",
+        "fullstack"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Hive",
+        "Code generation",
+        "custom_lint",
+        "AppsFlyer",
+        "Firebase",
+        "TeamCity",
+        "Fastlane"
+      ],
+      "description": {
+        "en": "Short-form interactive series with a vertical video feed, purchases and rewarded ads. My focus: analytics infrastructure and developer tooling.",
+        "ru": "Короткие интерактивные сериалы с вертикальной лентой, покупками и rewarded-рекламой. Мой основной вклад — аналитика и инструменты разработки."
+      },
+      "bullets": [
+        {
+          "en": "Built typed analytics API generation from event configuration, shared context providers and a custom lint for unintegrated tracking methods.",
+          "ru": "Разработал генерацию типизированного API аналитики из конфигурации, общие providers контекста и lint для неинтегрированных событий."
+        },
+        {
+          "en": "Implemented a Hive-backed event queue with ordered delivery and retries; corrected episode watch time and push-launch attribution.",
+          "ru": "Реализовал очередь событий в Hive с упорядоченной отправкой и повторами; исправлял время просмотра и атрибуцию push-запусков."
+        },
+        {
+          "en": "Implemented replay for coins or rewarded ads and automated Android delivery with TeamCity, Firebase App Distribution and a Fastlane migration.",
+          "ru": "Реализовал повтор эпизода за монеты или рекламу; автоматизировал Android-выпуск через TeamCity, Firebase App Distribution и миграцию на Fastlane."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Senior Flutter Developer",
+        "ru": "Senior Flutter Developer"
+      },
+      "details": [
+        {
+          "title": {
+            "en": "Configuration to tracking API",
+            "ru": "От конфигурации к API событий"
+          },
+          "text": {
+            "en": "A build_runner generator produces typed tracking methods and documentation. Providers supply device, user, session and viewing context. Events route to Firebase, AppsFlyer, Facebook and the custom analytics API.",
+            "ru": "Генератор build_runner создаёт типизированные методы и документацию. Providers собирают контекст устройства, пользователя, сессии и просмотра. События направляются в Firebase, AppsFlyer, Facebook и API собственной аналитики."
+          }
+        },
+        {
+          "title": {
+            "en": "Developer tooling",
+            "ru": "Инструменты команды"
+          },
+          "text": {
+            "en": "A custom_lint package detects declared tracking methods that are never called. It helps identify missing integration while working in the codebase.",
+            "ru": "Собственный custom_lint выявляет объявленные, но не вызываемые методы событий и помогает находить незавершённую интеграцию в коде."
+          }
+        },
+        {
+          "title": {
+            "en": "Delivery and metric correctness",
+            "ru": "Доставка и корректность метрик"
+          },
+          "text": {
+            "en": "Persisted event IDs, retries with delays and a single sender preserve the intended delivery order. Watch-time fixes cover episode-level persistence. The persisted queue supports retry after network interruptions.",
+            "ru": "Сохранённые ID, повторы с задержками и один отправитель поддерживают порядок доставки. Исправления watch-time затрагивают сохранение на уровне эпизода. Постоянная очередь позволяет повторять отправку после сетевых сбоев."
+          }
+        }
+      ],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "emcd",
+      "name": "EMCD",
+      "employer": {
+        "en": "Project-based development",
+        "ru": "Проектная разработка"
+      },
+      "domain": {
+        "en": "Crypto finance",
+        "ru": "Криптофинансы"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Freezed",
+        "Dio",
+        "auto_route",
+        "Decimal"
+      ],
+      "description": {
+        "en": "Owned the Flutter side of Loans and Coinhold within a larger crypto platform. Took Loans to release.",
+        "ru": "Отвечал за Flutter-часть Loans и Coinhold внутри криптоплатформы. Довёл Loans до релиза."
+      },
+      "bullets": [
+        {
+          "en": "Owned development and maintenance of Loans and Coinhold; delivered Loans to users.",
+          "ru": "Отвечал за разработку и сопровождение Loans и Coinhold; выпустил Loans для пользователей."
+        },
+        {
+          "en": "Implemented architectural improvements for maintainability and performance across complex financial workflows.",
+          "ru": "Внедрял архитектурные улучшения для сопровождения и производительности сложных финансовых сценариев."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Senior Flutter Developer",
+        "ru": "Senior Flutter Developer"
+      },
+      "details": [
+        {
+          "title": {
+            "en": "Loans and Coinhold",
+            "ru": "Loans и Coinhold"
+          },
+          "text": {
+            "en": "Product context includes loan calculation, activation, repayment, risk reduction and extensions; Coinhold includes income calculation, top-ups, withdrawals and history. Worked on the client workflows of these two products within the platform.",
+            "ru": "Контекст Loans: расчёт, активация, погашение, снижение риска и продление. Coinhold: доходность, пополнение, вывод и история. Отвечал за клиентские сценарии этих двух продуктов внутри платформы."
+          }
+        }
+      ],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "octy",
+      "name": "Octy Marketplace",
+      "employer": "Octy Marketplace",
+      "domain": {
+        "en": "Commerce · Crypto · RL",
+        "ru": "Торговля · Crypto · RL"
+      },
+      "profiles": [
+        "flutter",
+        "backend",
+        "ml",
+        "fullstack"
+      ],
+      "stack": [
+        "NestJS",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Flutter",
+        "TensorFlow",
+        "Keras",
+        "DQN",
+        "PPO"
+      ],
+      "description": {
+        "en": "A video marketplace combining multi-token payments, multi-chain integrations and an RL loyalty prototype. Pre-production; funding ended.",
+        "ru": "Видеомаркетплейс с оплатой несколькими токенами, multi-chain-интеграциями и RL-лояльностью. До production не дошёл: закончилось финансирование."
+      },
+      "bullets": [
+        {
+          "en": "Designed architecture, data models and backend; organized delivery and hired and mentored two Flutter developers and a designer.",
+          "ru": "Спроектировал архитектуру, данные и backend; организовал работу, нанял и обучал двух Flutter-разработчиков и дизайнера."
+        },
+        {
+          "en": "Worked on internal transfers, deposits, withdrawals, multi-provider rates and multi-token checkout across TON, Bitcoin, TRON, Solana and Ethereum.",
+          "ru": "Разрабатывал переводы, пополнение, вывод, курсы нескольких провайдеров и multi-token checkout для TON, Bitcoin, TRON, Solana и Ethereum."
+        },
+        {
+          "en": "Developed TensorFlow/Keras loyalty research with DQN and PPO approaches; implemented marketplace roles and seller-verification workflows.",
+          "ru": "Разрабатывал RL-лояльность на TensorFlow/Keras с DQN и PPO; реализовывал роли и верификацию продавцов."
+        }
+      ],
+      "status": "preproduction",
+      "role": {
+        "en": "Flutter Team Lead · Backend ownership",
+        "ru": "Flutter Team Lead · Ответственность за backend"
+      },
+      "details": [
+        {
+          "title": {
+            "en": "Financial workflows",
+            "ru": "Финансовые сценарии"
+          },
+          "text": {
+            "en": "Internal balances and conversion, multiple market-price sources, protective rate rules and checkout from several assets. The server uses NestJS, Prisma transactions, PostgreSQL and Redis.",
+            "ru": "Внутренние балансы и конвертация, несколько источников цен, защитные правила курсов и оплата из нескольких активов. Сервер использует NestJS, Prisma transactions, PostgreSQL и Redis."
+          }
+        },
+        {
+          "title": {
+            "en": "Marketplace and team",
+            "ru": "Маркетплейс и команда"
+          },
+          "text": {
+            "en": "Video product feed, seller verification, KYC/AML-related product flows and roles from buyer to owner. Led a small team from the initial technical design.",
+            "ru": "Товарная видеолента, проверка продавцов, продуктовые KYC/AML-процессы и роли от покупателя до owner. Руководил небольшой командой с этапа проектирования."
+          }
+        },
+        {
+          "title": {
+            "en": "Reinforcement learning",
+            "ru": "Обучение с подкреплением"
+          },
+          "text": {
+            "en": "DQN with replay and a target network, a custom Gym environment and a separate PPO actor/critic implementation. Evaluated the approaches through simulation.",
+            "ru": "DQN с replay buffer и target network, собственная Gym-среда и отдельный PPO actor/critic. Подходы оценивались через симуляции."
+          }
+        }
+      ],
+      "link": null,
+      "focusOrder": {
+        "ml": [
+          2,
+          0,
+          1
+        ]
+      },
+      "focusStack": {
+        "ml": [
+          "TensorFlow",
+          "Keras",
+          "DQN",
+          "PPO"
+        ],
+        "flutter": [
+          "Flutter",
+          "Docker",
+          "TypeScript",
+          "Prisma"
+        ]
+      },
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Backend ownership for a video marketplace with internal crypto balances, multi-chain payments and seller-verification workflows.",
+            "ru": "Отвечал за backend видеомаркетплейса с внутренними криптобалансами, многосетевыми платежами и проверкой продавцов."
+          },
+          "bullets": [
+            {
+              "en": "Designed the backend architecture, API contracts and data models using NestJS, Prisma and PostgreSQL; owned the server-side product logic.",
+              "ru": "Спроектировал архитектуру backend, контракты API и модели данных на NestJS, Prisma и PostgreSQL; отвечал за серверную логику продукта."
+            },
+            {
+              "en": "Implemented internal transfers, deposits, withdrawals and conversion across TON, Bitcoin, TRON, Solana and Ethereum; worked on transactional balance changes and operation history.",
+              "ru": "Реализовывал внутренние переводы, пополнения, вывод и конвертацию для TON, Bitcoin, TRON, Solana и Ethereum; работал с транзакционным изменением балансов и историей операций."
+            },
+            {
+              "en": "Developed multi-provider market-rate aggregation and cached cross-rates; applied an internal pricing coefficient and protective rules against arbitrage.",
+              "ru": "Разрабатывал агрегацию рыночных котировок нескольких провайдеров и кеширование кросс-курсов; рассчитывал внутренний курс с коэффициентом и защитными правилами против арбитража."
+            },
+            {
+              "en": "Implemented checkout from several available assets with conversion into the currency of the listing, together with purchase and order-status workflows.",
+              "ru": "Реализовывал оплату товара из нескольких доступных активов с конвертацией в валюту объявления, покупку и отслеживание статуса заказа."
+            },
+            {
+              "en": "Worked on authentication, buyer-to-owner roles, moderated seller-document verification and KYC/AML-related product workflows; coordinated technical delivery and hiring.",
+              "ru": "Работал над авторизацией, ролями от покупателя до owner, модерацией документов продавцов и продуктовыми KYC/AML-сценариями; организовал техническую разработку и найм."
+            }
+          ],
+          "stack": [
+            "TypeScript",
+            "Node.js",
+            "NestJS",
+            "Prisma",
+            "PostgreSQL",
+            "Redis / ioredis",
+            "REST",
+            "JWT",
+            "Swagger / OpenAPI",
+            "Docker Compose",
+            "ethers",
+            "TON",
+            "Bitcoin",
+            "TRON",
+            "Solana"
+          ],
+          "details": [
+            {
+              "title": {
+                "en": "Transactions and pricing",
+                "ru": "Транзакции и курсы"
+              },
+              "text": {
+                "en": "The implementation uses Prisma transactions for internal balance operations, scheduled provider-rate updates and Redis caching. A key design problem was keeping balances, exchange rates and multi-asset checkout consistent across network integrations.",
+                "ru": "В реализации использованы Prisma transactions для внутренних операций, плановое обновление котировок и Redis-кеш. Ключевая инженерная задача — согласовать остатки, курсы и оплату несколькими активами с интеграциями разных сетей."
+              }
+            }
+          ],
+          "shortBullets": [
+            {
+              "en": "Designed NestJS/Prisma/PostgreSQL APIs and data models; implemented crypto transfers, deposits, withdrawals and transactional balance operations across five networks.",
+              "ru": "Спроектировал API и данные на NestJS/Prisma/PostgreSQL; реализовывал переводы, пополнения, вывод и транзакционные операции с балансами в пяти сетях."
+            },
+            {
+              "en": "Built multi-provider rates, Redis caching and multi-asset checkout with conversion; implemented roles, seller verification and KYC/AML-related flows.",
+              "ru": "Разрабатывал курсы нескольких провайдеров, Redis-кеш и оплату несколькими активами с конвертацией; реализовывал роли, проверку продавцов и KYC/AML-сценарии."
+            }
+          ]
+        },
+        "ml": {
+          "description": {
+            "en": "Reinforcement-learning research for a marketplace loyalty and discount system, evaluated in simulation before production.",
+            "ru": "Исследование обучения с подкреплением для лояльности и скидок маркетплейса; оценка через симуляцию до production."
+          },
+          "bullets": [
+            {
+              "en": "Developed a DQN approach in TensorFlow/Keras with replay buffer and target network, together with a custom Gym environment.",
+              "ru": "Разрабатывал DQN на TensorFlow/Keras с replay buffer, target network и собственной Gym-средой."
+            },
+            {
+              "en": "Implemented a separate PPO actor/critic approach using GAE and a clipped objective; compared policies through simulations and analysis.",
+              "ru": "Реализовывал отдельный подход PPO actor/critic с GAE и clipped objective; сравнивал политики через симуляции и анализ."
+            },
+            {
+              "en": "Explored reward formulation for loyalty/discount decisions and built research tooling for inspecting training and policy behavior.",
+              "ru": "Исследовал формулировку вознаграждения для решений о лояльности/скидках, создавал инструменты анализа обучения и поведения политики."
+            }
+          ],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "Keras",
+            "DQN",
+            "PPO",
+            "Gym",
+            "NumPy",
+            "Pandas",
+            "Streamlit",
+            "Matplotlib"
+          ],
+          "details": [
+            {
+              "title": {
+                "en": "Research context",
+                "ru": "Исследовательский контекст"
+              },
+              "text": {
+                "en": "The experiments were connected to the marketplace product and its loyalty scenarios. The project stopped before production; policy behavior was evaluated in a simulation rather than through live customer discounts or commercial metrics.",
+                "ru": "Эксперименты были связаны с продуктовой логикой маркетплейса и сценариями лояльности. Проект остановился до production; поведение политики оценивалось в симуляции, без выдачи реальных клиентских скидок и коммерческих метрик."
+              }
+            }
+          ],
+          "shortBullets": [
+            {
+              "en": "Developed DQN with replay buffer and target network and a PPO actor/critic approach in TensorFlow/Keras, using a custom Gym environment.",
+              "ru": "Разрабатывал DQN с replay buffer и target network и подход PPO actor/critic на TensorFlow/Keras с собственной Gym-средой."
+            },
+            {
+              "en": "Explored reward design and compared loyalty policies in simulation; built analysis tooling for training and policy behavior.",
+              "ru": "Исследовал reward design, сравнивал политики лояльности в симуляции, создавал инструменты анализа обучения и поведения политики."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "onetouch",
+      "name": "OneTouch",
+      "employer": {
+        "en": "Selected engagements",
+        "ru": "Проектная работа"
+      },
+      "domain": {
+        "en": "Real estate · Escrow",
+        "ru": "Недвижимость · Escrow"
+      },
+      "profiles": [
+        "flutter",
+        "backend",
+        "fullstack"
+      ],
+      "stack": [
+        "FastAPI",
+        "Python",
+        "SQLAlchemy",
+        "TypeScript",
+        "Express",
+        "Solidity",
+        "Ethereum",
+        "TON",
+        "Docker",
+        "Flutter"
+      ],
+      "description": {
+        "en": "Crypto real-estate transactions with seller verification and escrow on Ethereum and TON. Pre-production; funding ended.",
+        "ru": "Сделки с недвижимостью за криптовалюту, проверка продавцов и escrow в Ethereum и TON. Pre-production: финансирование закончилось."
+      },
+      "bullets": [
+        {
+          "en": "Owned backend design and implementation, listing and search, seller-verification and KYC/AML-related flows.",
+          "ru": "Полностью взял backend: архитектуру, реализацию, объявления, поиск, верификацию и KYC/AML-сценарии."
+        },
+        {
+          "en": "Developed and integrated escrow smart-contract workflows for Ethereum and TON; formed the team and presented the technical solution to investors.",
+          "ru": "Создавал и интегрировал escrow-смарт-контракты Ethereum и TON; сформировал команду и представлял техническое решение инвесторам."
+        }
+      ],
+      "status": "preproduction",
+      "role": {
+        "en": "Team Lead · Full Stack Developer",
+        "ru": "Team Lead · Full Stack Developer"
+      },
+      "details": [],
+      "link": null,
+      "focusStack": {
+        "flutter": [
+          "Flutter",
+          "TON",
+          "Ethereum",
+          "Docker"
+        ],
+        "fullstack": [
+          "Flutter",
+          "FastAPI",
+          "Ethereum",
+          "TON"
+        ]
+      },
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Owned the backend of a crypto real-estate marketplace, from listing and verification to escrow-based transactions.",
+            "ru": "Полностью взял backend криптовалютного маркетплейса недвижимости: от объявлений и проверки продавца до сделки через escrow."
+          },
+          "bullets": [
+            {
+              "en": "Designed and implemented backend architecture, APIs, listing creation and search, seller-verification and KYC/AML-related workflows.",
+              "ru": "Спроектировал и реализовывал архитектуру backend, API, создание объявлений и поиск, проверку продавцов и KYC/AML-сценарии."
+            },
+            {
+              "en": "Built Python service modules using FastAPI, Pydantic and SQLAlchemy; integrated server-side workflows with the client and blockchain components.",
+              "ru": "Разрабатывал Python-сервис на FastAPI, Pydantic и SQLAlchemy; связывал серверные процессы с клиентом и блокчейн-компонентами."
+            },
+            {
+              "en": "Developed and integrated escrow smart-contract workflows for Ethereum and TON, including funding, payment, transfer confirmation, disputes and refunds.",
+              "ru": "Создавал и интегрировал escrow-смарт-контракты Ethereum и TON: внесение средств, оплату, подтверждение передачи, споры и возвраты."
+            },
+            {
+              "en": "Worked with a Node.js/TypeScript Express bridge for TON; coordinated the relationship between listing status, seller verification, the server transaction and escrow state.",
+              "ru": "Работал с Node.js/TypeScript Express-мостом к TON; согласовывал статусы объявления, проверки продавца, серверной сделки и escrow."
+            }
+          ],
+          "stack": [
+            "Python",
+            "FastAPI",
+            "SQLAlchemy",
+            "Pydantic",
+            "TypeScript",
+            "Node.js",
+            "Express",
+            "SQLite",
+            "Solidity",
+            "Ethereum",
+            "TON",
+            "Docker"
+          ],
+          "details": [
+            {
+              "title": {
+                "en": "Service and escrow integration",
+                "ru": "Интеграция сервиса и escrow"
+              },
+              "text": {
+                "en": "The FastAPI/SQLAlchemy service uses SQLite, with TON integration isolated in an Express bridge. The transaction workflow coordinates listing data, seller verification and escrow contracts across two networks.",
+                "ru": "Сервис FastAPI/SQLAlchemy использует SQLite, интеграция TON выделена в Express-мост. Жизненный цикл сделки согласовывает данные объявления, проверку продавца и escrow-контракты в двух сетях."
+              }
+            }
+          ],
+          "shortBullets": [
+            {
+              "en": "Owned FastAPI/SQLAlchemy backend, API design, listings, search, seller verification and KYC/AML-related workflows.",
+              "ru": "Полностью взял backend на FastAPI/SQLAlchemy: проектирование API, объявления, поиск, проверку продавцов и KYC/AML-сценарии."
+            },
+            {
+              "en": "Developed Ethereum/TON escrow integration and a TypeScript/Express TON bridge; coordinated payment, confirmation, dispute and refund states.",
+              "ru": "Разрабатывал escrow-интеграцию Ethereum/TON и TypeScript/Express-мост к TON; согласовывал оплату, подтверждение сделки, споры и возвраты."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "meetpay",
+      "name": "MeetPay",
+      "employer": {
+        "en": "Selected engagements",
+        "ru": "Проектная работа"
+      },
+      "domain": {
+        "en": "Crypto wallet",
+        "ru": "Криптокошелёк"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Null Safety",
+        "BLoC",
+        "Drift",
+        "SQLite",
+        "RxDart",
+        "OpenAPI"
+      ],
+      "description": {
+        "en": "Modernization of an acquired legacy crypto wallet, including framework, language and state-management migrations.",
+        "ru": "Модернизация приобретённого legacy-криптокошелька: миграции фреймворка, языка и управления состоянием."
+      },
+      "bullets": [
+        {
+          "en": "Migrated the legacy application to newer Flutter/Dart and null safety; replaced mapEventToState/yield with on<Event>/emit.",
+          "ru": "Мигрировал приложение на новые Flutter/Dart и null safety; заменил mapEventToState/yield на on<Event>/emit."
+        },
+        {
+          "en": "Audited architecture, updated unsupported dependencies, automated Google Sheets localization and mentored junior developers.",
+          "ru": "Провёл аудит, обновлял неподдерживаемые зависимости, автоматизировал локализацию из Google Sheets и обучал младших разработчиков."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Senior Flutter Developer",
+        "ru": "Senior Flutter Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "success-craft",
+      "name": "Tigris Apps",
+      "employer": "Success Craft",
+      "domain": {
+        "en": "HR technology",
+        "ru": "Кадровые технологии"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "go_router",
+        "Freezed",
+        "Injectable",
+        "Firebase"
+      ],
+      "description": {
+        "en": "Staffing-agency software for employees and recruiters, with shared mobile and web packages. A role at Success Craft in 2024.",
+        "ru": "Платформа кадровых агентств для сотрудников и рекрутеров с общими mobile/web-пакетами. Работа в Success Craft в 2024 году."
+      },
+      "bullets": [
+        {
+          "en": "Refactored the application, resolved freezes on complex screens and improved backend interaction.",
+          "ru": "Провёл рефакторинг, устранял зависания сложных экранов и улучшал взаимодействие с backend."
+        },
+        {
+          "en": "Communicated directly with an international client; worked within a shared-package platform for staffing workflows.",
+          "ru": "Напрямую общался с зарубежным заказчиком; работал в платформе с общими пакетами и кадровыми процессами."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Senior Flutter Developer",
+        "ru": "Senior Flutter Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "dwella",
+      "name": "Dwella",
+      "employer": {
+        "en": "Project-based development",
+        "ru": "Проектная разработка"
+      },
+      "domain": {
+        "en": "Mortgage · PropTech",
+        "ru": "Ипотека · PropTech"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Dio",
+        "Socket.IO",
+        "Firebase",
+        "fl_chart"
+      ],
+      "description": {
+        "en": "Flutter contribution to a US mortgage application with multi-step applications, rate charts and lender communication.",
+        "ru": "Участие во Flutter-разработке ипотечного приложения для США: многошаговые заявки, графики ставок и общение с кредиторами."
+      },
+      "bullets": [
+        {
+          "en": "Contributed to the mobile client for mortgage applications and lender communication.",
+          "ru": "Участвовал в разработке мобильного клиента ипотечного сервиса и коммуникации с кредиторами."
+        },
+        {
+          "en": "The product includes conditional forms, saved drafts, real-time chats and push navigation.",
+          "ru": "Продукт включает условные формы, черновики, real-time-чаты и push-навигацию."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter",
+      "image": null
+    },
+    {
+      "id": "belpost",
+      "name": "Belpost",
+      "employer": "Developers Heaven",
+      "domain": {
+        "en": "Postal services",
+        "ru": "Почтовые услуги"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "BLoC",
+        "Dio",
+        "Hive",
+        "Maps",
+        "Firebase",
+        "Sentry"
+      ],
+      "description": {
+        "en": "Postal-service application for shipment creation, tracking and branch discovery. Part of one role at Developers Heaven.",
+        "ru": "Приложение почтовых услуг: оформление отправлений, отслеживание и отделения. Проект одной работы в Developers Heaven."
+      },
+      "bullets": [
+        {
+          "en": "Participated in Flutter development within the Developers Heaven team.",
+          "ru": "Участвовал во Flutter-разработке в составе Developers Heaven."
+        },
+        {
+          "en": "Product context includes parcel workflows, maps, personal and business accounts and notifications.",
+          "ru": "Контекст продукта: отправления, карты, личные и корпоративные аккаунты и уведомления."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "rad",
+      "name": "RAD",
+      "employer": "Developers Heaven",
+      "domain": {
+        "en": "Auctions · Maps",
+        "ru": "Аукционы · Карты"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Provider",
+        "Dio",
+        "Yandex MapKit",
+        "MQTT",
+        "Isar"
+      ],
+      "description": {
+        "en": "Auction application with map-based lot discovery and saved spatial searches.",
+        "ru": "Аукционное приложение с поиском лотов на карте и сохранёнными пространственными запросами."
+      },
+      "bullets": [
+        {
+          "en": "Implemented drawing search areas on a map, including circles and polygons.",
+          "ru": "Разработал рисование зон поиска на карте, включая круги и полигоны."
+        },
+        {
+          "en": "Worked in a product with lots, bids, applications, documents and real-time integrations.",
+          "ru": "Работал в продукте с лотами, ставками, заявками, документами и real-time-интеграциями."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "groshyk",
+      "name": "Groshyk",
+      "employer": "Developers Heaven",
+      "domain": {
+        "en": "Retail platform",
+        "ru": "Ритейл-платформа"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "BLoC",
+        "Shared packages",
+        "Dio",
+        "Isar",
+        "go_router",
+        "Fastlane"
+      ],
+      "description": {
+        "en": "A branded retail app on a shared modular Flutter platform.",
+        "ru": "Брендовое ритейл-приложение на общей модульной Flutter-платформе."
+      },
+      "bullets": [
+        {
+          "en": "Contributed to feature-based modular architecture and Fastlane delivery for the retail platform.",
+          "ru": "Участвовал во внедрении модульной архитектуры и Fastlane для ритейл-платформы."
+        },
+        {
+          "en": "Shared packages separate core, onboarding, maps, surveys and account features from brand configuration.",
+          "ru": "Общие пакеты отделяют core, onboarding, карты, опросы и аккаунт от брендовой конфигурации."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "chesnok",
+      "name": "Chesnok",
+      "employer": "Developers Heaven",
+      "domain": {
+        "en": "Retail platform",
+        "ru": "Ритейл-платформа"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "BLoC",
+        "Shared packages",
+        "Dio",
+        "Isar",
+        "go_router",
+        "Fastlane"
+      ],
+      "description": {
+        "en": "Another branded client of the shared retail platform, including coupon functionality.",
+        "ru": "Второй брендовый клиент общей ритейл-платформы, включая купонную функциональность."
+      },
+      "bullets": [
+        {
+          "en": "Worked on the shared retail platform used by Groshyk and Chesnok.",
+          "ru": "Работал над общей ритейл-платформой Groshyk и Chesnok."
+        },
+        {
+          "en": "Reused feature packages with brand-specific themes, configuration and routing.",
+          "ru": "Переиспользовал функциональные пакеты с брендовыми темами, конфигурацией и маршрутизацией."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "sports",
+      "name": {
+        "en": "Athlete monitoring",
+        "ru": "Мониторинг спортсменов"
+      },
+      "employer": {
+        "en": "Selected engagements",
+        "ru": "Проектная работа"
+      },
+      "domain": {
+        "en": "Sports · GovTech",
+        "ru": "Спорт · GovTech"
+      },
+      "profiles": [
+        "flutter",
+        "backend",
+        "fullstack"
+      ],
+      "stack": [
+        "Flutter",
+        "GetX",
+        "Supabase",
+        "PostgreSQL",
+        "Hive",
+        "Freezed"
+      ],
+      "description": {
+        "en": "An internal activity and nutrition tracker for the Belarusian Ministry of Sports and Tourism.",
+        "ru": "Внутренний трекер активности и питания для Министерства спорта и туризма Республики Беларусь."
+      },
+      "bullets": [
+        {
+          "en": "Built the application from scratch, designed its database and implemented food and activity data parsers.",
+          "ru": "Разработал приложение с нуля, спроектировал базу данных и реализовал парсеры продуктов и активностей."
+        },
+        {
+          "en": "Used a Supabase serverless approach and initiated adding a UX/UI designer.",
+          "ru": "Использовал serverless-подход с Supabase и инициировал привлечение UX/UI-дизайнера."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter / Serverless Developer",
+        "ru": "Flutter / Serverless Developer"
+      },
+      "details": [],
+      "link": null,
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Serverless data architecture for an internal athlete activity and nutrition application.",
+            "ru": "Serverless-архитектура данных внутреннего приложения для мониторинга активности и питания спортсменов."
+          },
+          "bullets": [
+            {
+              "en": "Designed the database from scratch and implemented food and activity parsers.",
+              "ru": "Спроектировал базу данных с нуля, реализовал парсеры продуктов и активностей."
+            },
+            {
+              "en": "Used Supabase/PostgreSQL as the backend platform and integrated its data workflows with the mobile application.",
+              "ru": "Использовал Supabase/PostgreSQL как backend-платформу и интегрировал работу с данными в мобильное приложение."
+            }
+          ],
+          "stack": [
+            "Supabase",
+            "PostgreSQL",
+            "Serverless",
+            "Data modeling"
+          ],
+          "details": []
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "ai-lawyer",
+      "name": "AI Lawyer",
+      "employer": "TimRusGroup",
+      "domain": {
+        "en": "Legal technology",
+        "ru": "Юридические сервисы"
+      },
+      "profiles": [
+        "flutter",
+        "backend",
+        "fullstack"
+      ],
+      "stack": [
+        "Python",
+        "Flask",
+        "REST",
+        "Flutter",
+        "Hydrated BLoC"
+      ],
+      "description": {
+        "en": "An AI-assisted legal-text product with a Flutter client and Python backend.",
+        "ru": "Продукт обработки юридических текстов с AI, Flutter-клиентом и Python-backend."
+      },
+      "bullets": [
+        {
+          "en": "Developed a Flask backend and its client integration; implemented text formatting and signing workflows.",
+          "ru": "Разработал Flask-backend и интеграцию с клиентом; реализовывал форматирование и сценарии подписания текстов."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter / Backend Developer",
+        "ru": "Flutter / Backend Developer"
+      },
+      "details": [],
+      "link": null,
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Python backend for processing AI-generated legal text and integrating document workflows with a mobile application.",
+            "ru": "Python-backend обработки юридических текстов, созданных ИИ, и интеграция документных сценариев с мобильным приложением."
+          },
+          "bullets": [
+            {
+              "en": "Developed a Flask data-processing backend and REST integration with the Flutter client.",
+              "ru": "Разработал Flask-backend обработки данных и REST-интеграцию с Flutter-клиентом."
+            },
+            {
+              "en": "Implemented text-formatting and signing workflows around AI-generated documents; connected server processing to the application flow.",
+              "ru": "Реализовывал форматирование и сценарий подписания AI-generated документов; связывал серверную обработку с процессами приложения."
+            }
+          ],
+          "stack": [
+            "Python",
+            "Flask",
+            "REST",
+            "AI integration"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Built a Flask processing backend and REST integration; implemented formatting and signing workflows for AI-generated legal text.",
+              "ru": "Разработал Flask-backend и REST-интеграцию; реализовывал форматирование и сценарии подписания юридических текстов, созданных ИИ."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "comics",
+      "name": {
+        "en": "AI Comics Editor",
+        "ru": "AI-редактор комиксов"
+      },
+      "employer": "TimRusGroup",
+      "domain": {
+        "en": "Creative tools",
+        "ru": "Творческие инструменты"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Hydrated BLoC",
+        "go_router",
+        "Adapty"
+      ],
+      "description": {
+        "en": "Interactive comics creation with AI features and a visual editor.",
+        "ru": "Создание комиксов с AI-функциями и визуальным редактором."
+      },
+      "bullets": [
+        {
+          "en": "Developed the editor core, undo/redo operations and sticker interaction.",
+          "ru": "Разработал ядро редактора, undo/redo и взаимодействие со стикерами."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "softeco",
+      "name": {
+        "en": "Investment application",
+        "ru": "Инвестиционное приложение"
+      },
+      "employer": "Softeco",
+      "domain": {
+        "en": "Investment technology",
+        "ru": "Инвестиции"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "React Native",
+        "Redux"
+      ],
+      "description": {
+        "en": "Migration of a German-market investment application from React Native to Flutter.",
+        "ru": "Перенос инвестиционного приложения для немецкого рынка с React Native на Flutter."
+      },
+      "bullets": [
+        {
+          "en": "Designed the new architecture and rewrote the legacy client in Flutter with updated UI and expanded functionality.",
+          "ru": "Спроектировал архитектуру и переписал legacy-клиент на Flutter с обновлением UI и расширением функций."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter-разработчик"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "itechart-sdk",
+      "name": {
+        "en": "Mobile SDK applications",
+        "ru": "Приложения на SDK"
+      },
+      "employer": "iTechArt Group",
+      "domain": {
+        "en": "SaaS · Mobile platform",
+        "ru": "SaaS · Мобильная платформа"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "SDK integration",
+        "Kotlin"
+      ],
+      "description": {
+        "en": "Applications built on an internal SDK for turning websites into mobile clients.",
+        "ru": "Приложения на внутреннем SDK для преобразования сайтов в мобильные клиенты."
+      },
+      "bullets": [
+        {
+          "en": "Developed several applications using the existing company SDK.",
+          "ru": "Разрабатывал несколько приложений на существующем SDK компании."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Junior–Middle Flutter Developer",
+        "ru": "Junior–Middle Flutter Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "itechart-clinics",
+      "name": {
+        "en": "Canadian clinics platform",
+        "ru": "Агрегатор клиник Канады"
+      },
+      "employer": "iTechArt Group",
+      "domain": {
+        "en": "Healthcare",
+        "ru": "Здравоохранение"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "GraphQL",
+        "WebSockets",
+        "Maps",
+        "Accessibility"
+      ],
+      "description": {
+        "en": "A Canadian clinic aggregator with maps, communication and appointment workflows.",
+        "ru": "Агрегатор клиник Канады с картами, коммуникациями и записью."
+      },
+      "bullets": [
+        {
+          "en": "Refactored the application, optimized maps and implemented accessibility and internal calling features.",
+          "ru": "Проводил рефакторинг, оптимизировал карты, внедрял Accessibility и внутренние звонки."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Junior–Middle Flutter Developer",
+        "ru": "Junior–Middle Flutter Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "gieksby",
+      "name": {
+        "en": "Collaboration platform",
+        "ru": "Платформа совместной работы"
+      },
+      "employer": "Gieksby Development",
+      "domain": {
+        "en": "Collaboration",
+        "ru": "Совместная работа"
+      },
+      "profiles": [
+        "flutter"
+      ],
+      "stack": [
+        "Flutter",
+        "Dart",
+        "GraphQL",
+        "Firebase",
+        "WebSockets"
+      ],
+      "description": {
+        "en": "Team collaboration combining tasks, channels, documents and calls.",
+        "ru": "Совместная работа с задачами, каналами, документами и звонками."
+      },
+      "bullets": [
+        {
+          "en": "Developed channel administration, integrated group calls and optimized chat performance.",
+          "ru": "Разработал администрирование каналов, внедрял групповые звонки и оптимизировал чаты."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Junior Flutter Developer",
+        "ru": "Junior Flutter Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "secreate",
+      "name": {
+        "en": "Language learning",
+        "ru": "Изучение языков"
+      },
+      "employer": "Secreate",
+      "domain": {
+        "en": "Education",
+        "ru": "Образование"
+      },
+      "profiles": [
+        "fullstack"
+      ],
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Redux",
+        "React"
+      ],
+      "description": {
+        "en": "Language learning with spaced repetition and audio playback.",
+        "ru": "Изучение языков с интервальным повторением и воспроизведением аудио."
+      },
+      "bullets": [
+        {
+          "en": "Implemented registration and the continuous word-playback core; fixed React web issues.",
+          "ru": "Реализовал регистрацию и движок непрерывного воспроизведения слов; исправлял React web-часть."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "React Native Developer",
+        "ru": "React Native Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "workfusion",
+      "name": {
+        "en": "WorkFusion document search",
+        "ru": "Поиск документов WorkFusion"
+      },
+      "employer": "SmartAppTechnology",
+      "domain": {
+        "en": "Enterprise search",
+        "ru": "Корпоративный поиск"
+      },
+      "profiles": [
+        "backend",
+        "fullstack"
+      ],
+      "stack": [
+        "Node.js",
+        "Elasticsearch",
+        "React",
+        "Redux",
+        "Web Workers"
+      ],
+      "description": {
+        "en": "Full-text document search, initially on Node.js and later Elasticsearch.",
+        "ru": "Полнотекстовый поиск по документации: сначала Node.js, затем Elasticsearch."
+      },
+      "bullets": [
+        {
+          "en": "Implemented and optimized document-search functionality, progressing from custom logic to Elasticsearch.",
+          "ru": "Реализовывал и оптимизировал поиск по документам, переходя от собственной логики к Elasticsearch."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Full Stack Web Developer",
+        "ru": "Full Stack Web Developer"
+      },
+      "details": [],
+      "link": null,
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Enterprise document search developed at SmartAppTechnology, initially with Node.js and later Elasticsearch.",
+            "ru": "Поиск по корпоративной документации в SmartAppTechnology: первоначально на Node.js, затем с Elasticsearch."
+          },
+          "bullets": [
+            {
+              "en": "Developed document search on Node.js and then Elasticsearch; optimized responsiveness and integrated search with the web application.",
+              "ru": "Разрабатывал поиск по документам на Node.js, затем с Elasticsearch; оптимизировал отклик и интегрировал поиск с web-приложением."
+            }
+          ],
+          "stack": [
+            "Node.js",
+            "Elasticsearch"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Developed document search on Node.js and then Elasticsearch; optimized responsiveness and integrated search with the web application.",
+              "ru": "Разрабатывал поиск по документам на Node.js, затем с Elasticsearch; оптимизировал отклик и интегрировал поиск с web-приложением."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "crowd",
+      "name": {
+        "en": "Video crowd analysis",
+        "ru": "Анализ видеопотока"
+      },
+      "employer": "SmartAppTechnology",
+      "domain": {
+        "en": "Video analytics",
+        "ru": "Видеоаналитика"
+      },
+      "profiles": [
+        "ml",
+        "fullstack"
+      ],
+      "stack": [
+        "Video processing",
+        "Node.js",
+        "React"
+      ],
+      "description": {
+        "en": "A real-time people-counting module for crowd-density analysis.",
+        "ru": "Модуль подсчёта людей в видеопотоке для анализа плотности толпы."
+      },
+      "bullets": [
+        {
+          "en": "Developed the video-monitoring module for real-time people counting.",
+          "ru": "Разработал модуль видеонаблюдения для подсчёта людей в реальном времени."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Full Stack Web Developer",
+        "ru": "Full Stack Web Developer"
+      },
+      "details": [],
+      "link": null,
+      "image": null
+    },
+    {
+      "id": "iot",
+      "name": {
+        "en": "Voice-controlled IoT",
+        "ru": "Голосовое управление IoT"
+      },
+      "employer": "SmartAppTechnology",
+      "domain": {
+        "en": "IoT · Serverless",
+        "ru": "IoT · Serverless"
+      },
+      "profiles": [
+        "backend",
+        "fullstack"
+      ],
+      "stack": [
+        "Java",
+        "AWS Lambda",
+        "Node.js",
+        "React"
+      ],
+      "description": {
+        "en": "Smart-device integration and voice control for a smart chair.",
+        "ru": "Интеграция умных устройств и голосовое управление умным креслом."
+      },
+      "bullets": [
+        {
+          "en": "Implemented voice-control workflows and Java integrations on AWS Lambda.",
+          "ru": "Реализовал голосовое управление и Java-интеграции на AWS Lambda."
+        }
+      ],
+      "status": "commercial",
+      "role": {
+        "en": "Full Stack Web Developer",
+        "ru": "Full Stack Web Developer"
+      },
+      "details": [],
+      "link": null,
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Java and AWS Lambda integrations for voice-controlled smart devices.",
+            "ru": "Интеграции на Java и AWS Lambda для голосового управления умными устройствами."
+          },
+          "bullets": [
+            {
+              "en": "Implemented voice-control workflows and Java integrations on AWS Lambda for a smart chair.",
+              "ru": "Реализовывал сценарии голосового управления и Java-интеграции на AWS Lambda для умного кресла."
+            }
+          ],
+          "stack": [
+            "Java",
+            "AWS Lambda",
+            "Node.js",
+            "IoT integration"
+          ],
+          "details": []
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "foot-neuro",
+      "name": "Foot Neuro",
+      "employer": {
+        "en": "Academic project",
+        "ru": "Учебный проект"
+      },
+      "domain": {
+        "en": "Computer vision",
+        "ru": "Компьютерное зрение"
+      },
+      "profiles": [
+        "ml"
+      ],
+      "stack": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyQt6",
+        "scikit-learn",
+        "Transfer learning"
+      ],
+      "description": {
+        "en": "An educational desktop prototype for image-based foot-condition classification.",
+        "ru": "Учебный desktop-прототип классификации состояния стоп по изображениям."
+      },
+      "bullets": [
+        {
+          "en": "Built batch image processing and predictions in PyQt6 with TensorFlow/Keras.",
+          "ru": "Создал пакетную обработку изображений и вывод предсказаний в PyQt6 с TensorFlow/Keras."
+        },
+        {
+          "en": "Compared MobileNetV2, ResNet50 and EfficientNetB0 with fine-tuning, regularization and cross-validation.",
+          "ru": "Сравнивал MobileNetV2, ResNet50 и EfficientNetB0: fine-tuning, регуляризация и cross-validation."
+        }
+      ],
+      "status": "academic",
+      "role": {
+        "en": "Python / ML Developer",
+        "ru": "Python / ML Developer"
+      },
+      "details": [],
+      "link": null,
+      "resumeContent": {
+        "ml": {
+          "description": {
+            "en": "Academic image-classification prototype for foot-condition assessment with batch processing and per-image confidence.",
+            "ru": "Учебный прототип классификации состояния стоп по изображениям с пакетной обработкой и confidence для каждого снимка."
+          },
+          "bullets": [
+            {
+              "en": "Compared MobileNetV2, ResNet50 and EfficientNetB0 using transfer learning, a frozen base and subsequent fine-tuning.",
+              "ru": "Сравнивал MobileNetV2, ResNet50 и EfficientNetB0 с transfer learning, замороженной базой и последующим fine-tuning."
+            },
+            {
+              "en": "Used tf.data augmentation, Dropout, L2, early stopping and learning-rate scheduling; explored hyperparameters and cross-validation.",
+              "ru": "Использовал аугментации tf.data, Dropout, L2, early stopping и изменение learning rate; исследовал гиперпараметры и cross-validation."
+            },
+            {
+              "en": "Worked with KFold/StratifiedKFold and confusion matrices; integrated TensorFlow/Keras predictions and confidence into a PyQt6 batch interface.",
+              "ru": "Работал с KFold/StratifiedKFold и confusion matrices; интегрировал предсказания TensorFlow/Keras и confidence в пакетный интерфейс PyQt6."
+            }
+          ],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "Keras",
+            "Transfer learning",
+            "scikit-learn",
+            "Cross-validation",
+            "tf.data",
+            "NumPy",
+            "PyQt6"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Compared MobileNetV2, ResNet50 and EfficientNetB0 with transfer learning, fine-tuning, augmentation, regularization and cross-validation.",
+              "ru": "Сравнивал MobileNetV2, ResNet50 и EfficientNetB0 с transfer learning, fine-tuning, аугментациями, регуляризацией и cross-validation."
+            },
+            {
+              "en": "Integrated batch image prediction and per-image confidence into PyQt6; used confusion matrices for model evaluation.",
+              "ru": "Интегрировал пакетную обработку и confidence по каждому изображению в PyQt6; использовал confusion matrices для оценки моделей."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "tremor",
+      "name": {
+        "en": "Tremor screening",
+        "ru": "Скрининг тремора"
+      },
+      "employer": {
+        "en": "Academic project",
+        "ru": "Учебный проект"
+      },
+      "domain": {
+        "en": "Sensor classification",
+        "ru": "Сенсорная классификация"
+      },
+      "profiles": [
+        "flutter",
+        "backend",
+        "ml",
+        "fullstack"
+      ],
+      "stack": [
+        "Flutter",
+        "Python",
+        "Flask",
+        "TensorFlow",
+        "Keras",
+        "Mobile sensors"
+      ],
+      "description": {
+        "en": "An educational prototype collecting smartphone sensor data for binary classification.",
+        "ru": "Учебный прототип сбора сенсорных данных смартфона и бинарной классификации."
+      },
+      "bullets": [
+        {
+          "en": "Built sensor collection in Flutter, a Flask preparation API and a TensorFlow/Keras classifier returning a screening recommendation.",
+          "ru": "Разработал сбор данных в Flutter, Flask API подготовки и классификатор TensorFlow/Keras со скрининговой рекомендацией."
+        }
+      ],
+      "status": "academic",
+      "role": {
+        "en": "Flutter / Backend / ML Developer",
+        "ru": "Flutter / Backend / ML Developer"
+      },
+      "details": [],
+      "link": null,
+      "focusStack": {
+        "ml": [
+          "TensorFlow",
+          "Keras",
+          "Python",
+          "Mobile sensors"
+        ],
+        "backend": [
+          "Python",
+          "Flask",
+          "TensorFlow",
+          "Keras"
+        ]
+      },
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Flask API for receiving smartphone sensor data and preparing it for a screening classifier in an academic prototype.",
+            "ru": "Flask API приёма сенсорных данных смартфона и их подготовки для скринингового классификатора в учебном прототипе."
+          },
+          "bullets": [
+            {
+              "en": "Developed a Flask data-preparation API between smartphone accelerometer/gyroscope collection and a TensorFlow/Keras classifier.",
+              "ru": "Разработал Flask API подготовки данных между сбором акселерометра/гироскопа на смартфоне и классификатором TensorFlow/Keras."
+            },
+            {
+              "en": "Connected sensor-data processing and model predictions to the client screening workflow.",
+              "ru": "Связал обработку сенсорных данных и предсказание модели с клиентским сценарием скрининга."
+            }
+          ],
+          "stack": [
+            "Python",
+            "Flask",
+            "TensorFlow",
+            "Keras",
+            "Sensor data processing"
+          ],
+          "details": []
+        },
+        "ml": {
+          "description": {
+            "en": "Academic binary-classification prototype using smartphone accelerometer and gyroscope data for a screening recommendation.",
+            "ru": "Учебный прототип бинарной классификации по данным акселерометра и гироскопа смартфона для скрининговой рекомендации."
+          },
+          "bullets": [
+            {
+              "en": "Built sensor collection in Flutter and a Flask API for preparing the recorded data.",
+              "ru": "Разработал сбор сенсорных данных во Flutter и Flask API подготовки записей."
+            },
+            {
+              "en": "Developed a TensorFlow/Keras classifier and returned its screening recommendation to the application.",
+              "ru": "Разработал классификатор TensorFlow/Keras с возвратом скрининговой рекомендации в приложение."
+            }
+          ],
+          "stack": [
+            "Python",
+            "TensorFlow",
+            "Keras",
+            "Sensor data",
+            "Flask"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Built accelerometer/gyroscope collection, a Flask preparation API and a TensorFlow/Keras binary classifier returning a screening recommendation.",
+              "ru": "Разработал сбор акселерометра/гироскопа, Flask API подготовки и бинарный классификатор TensorFlow/Keras со скрининговой рекомендацией."
+            }
+          ]
+        }
+      },
+      "image": null
+    },
+    {
+      "id": "ct-teacher",
+      "name": "CT Teacher",
+      "employer": {
+        "en": "Personal project",
+        "ru": "Личный проект"
+      },
+      "domain": {
+        "en": "Education · AI",
+        "ru": "Образование · AI"
+      },
+      "profiles": [
+        "backend",
+        "ml",
+        "fullstack"
+      ],
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "React",
+        "TypeScript",
+        "aiogram",
+        "Docker",
+        "AI integration",
+        "ffmpeg"
+      ],
+      "description": {
+        "en": "A personal exploration of AI-generated exercises, video lessons and educational games.",
+        "ru": "Личное исследование AI-генерации заданий, видеоуроков и учебных игр."
+      },
+      "bullets": [
+        {
+          "en": "Explored exercise and video-lesson generation, voice synthesis and games within a Python backend and Telegram/React learning platform.",
+          "ru": "Исследовал генерацию заданий и видеоуроков, синтез речи и игры в платформе с Python-backend и Telegram/React-клиентом."
+        },
+        {
+          "en": "Integrated content pipelines and rendering tools in an educational research prototype.",
+          "ru": "Интегрировал контентные конвейеры и рендеринг в учебном исследовательском прототипе."
+        }
+      ],
+      "status": "personal",
+      "role": {
+        "en": "Full Stack Developer · Personal project",
+        "ru": "Full Stack Developer · Pet-проект"
+      },
+      "details": [],
+      "link": null,
+      "resumeContent": {
+        "backend": {
+          "description": {
+            "en": "Personal EdTech prototype connecting AI content generation, a Python backend and Telegram learning workflows.",
+            "ru": "Личный EdTech-прототип, связывающий AI-генерацию контента, Python-backend и учебные сценарии Telegram."
+          },
+          "bullets": [
+            {
+              "en": "Developed FastAPI and aiogram components with async SQLAlchemy/Alembic, PostgreSQL and Redis.",
+              "ru": "Развивал компоненты FastAPI и aiogram с async SQLAlchemy/Alembic, PostgreSQL и Redis."
+            },
+            {
+              "en": "Worked on content import and versioning, assignments, assessment, progress tracking, roles and access restrictions.",
+              "ru": "Работал с импортом и версиями контента, заданиями, оцениванием, прогрессом, ролями и ограничениями доступа."
+            },
+            {
+              "en": "Integrated content-generation and video-rendering tools; explored WebSocket games and persisted notifications with retry handling.",
+              "ru": "Интегрировал генерацию контента и инструменты рендеринга видео; исследовал WebSocket-игры и сохранённые уведомления с повторными попытками."
+            }
+          ],
+          "stack": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Redis",
+            "SQLAlchemy",
+            "Alembic",
+            "asyncio",
+            "aiogram",
+            "WebSockets",
+            "Docker Compose",
+            "ffmpeg"
+          ],
+          "details": []
+        },
+        "ml": {
+          "description": {
+            "en": "Personal research into AI-generated exercises, video lessons, speech and educational games.",
+            "ru": "Личное исследование AI-генерации заданий, видеоуроков, речи и учебных игр."
+          },
+          "bullets": [
+            {
+              "en": "Explored exercise and analogous-task generation and integrated generated content with the learning platform.",
+              "ru": "Исследовал генерацию заданий и аналогов, интегрировал сгенерированный контент с учебной платформой."
+            },
+            {
+              "en": "Assembled video-lesson and voice-generation workflows with rendering tools and ffmpeg; investigated speech models and ONNX/MLX-based tooling.",
+              "ru": "Собирал сценарии генерации видеоуроков и озвучки с инструментами рендеринга и ffmpeg; исследовал речевые модели и ONNX/MLX-инструменты."
+            },
+            {
+              "en": "Worked through content checking, formula rendering, pronunciation and video assembly within an educational research prototype.",
+              "ru": "Прорабатывал проверку контента, отображение формул, произношение и сборку видео в учебном исследовательском прототипе."
+            }
+          ],
+          "stack": [
+            "Python",
+            "AI / LLM integration",
+            "ONNX Runtime",
+            "MLX",
+            "Hugging Face tooling",
+            "ffmpeg",
+            "FastAPI"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Researched AI exercise/video-lesson generation and speech synthesis; integrated model tooling and rendering into a personal educational prototype.",
+              "ru": "Исследовал AI-генерацию заданий/видеоуроков и синтез речи; интегрировал модельные инструменты и рендеринг в личный учебный прототип."
+            }
+          ]
+        }
+      },
+      "image": null
+    }
+  ],
+  "career": [
+    {
+      "name": "ScanChamp",
+      "period": {
+        "en": "Mar 2026 — present",
+        "ru": "Мар 2026 — настоящее время"
+      },
+      "role": {
+        "en": "Software Engineer · Flutter / ML / Backend",
+        "ru": "Software Engineer · Flutter / ML / Backend"
+      },
+      "text": {
+        "en": "Product from scratch to release. Ongoing development in computer vision, OCR, camera processing and document workflows.",
+        "ru": "Продукт с нуля до релиза. Продолжаю развивать CV, OCR, камеру и работу с документами."
+      }
+    },
+    {
+      "name": {
+        "en": "Project-based development",
+        "ru": "Проектная разработка"
+      },
+      "period": {
+        "en": "Aug 2025 — Mar 2026",
+        "ru": "Авг 2025 — мар 2026"
+      },
+      "role": {
+        "en": "Senior Flutter Developer",
+        "ru": "Senior Flutter Developer"
+      },
+      "text": {
+        "en": "Shortly, EMCD and Dwella. Analytics infrastructure, Loans and Coinhold financial workflows, and a mortgage application.",
+        "ru": "Shortly, EMCD и Dwella. Инфраструктура аналитики, финансовые сценарии Loans и Coinhold и ипотечное приложение."
+      }
+    },
+    {
+      "name": "Octy Marketplace",
+      "period": {
+        "en": "Dec 2024 — Aug 2025",
+        "ru": "Дек 2024 — авг 2025"
+      },
+      "role": {
+        "en": "Flutter Team Lead · Backend ownership",
+        "ru": "Flutter Team Lead · Ответственность за backend"
+      },
+      "text": {
+        "en": "Architecture, team formation, multi-chain marketplace and loyalty ML. Development ended before production when funding stopped.",
+        "ru": "Архитектура, формирование команды, multi-chain-маркетплейс и ML-лояльность. Финансирование закончилось до production."
+      }
+    },
+    {
+      "name": "Success Craft",
+      "period": {
+        "en": "2024",
+        "ru": "2024"
+      },
+      "role": {
+        "en": "Senior Flutter Developer",
+        "ru": "Senior Flutter Developer"
+      },
+      "text": {
+        "en": "Tigris Apps staffing platform. Refactoring, performance and direct communication with an international client.",
+        "ru": "Кадровая платформа Tigris Apps. Рефакторинг, производительность и общение с зарубежным заказчиком."
+      }
+    },
+    {
+      "name": "Developers Heaven",
+      "period": {
+        "en": "Within 2022–2024",
+        "ru": "В пределах 2022–2024"
+      },
+      "role": {
+        "en": "Flutter Developer",
+        "ru": "Flutter Developer"
+      },
+      "text": {
+        "en": "Belpost, RAD, Groshyk and Chesnok. Modular retail platform, spatial search and Fastlane.",
+        "ru": "Belpost, RAD, Groshyk и Chesnok. Модульный ритейл, пространственный поиск и Fastlane."
+      }
+    },
+    {
+      "name": {
+        "en": "Contract engagements",
+        "ru": "Контрактные проекты"
+      },
+      "period": {
+        "en": "May 2022 — Dec 2024",
+        "ru": "Май 2022 — дек 2024"
+      },
+      "role": {
+        "en": "Senior Flutter Developer / Team Lead",
+        "ru": "Senior Flutter Developer / Team Lead"
+      },
+      "text": {
+        "en": "MeetPay, OneTouch, athlete monitoring, TimRusGroup and Softeco. Roles varied by project.",
+        "ru": "MeetPay, OneTouch, система спортсменов, TimRusGroup и Softeco. Роль зависела от проекта."
+      }
+    },
+    {
+      "name": "iTechArt Group",
+      "period": {
+        "en": "May 2021 — May 2022",
+        "ru": "Май 2021 — май 2022"
+      },
+      "role": {
+        "en": "Junior–Middle Flutter Developer",
+        "ru": "Junior–Middle Flutter Developer"
+      },
+      "text": {
+        "en": "Internal SDK applications and Canadian clinics platform: refactoring, maps, accessibility and calling.",
+        "ru": "SDK-приложения и агрегатор клиник Канады: рефакторинг, карты, Accessibility и звонки."
+      }
+    },
+    {
+      "name": {
+        "en": "Gieksby Development / Secreate",
+        "ru": "Gieksby Development / Secreate"
+      },
+      "period": {
+        "en": "Oct 2020 — May 2021",
+        "ru": "Окт 2020 — май 2021"
+      },
+      "role": {
+        "en": "Junior Flutter / React Native Developer",
+        "ru": "Junior Flutter / React Native Developer"
+      },
+      "text": {
+        "en": "Collaboration software, group calls, chat optimization and a language-learning audio engine.",
+        "ru": "Совместная работа, групповые звонки, оптимизация чатов и аудиодвижок изучения языков."
+      }
+    },
+    {
+      "name": "SmartAppTechnology Limited",
+      "period": {
+        "en": "Jul 2019 — Oct 2020",
+        "ru": "Июл 2019 — окт 2020"
+      },
+      "role": {
+        "en": "Full Stack Web Developer",
+        "ru": "Full Stack Web Developer"
+      },
+      "text": {
+        "en": "WorkFusion document search, people-counting video module and Java/AWS Lambda IoT integrations.",
+        "ru": "Поиск WorkFusion, модуль подсчёта людей и IoT-интеграции Java/AWS Lambda."
+      }
+    }
+  ],
+  "origin": {
+    "intro": {
+      "en": "Programming started as a school hobby. I kept moving between technologies to build things that interested me, long before my first commercial role in 2019.",
+      "ru": "Программирование началось со школьного хобби. Пробовал разные технологии, чтобы создавать то, что мне интересно, задолго до первой коммерческой работы в 2019 году."
+    },
+    "milestones": [
+      {
+        "title": "PascalABC",
+        "text": {
+          "en": "First school programs and an interest in solving problems with code.",
+          "ru": "Первые школьные программы и интерес к решению задач с помощью кода."
+        }
+      },
+      {
+        "title": "HTML / CSS / JavaScript",
+        "text": {
+          "en": "Moved from console programs to pages and browser interaction.",
+          "ru": "От программ к страницам и взаимодействию в браузере."
+        }
+      },
+      {
+        "title": "Java / Swing / JavaFX",
+        "text": {
+          "en": "Explored desktop applications and graphical interfaces.",
+          "ru": "Изучал desktop-приложения и графические интерфейсы."
+        }
+      },
+      {
+        "title": "Android / Java",
+        "text": {
+          "en": "Started building for mobile devices.",
+          "ru": "Начал создавать приложения для мобильных устройств."
+        }
+      },
+      {
+        "title": "C# / 3D",
+        "text": {
+          "en": "Built a first game: a 3D maze with automatic generation.",
+          "ru": "Сделал первую игру: 3D-лабиринт с автоматической генерацией."
+        }
+      }
+    ],
+    "firstSearch": {
+      "en": "2018 · First job search",
+      "ru": "2018 · Первый поиск работы"
+    },
+    "firstRole": {
+      "en": "2019 · First commercial role",
+      "ru": "2019 · Первая коммерческая работа"
+    },
+    "corporate": {
+      "en": "Commercial development also lives in corporate GitLab and Bitbucket accounts. The public archive is a glimpse of my early personal work.",
+      "ru": "Коммерческая разработка также велась в корпоративных GitLab и Bitbucket. Публичный архив показывает часть ранних личных работ."
+    },
+    "evidence": [
+      {
+        "url": "https://github.com/RamiDmour/Rami/commit/a003753ad9466dec5eb63c43085933eb9821c82f",
+        "label": {
+          "en": "7 Jun 2018 · Rami",
+          "ru": "7 июн 2018 · Rami"
+        }
+      },
+      {
+        "url": "https://github.com/RamiDmour/RamiDmour/commit/5c5eabe9f30039ae8e6bab61a6ab26398a76281f",
+        "label": {
+          "en": "22 Jul 2018 · RamiDmour",
+          "ru": "22 июл 2018 · RamiDmour"
+        }
+      }
+    ]
+  },
+  "ui": {
+    "en": {
+      "skip": "Skip to content",
+      "engineer": "Software Engineer",
+      "nav": "Main navigation",
+      "work": "Work",
+      "experience": "Experience",
+      "contact": "Contact",
+      "language": "Language",
+      "available": "Available ASAP · Remote",
+      "download": "Download résumé",
+      "explore": "Explore the work",
+      "location": "Poland · Europe/Warsaw",
+      "worktype": "Full-time & contracts",
+      "portraitNote": "Curious about the whole system.\nResponsible for the result.",
+      "specializations": "Specializations",
+      "chooseFocus": "One engineer. Choose a focus.",
+      "copyProfile": "Copy profile link",
+      "chooseProfile": "Choose profile",
+      "sharedHistory": "Same career. Relevant detail.",
+      "highlights": "Experience highlights",
+      "commercialYears": "years in commercial engineering",
+      "flutterYears": "years working with Flutter",
+      "ownershipValue": "Ownership",
+      "ownershipText": "architecture through release",
+      "leadershipValue": "Team lead",
+      "leadershipText": "hiring, mentoring & delivery",
+      "selectedLabel": "01 / SELECTED WORK",
+      "workTitle": "Products. Decisions. My part.",
+      "workDescription": "Three projects to start with. Open a case for my contribution and the engineering decisions, or explore the full catalog.",
+      "search": "Search projects or technologies",
+      "filterTech": "Filter by technology",
+      "allTech": "All technologies",
+      "reset": "Reset",
+      "showAll": "Explore all {total} projects",
+      "showLess": "Back to the three highlights",
+      "projectNote": "Commercial work, research and personal projects are labeled separately.",
+      "approachLabel": "02 / ENGINEERING APPROACH",
+      "approachTitle": "Connect the disciplines.",
+      "approachDescription": "ScanChamp is where mobile engineering, computer vision and backend meet. Explore an architecture walkthrough.",
+      "pipeline": "Document processing stages",
+      "pipelineCaption": "Architecture illustration based on the project. It does not run inference or represent measured performance.",
+      "careerLabel": "03 / CAREER",
+      "careerTitle": "The complete picture.",
+      "careerDescription": "One career across different products. Employers stay visible in every specialization.",
+      "education": "EDUCATION",
+      "languages": "LANGUAGES",
+      "resumeLabel": "04 / TAKE IT WITH YOU",
+      "resumeTitle": "A résumé for the role.",
+      "resumeDescription": "Choose a specialization, language and level of detail. Every PDF and Word file uses a clean, single-column layout with selectable text.",
+      "chooseResume": "Choose your résumé",
+      "contactLabel": "05 / LET’S TALK",
+      "contactTitle": "Let’s talk about working together.",
+      "contactNote": "Based in Poland. Available ASAP for remote full-time roles and contracts.",
+      "footerNote": "Built with care. Open to what’s next.",
+      "backTop": "Back to top ↑",
+      "close": "Close",
+      "resumeDialogLabel": "YOUR RÉSUMÉ",
+      "downloadTitle": "Make it relevant.",
+      "exportHelp": "Ready-to-download files. White paper, one column, real text.",
+      "profileLabel": "Specialization",
+      "detail": "Detail",
+      "short": "Concise · 2 pages",
+      "full": "Full · expanded experience",
+      "getPdf": "Download PDF",
+      "getWord": "Download Word",
+      "exportNote": "Both formats contain the same profile content. Research and pre-production projects remain clearly identified.",
+      "profileGeneral": "Flutter is my strongest specialization. Explore how backend, ML and leadership extend it.",
+      "profileFocused": "A focused view of my contribution. The complete employment history stays below.",
+      "commercial": "Commercial",
+      "ongoing": "Ongoing · Released",
+      "preproduction": "Pre-production",
+      "academic": "Academic",
+      "personal": "Personal project",
+      "screenshots": "Project screenshots",
+      "previewAlt": "Project screenshot",
+      "caseStudy": "Read the case",
+      "contribution": "My contribution & product context",
+      "technology": "Technologies",
+      "liveLink": "Open public page",
+      "shareCase": "Copy project link",
+      "projectResume": "Get this profile’s résumé",
+      "caseNote": "I can walk you through the architectural decisions behind this project.",
+      "results": "{shown} of {total} projects",
+      "empty": "No projects match these filters.",
+      "copied": "Link copied",
+      "copyFailed": "Could not copy automatically. Copy the link from your address bar.",
+      "loadError": "Could not load the portfolio. Reload the page or download the résumé below.",
+      "reload": "Reload page",
+      "themeDark": "Switch to dark theme",
+      "themeLight": "Switch to light theme",
+      "home": "Rami Dmaur — home",
+      "unknownProject": "This project link was not found. Showing the portfolio.",
+      "stages": [
+        [
+          "Camera",
+          "Keep the interface responsive",
+          "Live detection and full-resolution capture have different budgets. Persistent workers process images while stale frames are dropped.",
+          "Flutter · Native plugins · Isolates"
+        ],
+        [
+          "Vision",
+          "Evaluate the whole image",
+          "Document geometry, OCR and enhancement are compared using repeatable inputs and visual inspection. Content preservation matters alongside scores.",
+          "OpenCV · TFLite · ONNX"
+        ],
+        [
+          "Search",
+          "Index once, search repeatedly",
+          "A persistent text cache and file fingerprints support incremental indexing. Fuzzy token matching returns pages and highlighted snippets.",
+          "OCR · Incremental index · Fuzzy search"
+        ],
+        [
+          "Documents",
+          "Keep document state coherent",
+          "Markup coordinates are independent of zoom. Current team-developed persistence and sync handle document revisions and conflicts.",
+          "PDF · ObjectBox · Cloud providers"
+        ],
+        [
+          "Sharing",
+          "Connect client and backend",
+          "A Fastify service validates uploads, enforces PostgreSQL quotas and creates expiring links to S3-compatible object storage.",
+          "Fastify · PostgreSQL · Docker"
+        ]
+      ],
+      "doc_summary": "Profile",
+      "doc_skills": "Core technologies",
+      "doc_projects": "Selected projects",
+      "doc_career": "Employment history",
+      "doc_education": "Education and languages",
+      "doc_availability": "Poland | Remote | Europe/Warsaw | Full-time or contract | Available ASAP",
+      "doc_academic": "Academic project",
+      "doc_personal": "Personal project",
+      "doc_preproduction": "Pre-production | Funding ended",
+      "doc_ongoing": "Released | Ongoing development",
+      "doc_commercial": "Commercial project",
+      "doc_tech": "Technologies",
+      "doc_context": "Technical detail",
+      "doc_continued": "Selected projects continued",
+      "coreTech": "Core technologies",
+      "originLabel": "BEFORE THE FIRST JOB",
+      "originTitle": "It started as a hobby.",
+      "earlyCode": "Explore early code",
+      "proofScan": "From zero to release",
+      "proofScanText": "Architecture, camera, OCR and backend",
+      "proofEmcd": "Loans shipped",
+      "proofEmcdText": "Owned Loans and Coinhold in Flutter",
+      "fitLabel": "Where I can help",
+      "quickActions": "Contact and résumé",
+      "writeMe": "Get in touch",
+      "dockResume": "Résumé",
+      "contributionShort": "My contribution",
+      "caseNavigation": "More relevant projects",
+      "previousProject": "Previous project",
+      "nextProject": "Next project",
+      "caseContact": "Discuss this experience",
+      "caseContext": "The product",
+      "caseDetails": "Engineering decisions"
+    },
+    "ru": {
+      "skip": "Перейти к содержимому",
+      "engineer": "Software Engineer",
+      "nav": "Основная навигация",
+      "work": "Проекты",
+      "experience": "Опыт",
+      "contact": "Контакты",
+      "language": "Язык",
+      "available": "Готов выйти ASAP · Удалённо",
+      "download": "Скачать резюме",
+      "explore": "Посмотреть проекты",
+      "location": "Польша · Europe/Warsaw",
+      "worktype": "Full-time и контракты",
+      "portraitNote": "Интересуюсь всей системой.\nОтвечаю за результат.",
+      "specializations": "Специализации",
+      "chooseFocus": "Один инженер. Выберите направление.",
+      "copyProfile": "Скопировать ссылку",
+      "chooseProfile": "Выбрать профиль",
+      "sharedHistory": "Общий опыт. Нужные подробности.",
+      "highlights": "Основные сведения об опыте",
+      "commercialYears": "лет коммерческой разработки",
+      "flutterYears": "лет работы с Flutter",
+      "ownershipValue": "Весь цикл",
+      "ownershipText": "от архитектуры до выпуска",
+      "leadershipValue": "Лидерство",
+      "leadershipText": "найм, менторинг и разработка",
+      "selectedLabel": "01 / ПРОЕКТЫ",
+      "workTitle": "Продукты. Решения. Мой вклад.",
+      "workDescription": "Три проекта для знакомства. Внутри — мой вклад и инженерные решения. Остальной опыт доступен в полном каталоге.",
+      "search": "Поиск по проектам и технологиям",
+      "filterTech": "Фильтр по технологии",
+      "allTech": "Все технологии",
+      "reset": "Сбросить",
+      "showAll": "Все проекты · {total}",
+      "showLess": "Вернуться к трём ключевым",
+      "projectNote": "Коммерческие, учебные и личные проекты отмечены отдельно.",
+      "approachLabel": "02 / ИНЖЕНЕРНЫЙ ПОДХОД",
+      "approachTitle": "Соединяю направления.",
+      "approachDescription": "В ScanChamp встречаются мобильная разработка, компьютерное зрение и backend. Посмотрите, как связаны части системы.",
+      "pipeline": "Этапы обработки документов",
+      "pipelineCaption": "Иллюстрация архитектуры проекта. Здесь не выполняется inference и не показываются измерения производительности.",
+      "careerLabel": "03 / КАРЬЕРА",
+      "careerTitle": "Полная история работы.",
+      "careerDescription": "Одна карьера в разных продуктах. Места работы видны в любой специализации.",
+      "education": "ОБРАЗОВАНИЕ",
+      "languages": "ЯЗЫКИ",
+      "resumeLabel": "04 / РЕЗЮМЕ",
+      "resumeTitle": "Резюме под нужную роль.",
+      "resumeDescription": "Выберите специализацию, язык и подробность. PDF и Word используют белый фон, одну колонку и выделяемый текст.",
+      "chooseResume": "Выбрать резюме",
+      "contactLabel": "05 / СВЯЗАТЬСЯ",
+      "contactTitle": "Обсудим работу вместе.",
+      "contactNote": "Работаю из Польши. Готов выйти ASAP на удалённую full-time работу или контракт.",
+      "footerNote": "Внимание к деталям. Интерес к новым задачам.",
+      "backTop": "Наверх ↑",
+      "close": "Закрыть",
+      "resumeDialogLabel": "ВАШЕ РЕЗЮМЕ",
+      "downloadTitle": "Выберите нужный акцент.",
+      "exportHelp": "Готовые файлы для скачивания. Белый фон, одна колонка, текстовый документ.",
+      "profileLabel": "Специализация",
+      "detail": "Подробность",
+      "short": "Кратко · 2 страницы",
+      "full": "Полное · подробный опыт",
+      "getPdf": "Скачать PDF",
+      "getWord": "Скачать Word",
+      "exportNote": "Содержание профиля одинаково в обоих форматах. Учебные и pre-production-проекты сохраняют свои отметки.",
+      "profileGeneral": "Flutter — моя основная специализация. Посмотрите, как её дополняют backend, ML и руководство.",
+      "profileFocused": "Акцент на моём вкладе в этом направлении. Полная история работы сохранена ниже.",
+      "commercial": "Коммерческий",
+      "ongoing": "Развивается · Выпущен",
+      "preproduction": "До production",
+      "academic": "Учебный",
+      "personal": "Личный проект",
+      "screenshots": "Скриншоты проекта",
+      "previewAlt": "Скриншот проекта",
+      "caseStudy": "Разобрать кейс",
+      "contribution": "Мой вклад и контекст продукта",
+      "technology": "Технологии",
+      "liveLink": "Открыть публичную страницу",
+      "shareCase": "Скопировать ссылку на проект",
+      "projectResume": "Резюме этого профиля",
+      "caseNote": "Могу подробнее рассказать об архитектурных решениях этого проекта.",
+      "results": "{shown} из {total} проектов",
+      "empty": "По этим фильтрам проекты не найдены.",
+      "copied": "Ссылка скопирована",
+      "copyFailed": "Не удалось скопировать автоматически. Скопируйте ссылку из адресной строки.",
+      "loadError": "Не удалось загрузить портфолио. Обновите страницу или скачайте резюме ниже.",
+      "reload": "Обновить страницу",
+      "themeDark": "Включить тёмную тему",
+      "themeLight": "Включить светлую тему",
+      "home": "Rami Dmaur — главная",
+      "unknownProject": "Проект по этой ссылке не найден. Открыто портфолио.",
+      "stages": [
+        [
+          "Камера",
+          "Сохранить отзывчивость",
+          "Live-детекция и полноразмерная съёмка требуют разных ресурсов. Постоянные workers обрабатывают изображения, устаревшие кадры отбрасываются.",
+          "Flutter · Нативные плагины · Isolates"
+        ],
+        [
+          "Зрение",
+          "Оценивать весь результат",
+          "Геометрия документа, OCR и улучшение сравниваются на воспроизводимых данных и визуально. Помимо score важно сохранить содержимое.",
+          "OpenCV · TFLite · ONNX"
+        ],
+        [
+          "Поиск",
+          "Индексировать и переиспользовать",
+          "Постоянный кеш текста и fingerprints файлов обеспечивают инкрементальный индекс. Нечёткий поиск возвращает страницы и фрагменты с подсветкой.",
+          "OCR · Инкрементальный индекс · Fuzzy search"
+        ],
+        [
+          "Документы",
+          "Согласовать состояние",
+          "Координаты разметки не зависят от масштаба. Текущие механизмы хранения и синхронизации, созданные командой, учитывают ревизии и конфликты.",
+          "PDF · ObjectBox · Облачные провайдеры"
+        ],
+        [
+          "Обмен",
+          "Связать клиент и сервер",
+          "Сервис Fastify проверяет загрузки, применяет квоты PostgreSQL и создаёт временные ссылки на S3-совместимое хранилище.",
+          "Fastify · PostgreSQL · Docker"
+        ]
+      ],
+      "doc_summary": "Профиль",
+      "doc_skills": "Основные технологии",
+      "doc_projects": "Избранные проекты",
+      "doc_career": "Места работы",
+      "doc_education": "Образование и языки",
+      "doc_availability": "Польша | Удалённо | Europe/Warsaw | Full-time или контракт | Готов выйти ASAP",
+      "doc_academic": "Учебный проект",
+      "doc_personal": "Личный проект",
+      "doc_preproduction": "До production | Финансирование завершилось",
+      "doc_ongoing": "Выпущен | Разработка продолжается",
+      "doc_commercial": "Коммерческий проект",
+      "doc_tech": "Технологии",
+      "doc_context": "Технические подробности",
+      "doc_continued": "Избранные проекты продолжение",
+      "coreTech": "Основные технологии",
+      "originLabel": "ДО ПЕРВОЙ РАБОТЫ",
+      "originTitle": "Началось с увлечения.",
+      "earlyCode": "Посмотреть ранний код",
+      "proofScan": "С нуля до релиза",
+      "proofScanText": "Архитектура, камера, OCR и backend",
+      "proofEmcd": "Выпустил Loans",
+      "proofEmcdText": "Отвечал за Loans и Coinhold во Flutter",
+      "fitLabel": "Где буду полезен",
+      "quickActions": "Связаться и скачать резюме",
+      "writeMe": "Написать мне",
+      "dockResume": "Резюме",
+      "contributionShort": "Мой вклад",
+      "caseNavigation": "Другие проекты по профилю",
+      "previousProject": "Предыдущий проект",
+      "nextProject": "Следующий проект",
+      "caseContact": "Обсудить этот опыт",
+      "caseContext": "Задача продукта",
+      "caseDetails": "Инженерные решения"
+    }
+  }
+}

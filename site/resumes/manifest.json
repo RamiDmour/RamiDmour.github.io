@@ -1,0 +1,125 @@
+{
+  "updated": "2026-10-27",
+  "files": [
+    {
+      "stem": "rami-dmaur-software-en-short",
+      "pages": 2,
+      "pdf_bytes": 98530,
+      "docx_bytes": 39744
+    },
+    {
+      "stem": "rami-dmaur-software-en-full",
+      "pages": 7,
+      "pdf_bytes": 166200,
+      "docx_bytes": 44430
+    },
+    {
+      "stem": "rami-dmaur-software-ru-short",
+      "pages": 2,
+      "pdf_bytes": 114689,
+      "docx_bytes": 40382
+    },
+    {
+      "stem": "rami-dmaur-software-ru-full",
+      "pages": 7,
+      "pdf_bytes": 206625,
+      "docx_bytes": 46185
+    },
+    {
+      "stem": "rami-dmaur-flutter-en-short",
+      "pages": 2,
+      "pdf_bytes": 98400,
+      "docx_bytes": 39663
+    },
+    {
+      "stem": "rami-dmaur-flutter-en-full",
+      "pages": 6,
+      "pdf_bytes": 152274,
+      "docx_bytes": 43758
+    },
+    {
+      "stem": "rami-dmaur-flutter-ru-short",
+      "pages": 2,
+      "pdf_bytes": 113906,
+      "docx_bytes": 40260
+    },
+    {
+      "stem": "rami-dmaur-flutter-ru-full",
+      "pages": 6,
+      "pdf_bytes": 188177,
+      "docx_bytes": 45290
+    },
+    {
+      "stem": "rami-dmaur-backend-en-short",
+      "pages": 2,
+      "pdf_bytes": 98116,
+      "docx_bytes": 39523
+    },
+    {
+      "stem": "rami-dmaur-backend-en-full",
+      "pages": 4,
+      "pdf_bytes": 119492,
+      "docx_bytes": 41093
+    },
+    {
+      "stem": "rami-dmaur-backend-ru-short",
+      "pages": 2,
+      "pdf_bytes": 114568,
+      "docx_bytes": 40100
+    },
+    {
+      "stem": "rami-dmaur-backend-ru-full",
+      "pages": 4,
+      "pdf_bytes": 142028,
+      "docx_bytes": 42086
+    },
+    {
+      "stem": "rami-dmaur-ml-en-short",
+      "pages": 2,
+      "pdf_bytes": 98665,
+      "docx_bytes": 39581
+    },
+    {
+      "stem": "rami-dmaur-ml-en-full",
+      "pages": 3,
+      "pdf_bytes": 107039,
+      "docx_bytes": 40306
+    },
+    {
+      "stem": "rami-dmaur-ml-ru-short",
+      "pages": 2,
+      "pdf_bytes": 114892,
+      "docx_bytes": 40133
+    },
+    {
+      "stem": "rami-dmaur-ml-ru-full",
+      "pages": 3,
+      "pdf_bytes": 124863,
+      "docx_bytes": 41051
+    },
+    {
+      "stem": "rami-dmaur-fullstack-en-short",
+      "pages": 2,
+      "pdf_bytes": 98807,
+      "docx_bytes": 39623
+    },
+    {
+      "stem": "rami-dmaur-fullstack-en-full",
+      "pages": 5,
+      "pdf_bytes": 130501,
+      "docx_bytes": 42513
+    },
+    {
+      "stem": "rami-dmaur-fullstack-ru-short",
+      "pages": 2,
+      "pdf_bytes": 115376,
+      "docx_bytes": 40242
+    },
+    {
+      "stem": "rami-dmaur-fullstack-ru-full",
+      "pages": 5,
+      "pdf_bytes": 160662,
+      "docx_bytes": 43770
+    }
+  ]
+}
