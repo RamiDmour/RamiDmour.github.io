@@ -87,3 +87,38 @@
 .octy-product{position:absolute;bottom:18cqw;left:4cqw;right:4cqw;border:1px solid #dfbdff28;background:#27202edb;backdrop-filter:blur(10px);padding:3cqw;display:grid;grid-template-columns:12cqw 1fr;gap:3cqw;border-radius:4cqw}.octy-product-icon{width:12cqw;height:12cqw;display:grid;place-items:center;font-size:7cqw;background:#645070;border-radius:3cqw}.octy-product strong{font-size:3.4cqw}.octy-product small{display:block;color:#d2b7e5;font-size:2.7cqw;margin-top:1cqw}.octy-product>b{grid-column:1/-1;padding:2cqw;text-align:center;background:#d6b0f4;border-radius:2cqw;color:#321347;font-size:3cqw}.octy-nav{margin-top:auto;display:flex;justify-content:space-around;padding:3cqw 4cqw 6cqw;background:#17121e;z-index:2}.octy-nav>span{font-size:5cqw;text-align:center;color:#b5a9c0}.octy-nav>span:first-child{color:#e7c5ff}.octy-nav small{display:block;font-size:2.4cqw;margin-top:1cqw}
 .octy-game{background:radial-gradient(ellipse at 50% 20%,#60358a,transparent 65%),#201037}.octy-game-head{display:flex;justify-content:space-between;align-items:center;padding:2cqw 6cqw;font-size:4cqw}.octy-game-head>span{font-size:6cqw;color:#dfc5f0}.octy-game-title{display:flex;align-items:center;justify-content:center;gap:2cqw;padding:3cqw 7cqw}.octy-game-title .octy-mascot{width:20cqw;height:24cqw}.octy-game-title>p{font-size:4.1cqw;font-weight:700;max-width:44cqw;margin:0}.octy-game-stats{display:grid;grid-template-columns:1.5fr 1fr;gap:3cqw;margin:0 6cqw 5cqw}.octy-game-stats>span{border:1px solid #efd1ff26;border-radius:4cqw;background:#ffffff0a;padding:3cqw 4cqw}.octy-game-stats small{display:block;color:#c3a7d7;font-size:2.7cqw}.octy-game-stats b{font-size:5cqw;display:block}.octy-game-stats i{font-size:2.7cqw;font-weight:400;font-style:normal;color:#bb9ccc}.octy-game-stats em{display:block;height:1.2cqw;background:#e0b3ff20;border-radius:2cqw;margin-top:1.3cqw}
 .octy-board{display:grid;grid-template-columns:repeat(8,1fr);gap:1.1cqw;margin:0 5cqw;padding:2.4cqw;border:1px solid #bb8be644;border-radius:5cqw;background:linear-gradient(135deg,#49216a,#221135);box-shadow:0 4cqw 12cqw #11072055,inset 0 0 0 .7cqw #d4afff09}.octy-board .token{aspect-ratio:1;display:grid;place-items:center;background:#805ca71a;border-radius:2cqw;border:1px solid #dfc3ff18;font-size:5.8cqw;font-weight:750;color:#f9c660;text-shadow:0 1px 4px #0005;box-shadow:inset 0 1px #fff1}.octy-board .token-1{color:#b3dffa}.octy-board .token-2{color:#82dfbe}.octy-board .token-3{color:#f4d75d}.octy-board .token-4{color:#d9aaf9}.octy-board .token-5{color:#c3d5fc}.octy-game-goal{text-align:center;font-size:2.8cqw;color:#c6afda;margin:4cqw 3cqw}.octy-start{margin:auto 6cqw 0;padding:4cqw;background:#ffffff08;border:1px solid #dab9f025;border-radius:4cqw;text-align:center}.octy-start>strong{font-size:3.6cqw;display:block;margin-bottom:3cqw}.octy-start>span{display:block;background:linear-gradient(100deg,#c494f5,#e5c3ff);color:#37144c;border-radius:3cqw;padding:3cqw;font-size:3.5cqw;font-weight:750}
+
+/* Content-sized cards, packed in reading order without equal-height rows. */
+.project-grid{align-items:start}
+.project-grid[data-packed]{grid-auto-rows:1px;row-gap:0}
+.project-card{align-self:start;height:max-content}
+.project-card:not(:has(.project-gallery)) .project-body{flex:0 0 auto;padding-block:28px}
+.project-card:not(:has(.project-gallery)) .project-body>.tags{margin-top:18px}
+/* Match the visible screen height while retaining each source's native aspect ratio. */
+.phone-frame.has-capture{width:calc(var(--device-width)*var(--capture-aspect)*19.5/9)}
+@media print{.project-grid[data-packed]{display:block}.project-card{grid-row:auto!important;grid-column:auto!important}}
+
+.project-card .card-takeaway ul{margin:10px 0 0;padding-left:17px;color:var(--text);font-size:12px;line-height:1.75}
+.project-card .card-takeaway li{padding-left:3px;margin:0 0 9px}
+.project-card .card-takeaway li:last-child{margin-bottom:0}
+.project-card .project-body>.tags{margin-top:21px}
+@media(max-width:580px){.project-card .card-takeaway ul{font-size:13px;line-height:1.75}}
+/* Desktop application captures use their actual aspect ratio and a browser frame. */
+.browser-frame.has-capture .device-screen{aspect-ratio:var(--capture-aspect,1.28);border-radius:0 0 6px 6px}
+.project-gallery:has(.browser-frame){container-type:inline-size}
+.project-gallery:has(.browser-frame) .device-stage{height:290px}
+.project-gallery:has(.browser-frame) .browser-frame{--device-width:clamp(210px,82cqw,410px)}
+.gallery-large:has(.browser-frame) .device-stage{height:370px}
+.gallery-large:has(.browser-frame) .browser-frame{--device-width:min(550px,84cqw)}
+.screen-viewer-device .browser-frame.has-capture{--device-width:min(680px,80vw)}
+@media(max-width:580px){
+ .project-gallery:has(.browser-frame) .device-stage{height:210px}
+ .project-gallery:has(.browser-frame) .browser-frame{--device-width:min(300px,84cqw)}
+ .gallery-large:has(.browser-frame) .device-stage{height:220px}
+ .screen-viewer-device .browser-frame.has-capture{--device-width:78vw}
+}
+.screen-dialog:has(.browser-frame){width:min(900px,calc(100% - 24px))}
+.project-card .card-takeaway{margin-bottom:0}
+.screen-viewer-device{container-type:inline-size}
+.screen-viewer-device .device-frame{max-width:100cqw}
+.screen-viewer-device .browser-frame.has-capture{--device-width:min(680px,100cqw)}

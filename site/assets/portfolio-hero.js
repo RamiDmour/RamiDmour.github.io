@@ -20,19 +20,51 @@
   function heroShowcase(){window.PortfolioHero.mount({projects:data.projects,ids:data.profiles[state.profile].heroProjects,profile:state.profile,lang:state.lang,ui:translations[state.lang],colors});}
   function badge(p){return `<span class="badge ${p.status}">${esc(t(p.status))}</span>`;}
   function tags(p,limit){const focus=p.focusStack?.[state.profile]||[];const ordered=[...focus,...p.stack.filter(s=>!focus.includes(s))];return ordered.slice(0,limit??ordered.length).map(s=>`<span class="tag">${esc(s)}</span>`).join('');}
-  function projectBullets(p){return (p.focusOrder?.[state.profile]||p.bullets.map((_,i)=>i)).map(i=>p.bullets[i]);}
+  function projectBullets(p){return p.resumeContent?.[state.profile]?.bullets||p.cardContent?.bullets||(p.focusOrder?.[state.profile]||p.bullets.map((_,i)=>i)).map(i=>p.bullets[i]);}
+  function projectDescription(p){return p.resumeContent?.[state.profile]?.description||p.cardContent?.description||p.description;}
+  let catalogFrame=0;
+  function scheduleCatalogLayout(){
+    cancelAnimationFrame(catalogFrame);
+    catalogFrame=requestAnimationFrame(packCatalog);
+  }
+  const catalogObserver=new ResizeObserver(scheduleCatalogLayout);
+  function packCatalog(){
+    const grid=$('project-grid'),cards=[...grid.querySelectorAll('.project-card')];
+    const style=getComputedStyle(grid),columns=style.gridTemplateColumns.split(' ').filter(Boolean).length;
+    if(columns<2||!cards.length){
+      delete grid.dataset.packed;
+      cards.forEach(card=>{card.style.removeProperty('grid-column');card.style.removeProperty('grid-row');});
+      return;
+    }
+    grid.dataset.packed='';
+    const gap=parseFloat(style.columnGap)||26,tops=Array(columns).fill(0);
+    for(const card of cards){
+      const featured=card.classList.contains('featured'),column=featured?0:tops.indexOf(Math.min(...tops));
+      card.style.gridColumn=featured?'1 / -1':String(column+1);
+      const top=featured?Math.max(...tops):tops[column],height=Math.ceil(card.getBoundingClientRect().height);
+      card.style.gridRow=`${top+1} / span ${height}`;
+      if(featured)tops.fill(top+height+gap);else tops[column]=top+height+gap;
+    }
+  }
+  function watchCatalog(){
+    catalogObserver.disconnect();
+    $('project-grid').querySelectorAll('.project-card').forEach(card=>catalogObserver.observe(card));
+    scheduleCatalogLayout();
+  }
+  addEventListener('resize',scheduleCatalogLayout);
   function renderProjects(){
     let list=relevant();
     const terms=state.search.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
     if(state.tech)list=list.filter(p=>p.stack.includes(state.tech));
-    if(terms.length)list=list.filter(p=>terms.every(term=>JSON.stringify([p.name,p.domain,p.description,p.employer,p.stack,p.bullets]).toLocaleLowerCase().includes(term)));
+    if(terms.length)list=list.filter(p=>terms.every(term=>JSON.stringify([p.name,p.domain,p.description,p.employer,p.stack,p.bullets,p.cardContent,p.resumeContent]).toLocaleLowerCase().includes(term)));
     const allVisible=state.expanded||state.tech||terms.length;
     const shown=allVisible?list:list.slice(0,3);
-    $('project-grid').innerHTML=shown.length?shown.map((p,i)=>`<article class="project-card ${i===0&&!terms.length&&!state.tech?'featured':''}">${preview(p)}<div class="project-body"><div class="card-meta"><span>${esc(val(p.domain))}</span>${badge(p)}</div><h3>${esc(val(p.name))}</h3><p class="card-description">${esc(val(p.description))}</p><div class="card-takeaway"><span class="mono">${t('contributionShort')}</span><p>${esc(val(projectBullets(p)[0]))}</p></div><div class="tags">${tags(p,4)}</div><button type="button" class="case-link" data-project="${p.id}" aria-label="${esc(t('caseStudy')+': '+val(p.name))}"><span>${t('caseStudy')}</span><span aria-hidden="true">↗</span></button></div></article>`).join(''):`<p class="empty-state">${t('empty')}</p>`;
+    $('project-grid').innerHTML=shown.length?shown.map((p,i)=>`<article class="project-card ${i===0&&!terms.length&&!state.tech?'featured':''}">${preview(p)}<div class="project-body"><div class="card-meta"><span>${esc(val(p.domain))}</span>${badge(p)}</div><h3>${esc(val(p.name))}</h3><p class="card-description">${esc(val(projectDescription(p)))}</p><div class="card-takeaway"><span class="mono">${t('contributionShort')}</span><ul>${projectBullets(p).slice(0,4).map(b=>`<li>${esc(val(b))}</li>`).join('')}</ul></div><div class="tags">${tags(p,6)}</div><button type="button" class="case-link" data-project="${p.id}" aria-label="${esc(t('caseStudy')+': '+val(p.name))}"><span>${t('caseStudy')}</span><span aria-hidden="true">↗</span></button></div></article>`).join(''):`<p class="empty-state">${t('empty')}</p>`;
     $('result-count').textContent=t('results').replace('{shown}',shown.length).replace('{total}',list.length);
     $('show-all').hidden=list.length<=3||Boolean(state.tech)||Boolean(terms.length);
     $('show-all').textContent=t(state.expanded?'showLess':'showAll').replace('{total}',list.length);
     $('reset-filters').hidden=!state.tech&&!state.search;
+    watchCatalog();
   }
   function career(){$('career-list').innerHTML=data.career.map(c=>`<article class="career-row"><p class="career-date">${esc(val(c.period))}</p><div><h3>${esc(val(c.name))}</h3><p class="career-role">${esc(val(c.role))}</p></div><p class="career-description">${esc(val(c.text))}</p></article>`).join('');$('independent').textContent=val(data.independent||'');$('independent').hidden=!val(data.independent);$('education-text').textContent=val(data.person.education);$('languages-text').textContent=val(data.person.languages);}
   function origin(){
@@ -60,7 +92,7 @@
     dialog.querySelector('.dialog-feedback')?.remove();
     let pool=relevant();if(!pool.some(x=>x.id===id))pool=[p,...pool];
     const index=pool.findIndex(x=>x.id===id),previous=pool[(index-1+pool.length)%pool.length],next=pool[(index+1)%pool.length];
-    $('case-content').innerHTML=`<p class="eyebrow">${esc(val(p.employer))} / ${esc(val(p.domain))}</p><h2 id="case-title" tabindex="-1">${esc(val(p.name))}</h2><p class="case-role">${esc(val(p.role))}</p>${badge(p)}<p class="case-context-label mono">${t('caseContext')}</p><p class="case-description">${esc(val(p.description))}</p><h3>${t('contribution')}</h3><ul>${projectBullets(p).slice(0,3).map(b=>`<li>${esc(val(b))}</li>`).join('')}</ul>${projectBullets(p).length>3?`<details><summary>${esc(t('moreContribution').replace('{count}',projectBullets(p).length-3))}</summary><ul>${projectBullets(p).slice(3).map(b=>`<li>${esc(val(b))}</li>`).join('')}</ul></details>`:''}${preview(p,true)}${p.details.length?`<details class="case-technical"><summary>${t('optionalTechnical')}</summary>${p.details.map(d=>`<details><summary>${esc(val(d.title))}</summary><p>${esc(val(d.text))}</p></details>`).join('')}</details>`:''}<h3>${t('technology')}</h3><div class="tags">${tags(p)}</div><div class="case-footer"><a class="button button-primary" href="mailto:${esc(data.person.email)}">${t('caseContact')} ↗</a><button class="button button-outline" type="button" data-case-resume>${t('projectResume')} ↓</button><button class="quiet-button" type="button" data-share-case="${p.id}" aria-label="${esc(t('shareCase'))}">${t('shareCase')} <span aria-hidden="true">↗</span></button>${p.link?`<a class="text-link" href="${esc(p.link)}" target="_blank" rel="noopener noreferrer">${t('liveLink')} ↗</a>`:''}</div>${p.details.length?`<p class="case-note">${t('caseNote')}</p>`:''}<nav class="case-pagination" aria-label="${esc(t('caseNavigation'))}"><button type="button" data-project="${previous.id}"><span>${t('previousProject')}</span><strong>← ${esc(val(previous.name))}</strong></button><button type="button" data-project="${next.id}"><span>${t('nextProject')}</span><strong>${esc(val(next.name))} →</strong></button></nav>`;
+    $('case-content').innerHTML=`<p class="eyebrow">${esc(val(p.employer))} / ${esc(val(p.domain))}</p><h2 id="case-title" tabindex="-1">${esc(val(p.name))}</h2><p class="case-role">${esc(val(p.role))}</p>${badge(p)}<p class="case-context-label mono">${t('caseContext')}</p><p class="case-description">${esc(val(projectDescription(p)))}</p><h3>${t('contribution')}</h3><ul>${projectBullets(p).slice(0,5).map(b=>`<li>${esc(val(b))}</li>`).join('')}</ul>${projectBullets(p).length>5?`<details><summary>${esc(t('moreContribution').replace('{count}',projectBullets(p).length-5))}</summary><ul>${projectBullets(p).slice(5).map(b=>`<li>${esc(val(b))}</li>`).join('')}</ul></details>`:''}${preview(p,true)}${p.details.length?`<details class="case-technical"><summary>${t('optionalTechnical')}</summary>${p.details.map(d=>`<details><summary>${esc(val(d.title))}</summary><p>${esc(val(d.text))}</p></details>`).join('')}</details>`:''}<h3>${t('technology')}</h3><div class="tags">${tags(p)}</div><div class="case-footer"><a class="button button-primary" href="mailto:${esc(data.person.email)}">${t('caseContact')} ↗</a><button class="button button-outline" type="button" data-case-resume>${t('projectResume')} ↓</button><button class="quiet-button" type="button" data-share-case="${p.id}" aria-label="${esc(t('shareCase'))}">${t('shareCase')} <span aria-hidden="true">↗</span></button>${p.link?`<a class="text-link" href="${esc(p.link)}" target="_blank" rel="noopener noreferrer">${t('liveLink')} ↗</a>`:''}</div>${p.details.length?`<p class="case-note">${t('caseNote')}</p>`:''}<nav class="case-pagination" aria-label="${esc(t('caseNavigation'))}"><button type="button" data-project="${previous.id}"><span>${t('previousProject')}</span><strong>← ${esc(val(previous.name))}</strong></button><button type="button" data-project="${next.id}"><span>${t('nextProject')}</span><strong>${esc(val(next.name))} →</strong></button></nav>`;
     if(!dialog.open)dialog.showModal();
     dialog.scrollTop=0;
     if(wasOpen)$('case-title').focus({preventScroll:true});

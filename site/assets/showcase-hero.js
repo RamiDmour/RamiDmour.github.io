@@ -22,7 +22,18 @@
     if(screen.layout==='octy-feed')return `<div class="octy-screen octy-feed">${status}<div class="octy-feed-tabs"><b>${t('octyForYou')}</b><span>${t('octyFollowing')}</span><i>⌕</i></div><div class="octy-video-art"><span class="octy-halo"></span><span class="octy-headphones"><i></i><b></b></span><span class="octy-play">▷</span><small>${t('octyDemo')}</small></div><div class="octy-reactions"><span>♡<small>128</small></span><span>◌<small>24</small></span><span>↗</span></div><div class="octy-feed-copy"><strong>@octy.studio</strong><p>${t('octyProductDetail')}</p><span>#design #sound</span></div><div class="octy-product"><span class="octy-product-icon">♬</span><div><strong>${t('octyProduct')}</strong><small>${t('octyPrice')} · 24 TON</small></div><b>${t('octyBuy')} ↗</b></div>${nav}</div>`;
     if(screen.layout==='octy-game'){
       const coins=['₿','◆','₮','Ð','◈','◎'];
-      return `<div class="octy-screen octy-game">${status}<div class="octy-game-head"><span>‹</span><b>Crypto Match-3</b><span>ⓘ</span></div><div class="octy-game-title">${mascot}<p>${t('octyGameTag')}</p></div><div class="octy-game-stats"><span><small>${t('octyScore')}</small><b>0 <i>/ 1 000</i></b><em></em></span><span><small>${t('octyTime')}</small><b>02:00</b></span></div><div class="octy-board">${Array.from({length:64},(_,i)=>{const n=(i*7+Math.floor(i/8)*3+Math.floor(i/11))%6;return `<span class="token token-${n}">${coins[n]}</span>`;}).join('')}</div><p class="octy-game-goal">${t('octyGoal')}</p><div class="octy-start"><strong>${t('octyReady')}</strong><span>${t('octyStart')} →</span></div><small class="octy-fine">${t('octyNoLive')}</small></div>`;
+      // A settled opening board: no existing lines of 3, with legal matching swaps.
+      const board=[
+        [0,2,0,1,3,5,2,0],
+        [3,0,2,5,4,0,1,3],
+        [2,4,1,1,2,3,5,4],
+        [1,3,5,4,0,2,4,1],
+        [4,0,3,2,5,5,3,5],
+        [5,2,0,3,1,4,4,2],
+        [0,5,4,1,2,0,0,3],
+        [3,1,2,4,0,5,1,4]
+      ];
+      return `<div class="octy-screen octy-game">${status}<div class="octy-game-head"><span>‹</span><b>Crypto Match-3</b><span>ⓘ</span></div><div class="octy-game-title">${mascot}<p>${t('octyGameTag')}</p></div><div class="octy-game-stats"><span><small>${t('octyScore')}</small><b>0 <i>/ 1 000</i></b><em></em></span><span><small>${t('octyTime')}</small><b>02:00</b></span></div><div class="octy-board">${board.flat().map(n=>{return `<span class="token token-${n}">${coins[n]}</span>`;}).join('')}</div><p class="octy-game-goal">${t('octyGoal')}</p><div class="octy-start"><strong>${t('octyReady')}</strong><span>${t('octyStart')} →</span></div><small class="octy-fine">${t('octyNoLive')}</small></div>`;
     }
     return `<div class="octy-screen octy-intro">${status}<div class="octy-brand"><strong>OCTY<span>✦</span></strong><small>${t('octyIntro')}</small></div><div class="octy-mascot-stage"><span class="octy-mascot-orbit"></span><i>₿</i><i>◆</i><i>₮</i>${mascot}</div><h4>${t('octyTagline')}</h4><div class="octy-feature"><span>✦</span><div><b>${t('octyEarn')}</b><small>${t('octyEarnText')}</small></div></div><div class="octy-feature"><span>◈</span><div><b>${t('octyWallet')}</b><small>${t('octyWalletText')}</small></div></div><div class="octy-primary">${t('octyExplore')} ↗</div><small class="octy-fine">${t('octyDemo')}</small></div>`;
   }

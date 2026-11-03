@@ -689,15 +689,15 @@
               "en": "Document library",
               "ru": "Библиотека документов"
             },
-            "src": "assets/projects/scanchamp-figma-library.png",
+            "src": "assets/projects/scanchamp-figma-library-production.png",
             "alt": {
-              "en": "scanchamp: Document library",
-              "ru": "scanchamp: Библиотека документов"
+              "en": "Document library — scanchamp",
+              "ru": "Библиотека документов — scanchamp"
             },
             "width": 402,
             "height": 874,
             "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=5535-37214"
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/?node-id=4130-33009"
           },
           {
             "layout": "scan",
@@ -1033,6 +1033,30 @@
           "en": "Owned Flutter development and maintenance of Loans and Coinhold; released Loans to users.",
           "ru": "Отвечал за Flutter-разработку и сопровождение Loans и Coinhold; выпустил Loans для пользователей."
         }
+      },
+      "cardContent": {
+        "description": {
+          "en": "Flutter ownership of Loans and Coinhold within an existing crypto platform: multi-step financial workflows, calculations, validation and product lifecycle states. Loans reached release during my work.",
+          "ru": "Ответственность за Flutter-часть Loans и Coinhold внутри существующей криптоплатформы: многошаговые финансовые сценарии, расчёты, проверки и состояния продукта. Loans довёл до релиза."
+        },
+        "bullets": [
+          {
+            "en": "Owned client development and maintenance of Loans and Coinhold, coordinating their integration with other parts of the application.",
+            "ru": "Отвечал за клиентскую разработку и сопровождение Loans и Coinhold, согласовывая их взаимодействие с другими частями приложения."
+          },
+          {
+            "en": "Brought Loans to release, working on loan calculations, availability checks, activation, repayment and related lifecycle states.",
+            "ru": "Довёл Loans до выпуска: работал со сценариями расчёта займа, проверок доступности, активации, погашения и связанными состояниями продукта."
+          },
+          {
+            "en": "Developed Coinhold client workflows around the calculator, product creation, deposits, withdrawals, settings and history.",
+            "ru": "Развивал клиентские сценарии Coinhold: калькулятор, создание продукта, пополнение, вывод, настройки и историю."
+          },
+          {
+            "en": "Proposed and implemented architecture and performance improvements to support maintenance and extension of financial features.",
+            "ru": "Предлагал и внедрял архитектурные улучшения и оптимизации, упрощающие сопровождение и расширение финансовых функций."
+          }
+        ]
       },
       "image": null,
       "media": {
@@ -1546,6 +1570,30 @@
           "ru": "Полностью взял backend: от объявлений и проверки продавцов до escrow-контрактов Ethereum и TON."
         }
       },
+      "cardContent": {
+        "description": {
+          "en": "A pre-production property marketplace combining listings, seller checks and cryptocurrency settlement through escrow on Ethereum and TON. I combined Flutter leadership with responsibility for the backend.",
+          "ru": "Pre-production-платформа недвижимости: объявления, проверка продавцов и криптовалютный расчёт через escrow в Ethereum и TON. Совмещал руководство Flutter-разработкой с ответственностью за backend."
+        },
+        "bullets": [
+          {
+            "en": "Designed the application architecture and took full responsibility for the backend, including API and server modules.",
+            "ru": "Спроектировал архитектуру приложения и полностью взял на себя backend: API и серверные модули."
+          },
+          {
+            "en": "Implemented listing creation and search, KYC/AML workflows and administrator verification of sellers.",
+            "ru": "Реализовывал создание и поиск объявлений, KYC/AML и верификацию продавцов администраторами."
+          },
+          {
+            "en": "Created and integrated escrow smart contracts for Ethereum and TON, connecting the client, backend and transaction lifecycle.",
+            "ru": "Создавал и интегрировал escrow-смарт-контракты для Ethereum и TON, связывая клиент, backend и жизненный цикл сделки."
+          },
+          {
+            "en": "Formed the development team and presented the technical solution to investors; development ended before production when funding ran out.",
+            "ru": "Сформировал команду разработки и представлял техническое решение инвесторам; работа завершилась до production из-за окончания финансирования."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1612,6 +1660,30 @@
           "ru": "Мигрировал Flutter/Dart и BLoC, внедрял null safety, проверял зависимости и обучал младших разработчиков."
         }
       },
+      "cardContent": {
+        "description": {
+          "en": "Modernization of an acquired legacy crypto wallet for users new to cryptocurrency. The work combined a framework and language migration, state-management updates, architectural cleanup and developer tooling.",
+          "ru": "Модернизация приобретённого legacy-криптокошелька для пользователей без опыта работы с криптовалютой: обновление платформы и языка, управления состоянием, архитектуры и инструментов команды."
+        },
+        "bullets": [
+          {
+            "en": "Independently migrated the legacy codebase to newer Flutter/Dart versions and null safety, adapting the existing financial application to the updated platform.",
+            "ru": "Единолично переводил legacy-кодовую базу на новые версии Flutter/Dart и null safety, адаптируя существующее финансовое приложение к обновлённой платформе."
+          },
+          {
+            "en": "Migrated BLoC event handling from mapEventToState/yield to on<Event>/emit; updated dependencies and adapted or replaced unsupported libraries.",
+            "ru": "Перевёл обработку событий BLoC с mapEventToState/yield на on<Event>/emit; обновлял зависимости, адаптировал или заменял неподдерживаемые библиотеки."
+          },
+          {
+            "en": "Audited the architecture, improved code structure and extensibility, and mentored junior developers during the modernization.",
+            "ru": "Провёл технический аудит, улучшал структуру и расширяемость кода, обучал младших разработчиков в процессе модернизации."
+          },
+          {
+            "en": "Automated localization: imported translations from Google Sheets, produced nested JSON and generated translation keys.",
+            "ru": "Автоматизировал локализацию: загрузку переводов из Google Sheets, формирование вложенных JSON и генерацию ключей."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1660,44 +1732,66 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "An HR-tech platform for staffing agencies with Employee mobile/web and Client web applications. Product workflows include vacancies, shifts, timesheets, contracts, payslips, documents and agency communication.",
+          "ru": "HR-tech-платформа кадровых агентств с Employee-приложением для mobile/web и отдельным Client web-приложением. В продукте — вакансии, смены, timesheets, контракты, расчётные листы, документы и общение с агентством."
+        },
+        "bullets": [
+          {
+            "en": "Carried out substantial refactoring of the existing Flutter application to improve maintainability of a platform with shared packages and multiple client surfaces.",
+            "ru": "Провёл масштабный рефакторинг существующего Flutter-приложения в платформе с общими пакетами и несколькими клиентскими интерфейсами."
+          },
+          {
+            "en": "Investigated and resolved freezes on complex screens, addressing responsiveness in workflows with substantial UI and data state.",
+            "ru": "Разбирался с зависаниями сложных экранов и устранял проблемы отзывчивости в сценариях с насыщенным UI и состоянием данных."
+          },
+          {
+            "en": "Improved interaction with the backend and worked within shared API, repository, mapper, BLoC, view-model and UI layers.",
+            "ru": "Улучшал взаимодействие с backend, работал с общими слоями API, repositories, mappers, BLoC, view models и UI."
+          },
+          {
+            "en": "Communicated directly with an international client to clarify product behavior and coordinate changes to staffing workflows.",
+            "ru": "Напрямую общался с зарубежным заказчиком: уточнял поведение продукта и согласовывал изменения кадровых сценариев."
+          }
+        ]
+      },
       "image": null,
       "media": {
-        "device": "phone",
+        "device": "browser",
         "theme": "workspace",
         "screens": [
           {
-            "layout": "market",
+            "layout": "workspace",
             "label": {
-              "en": "Payslips",
-              "ru": "Расчётные листы"
+              "en": "Employee · Overview",
+              "ru": "Сотрудник · Главная"
             },
-            "src": "assets/projects/success-craft-apple-03.webp",
+            "src": "assets/projects/success-craft-employeeHome.png",
             "alt": {
-              "en": "success-craft: Payslips",
-              "ru": "success-craft: Расчётные листы"
+              "en": "Employee · Overview — success-craft",
+              "ru": "Сотрудник · Главная — success-craft"
             },
-            "width": 1242,
-            "height": 2208,
-            "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://apps.apple.com/us/app/tigris-work-vacancies/id1612461379?uo=4"
+            "width": 1024,
+            "height": 618,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/8mBgoJhX4GtJt1KK8lfcpx/?node-id=1-1273"
           },
           {
-            "layout": "market",
+            "layout": "workspace",
             "label": {
-              "en": "Time reporting",
-              "ru": "Учёт рабочего времени"
+              "en": "Client · Employee management",
+              "ru": "Клиент агентства · Сотрудники"
             },
-            "src": "assets/projects/success-craft-apple-04.webp",
+            "src": "assets/projects/success-craft-clientEmployees.png",
             "alt": {
-              "en": "success-craft: Time reporting",
-              "ru": "success-craft: Учёт рабочего времени"
+              "en": "Client · Employee management — success-craft",
+              "ru": "Клиент агентства · Сотрудники — success-craft"
             },
-            "width": 1242,
-            "height": 2208,
-            "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://apps.apple.com/us/app/tigris-work-vacancies/id1612461379?uo=4"
+            "width": 1512,
+            "height": 912,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/JIsYPOGo1OOJg3xxb4dw26/?node-id=15536-32590"
           }
         ]
       }
@@ -1759,6 +1853,22 @@
           "en": "Contributed to the Flutter mobile client for mortgage applications and lender communication.",
           "ru": "Участвовал в разработке Flutter-клиента ипотечного сервиса и коммуникации с кредиторами."
         }
+      },
+      "cardContent": {
+        "description": {
+          "en": "A US mortgage-service client with purchase/refinance rates, charts, multi-step applications, lender matching and Copilot/lender chat. I contributed to its Flutter development.",
+          "ru": "Клиент ипотечного сервиса для США: ставки purchase/refinance и графики, многошаговые заявки, подбор кредиторов и чаты Copilot/lender. Участвовал во Flutter-разработке приложения."
+        },
+        "bullets": [
+          {
+            "en": "Contributed to the mobile client for mortgage applications and lender communication.",
+            "ru": "Участвовал в разработке мобильного клиента ипотечного сервиса и коммуникации с кредиторами."
+          },
+          {
+            "en": "The product includes conditional forms, saved drafts, real-time chats and push navigation.",
+            "ru": "Продукт включает условные формы, черновики, real-time-чаты и push-навигацию."
+          }
+        ]
       },
       "image": null,
       "media": {
@@ -1875,6 +1985,22 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "A postal-services application for individuals and businesses: shipment creation and calculation, parcel tracking, couriers, post-office maps and corporate workflows. My participation was part of Developers Heaven.",
+          "ru": "Приложение почтовых услуг для физических лиц и организаций: оформление и расчёт отправлений, отслеживание посылок, курьер, карта отделений и корпоративные сценарии. Участвовал в разработке в рамках Developers Heaven."
+        },
+        "bullets": [
+          {
+            "en": "Participated in Flutter development within the Developers Heaven team.",
+            "ru": "Участвовал во Flutter-разработке в составе Developers Heaven."
+          },
+          {
+            "en": "Product context includes parcel workflows, maps, personal and business accounts and notifications.",
+            "ru": "Контекст продукта: отправления, карты, личные и корпоративные аккаунты и уведомления."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -1971,6 +2097,22 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "An auction application with lots, bids and geospatial search. My specific contribution was interactive map-area drawing to turn circles and polygons into reusable search criteria.",
+          "ru": "Аукционное приложение с лотами, ставками и пространственным поиском. Мой конкретный вклад — интерактивное рисование областей на карте и преобразование кругов и полигонов в повторно используемые критерии поиска."
+        },
+        "bullets": [
+          {
+            "en": "Implemented drawing search areas on a map, including circles and polygons.",
+            "ru": "Разработал рисование зон поиска на карте, включая круги и полигоны."
+          },
+          {
+            "en": "Worked in a product with lots, bids, applications, documents and real-time integrations.",
+            "ru": "Работал в продукте с лотами, ставками, заявками, документами и real-time-интеграциями."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2054,6 +2196,22 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "A branded retail application on a shared modular Flutter platform. Shared modules cover the storefront, maps, surveys, account and onboarding; branded configuration, themes and deep links adapt the product to the retailer.",
+          "ru": "Брендовое ритейл-приложение на общей модульной Flutter-платформе: витрина, карты, опросы, личный кабинет и onboarding. Конфигурация бренда, темы и deep links адаптируют общие модули под торговую сеть."
+        },
+        "bullets": [
+          {
+            "en": "Contributed to feature-based modular architecture and Fastlane delivery for the retail platform.",
+            "ru": "Участвовал во внедрении модульной архитектуры и Fastlane для ритейл-платформы."
+          },
+          {
+            "en": "Shared packages separate core, onboarding, maps, surveys and account features from brand configuration.",
+            "ru": "Общие пакеты отделяют core, onboarding, карты, опросы и аккаунт от брендовой конфигурации."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2137,6 +2295,22 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "Another branded application on the Developers Heaven retail platform, with shared store modules, routing, deep links and brand-specific configuration. The architecture and release automation are shared platform work.",
+          "ru": "Ещё одно брендовое приложение ритейл-платформы Developers Heaven: общие store-модули, маршрутизация, deep links и брендовая конфигурация. Работа над архитектурой и автоматизацией релизов относится к общей платформе."
+        },
+        "bullets": [
+          {
+            "en": "Worked on the shared retail platform used by Groshyk and Chesnok.",
+            "ru": "Работал над общей ритейл-платформой Groshyk и Chesnok."
+          },
+          {
+            "en": "Reused feature packages with brand-specific themes, configuration and routing.",
+            "ru": "Переиспользовал функциональные пакеты с брендовыми темами, конфигурацией и маршрутизацией."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2252,11 +2426,84 @@
           "details": []
         }
       },
+      "cardContent": {
+        "description": {
+          "en": "An internal activity and nutrition monitoring system for the Ministry of Sports and Tourism of Belarus. It combines a food diary, activity tracking, nutrition programs and reporting in a Flutter application with a Supabase backend.",
+          "ru": "Внутренняя система мониторинга активности и питания для Министерства спорта и туризма Беларуси: дневник питания, физические активности, программы питания и отчёты. Flutter-клиент с backend на Supabase."
+        },
+        "bullets": [
+          {
+            "en": "Built the application from scratch rather than joining an existing client implementation.",
+            "ru": "Разработал приложение с нуля — от начальной структуры до пользовательских сценариев мониторинга питания и активности."
+          },
+          {
+            "en": "Designed the database and used a serverless Supabase approach to connect the mobile application with its data.",
+            "ru": "Спроектировал базу данных и использовал serverless-подход на Supabase для работы мобильного приложения с данными."
+          },
+          {
+            "en": "Implemented parsers for food and physical-activity information to populate the product data.",
+            "ru": "Написал парсеры данных о продуктах питания и физических активностях для наполнения системы."
+          },
+          {
+            "en": "Initiated bringing a UX/UI designer into the project to improve the user experience.",
+            "ru": "Инициировал подключение UX/UI-дизайнера, чтобы улучшить пользовательский опыт приложения."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": []
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Food diary",
+              "ru": "Дневник питания"
+            },
+            "src": "assets/projects/sports-sportsDiary.png",
+            "alt": {
+              "en": "Food diary — sports",
+              "ru": "Дневник питания — sports"
+            },
+            "width": 360,
+            "height": 800,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/pOJvrXXXS0ySnVyrhR9W1b/?node-id=173-879"
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Physical activity",
+              "ru": "Физические активности"
+            },
+            "src": "assets/projects/sports-sportsActivity.png",
+            "alt": {
+              "en": "Physical activity — sports",
+              "ru": "Физические активности — sports"
+            },
+            "width": 360,
+            "height": 800,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/pOJvrXXXS0ySnVyrhR9W1b/?node-id=173-554"
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Reports",
+              "ru": "Отчёты"
+            },
+            "src": "assets/projects/sports-sportsReport.png",
+            "alt": {
+              "en": "Reports — sports",
+              "ru": "Отчёты — sports"
+            },
+            "width": 360,
+            "height": 800,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/pOJvrXXXS0ySnVyrhR9W1b/?node-id=173-826"
+          }
+        ]
       }
     },
     {
@@ -2341,6 +2588,26 @@
           "ru": "Разработал Flask-backend и интеграцию с клиентом, включая форматирование и сценарии подписания текстов."
         }
       },
+      "cardContent": {
+        "description": {
+          "en": "A LegalTech application for preparing and processing AI-generated legal texts. My work spanned both a Python service and its integration with the Flutter client.",
+          "ru": "LegalTech-приложение для подготовки и обработки юридических текстов, созданных ИИ. Работал и над Python-сервисом, и над его интеграцией с Flutter-клиентом."
+        },
+        "bullets": [
+          {
+            "en": "Developed a Flask backend for data processing and exposed it to the application through a REST API.",
+            "ru": "Разработал Flask-backend для обработки данных и связал его с приложением через REST API."
+          },
+          {
+            "en": "Integrated the backend with the Flutter client, connecting server-side processing to the application workflows.",
+            "ru": "Интегрировал backend с Flutter-клиентом, связывая серверную обработку с пользовательскими сценариями приложения."
+          },
+          {
+            "en": "Implemented formatting and signing workflows for generated texts.",
+            "ru": "Реализовывал форматирование и сценарии подписания сгенерированных текстов."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2386,11 +2653,96 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "A comic creation application with AI-assisted character and story creation and an interactive visual editor. My responsibility centered on the editor core, editable document state and reversible actions.",
+          "ru": "Конструктор комиксов с AI-функциями создания персонажей и историй и интерактивным визуальным редактором. Моя зона ответственности — ядро редактора, состояние редактируемого документа и обратимые действия."
+        },
+        "bullets": [
+          {
+            "en": "Developed the editor core and the document-editing logic behind the visual interface.",
+            "ru": "Разработал ядро редактора и логику редактирования документа за визуальным интерфейсом."
+          },
+          {
+            "en": "Implemented undo/redo operations, allowing users to navigate their editing history.",
+            "ru": "Реализовал undo/redo — отмену и повтор действий с переходами по истории редактирования."
+          },
+          {
+            "en": "Implemented sticker interaction within the editor and its document state.",
+            "ru": "Реализовал взаимодействие со стикерами внутри редактора и состояния документа."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
         "theme": "cinema",
-        "screens": []
+        "screens": [
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Comic library",
+              "ru": "Библиотека комиксов"
+            },
+            "src": "assets/projects/comics-comicPreview.png",
+            "alt": {
+              "en": "Comic library — comics",
+              "ru": "Библиотека комиксов — comics"
+            },
+            "width": 375,
+            "height": 812,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=405-32278"
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Character creation",
+              "ru": "Создание персонажа"
+            },
+            "src": "assets/projects/comics-comicCharacterFilled.png",
+            "alt": {
+              "en": "Character creation — comics",
+              "ru": "Создание персонажа — comics"
+            },
+            "width": 375,
+            "height": 812,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=405-34099"
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Panel editor",
+              "ru": "Редактор панелей"
+            },
+            "src": "assets/projects/comics-comicBodyFinal.png",
+            "alt": {
+              "en": "Panel editor — comics",
+              "ru": "Редактор панелей — comics"
+            },
+            "width": 375,
+            "height": 812,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=575-59262"
+          },
+          {
+            "layout": "workspace",
+            "label": {
+              "en": "Comic preview",
+              "ru": "Просмотр комикса"
+            },
+            "src": "assets/projects/comics-comicCover.png",
+            "alt": {
+              "en": "Comic preview — comics",
+              "ru": "Просмотр комикса — comics"
+            },
+            "width": 375,
+            "height": 812,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=574-34784"
+          }
+        ]
       }
     },
     {
@@ -2431,6 +2783,26 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "An investment application for the German market, migrated from an existing React Native client to Flutter. The work included architecture, UI renewal and additional functionality.",
+          "ru": "Инвестиционное приложение для немецкого рынка: перенос существующего React Native-клиента на Flutter, проектирование архитектуры, обновление UI и расширение функциональности."
+        },
+        "bullets": [
+          {
+            "en": "Designed the architecture of the new Flutter client for the existing investment product.",
+            "ru": "Спроектировал архитектуру нового Flutter-клиента для существующего инвестиционного продукта."
+          },
+          {
+            "en": "Rewrote the legacy React Native application in Flutter, transferring its product workflows to the new implementation.",
+            "ru": "Переписал legacy-приложение с React Native на Flutter, перенося продуктовые сценарии в новую реализацию."
+          },
+          {
+            "en": "Updated the interface and extended functionality as part of the migration.",
+            "ru": "Обновлял интерфейс и расширял функциональность в рамках миграции."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2475,6 +2847,18 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "An internal platform for turning websites into mobile applications. I developed multiple client applications using the existing company SDK and worked within its shared architecture.",
+          "ru": "Внутренняя платформа преобразования сайтов в мобильные приложения. Разрабатывал несколько клиентских приложений на существующем SDK компании, работая в его общей архитектуре."
+        },
+        "bullets": [
+          {
+            "en": "Developed several applications using the existing company SDK.",
+            "ru": "Разрабатывал несколько приложений на существующем SDK компании."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2522,6 +2906,26 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "An existing Canadian clinic aggregator with maps, accessibility features and in-app communications. The work focused on a substantial refactor and improvement of the existing user experience.",
+          "ru": "Существующий агрегатор клиник Канады с картами, функциями Accessibility и внутренними коммуникациями. Работа включала глубокий рефакторинг и развитие существующих пользовательских сценариев."
+        },
+        "bullets": [
+          {
+            "en": "Carried out substantial refactoring of the main clinic aggregator.",
+            "ru": "Провёл глубокий рефакторинг основного приложения-агрегатора клиник."
+          },
+          {
+            "en": "Optimized map interaction and worked on the application’s location-based experience.",
+            "ru": "Оптимизировал работу с картами и картографическими сценариями приложения."
+          },
+          {
+            "en": "Implemented accessibility features and internal calling functionality.",
+            "ru": "Реализовывал функции Accessibility и внутренних звонков."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2567,6 +2971,26 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "A collaboration platform combining tasks, channels, documents and real-time communication. I worked on channel administration, group calling and chat responsiveness.",
+          "ru": "Платформа совместной работы, объединяющая задачи, каналы, документы и коммуникации в реальном времени. Работал над администрированием каналов, групповыми звонками и отзывчивостью чатов."
+        },
+        "bullets": [
+          {
+            "en": "Developed the channel administration panel and its management workflows.",
+            "ru": "Разработал панель администрирования каналов и связанные сценарии управления."
+          },
+          {
+            "en": "Integrated group calling into the collaboration application.",
+            "ru": "Внедрял групповые звонки в приложение совместной работы."
+          },
+          {
+            "en": "Optimized chat performance within the real-time communication experience.",
+            "ru": "Оптимизировал производительность чатов в сценариях общения в реальном времени."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -2611,6 +3035,26 @@
       },
       "details": [],
       "link": null,
+      "cardContent": {
+        "description": {
+          "en": "A language-learning product using spaced repetition and audio playback. I developed parts of the React Native client and maintained the associated React web interface.",
+          "ru": "Продукт изучения языков с интервальным повторением и аудиовоспроизведением. Разрабатывал React Native-клиент и исправлял связанную web-часть на React."
+        },
+        "bullets": [
+          {
+            "en": "Implemented the registration flow from scratch.",
+            "ru": "С нуля реализовал пользовательскую регистрацию."
+          },
+          {
+            "en": "Built the core for continuous word playback, working with sequential audio and application state.",
+            "ru": "Разработал базовый движок непрерывного воспроизведения слов, работая с последовательностью аудио и состоянием приложения."
+          },
+          {
+            "en": "Fixed issues in the React web application alongside the mobile development.",
+            "ru": "Исправлял ошибки React web-приложения параллельно с мобильной разработкой."
+          }
+        ]
+      },
       "image": null,
       "media": {
         "device": "phone",
@@ -3050,6 +3494,26 @@
           "en": "Built Flutter sensor collection, a Flask preparation API and a TensorFlow/Keras classifier.",
           "ru": "Разработал сбор сенсорных данных во Flutter, Flask API подготовки и классификатор TensorFlow/Keras."
         }
+      },
+      "cardContent": {
+        "description": {
+          "en": "An academic end-to-end prototype: a Flutter application collects smartphone sensor time series, a Flask API prepares the data, and a TensorFlow/Keras classifier returns a screening recommendation. It is not a clinically validated product.",
+          "ru": "Учебный прототип полного цикла: Flutter-приложение собирает временные ряды сенсоров смартфона, Flask API подготавливает данные, а классификатор TensorFlow/Keras возвращает скрининговую рекомендацию. Клиническая валидация не заявляется."
+        },
+        "bullets": [
+          {
+            "en": "Developed a Flutter client that recorded accelerometer and gyroscope data while a video was being watched.",
+            "ru": "Разработал Flutter-клиент, записывающий данные акселерометра и гироскопа во время просмотра видео."
+          },
+          {
+            "en": "Built the Flask API for receiving and preparing the sensor data.",
+            "ru": "Создал Flask API для приёма и подготовки сенсорных данных."
+          },
+          {
+            "en": "Implemented a binary TensorFlow/Keras classifier and returned its screening recommendation to the application.",
+            "ru": "Реализовал бинарный классификатор TensorFlow/Keras и возврат скрининговой рекомендации в приложение."
+          }
+        ]
       },
       "image": null,
       "media": {
