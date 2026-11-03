@@ -16,14 +16,14 @@
     {
       "stem": "rami-dmaur-software-ru-short",
       "pages": 2,
-      "pdf_bytes": 114689,
-      "docx_bytes": 40382
+      "pdf_bytes": 115054,
+      "docx_bytes": 40418
     },
     {
       "stem": "rami-dmaur-software-ru-full",
       "pages": 7,
-      "pdf_bytes": 207780,
-      "docx_bytes": 46319
+      "pdf_bytes": 208146,
+      "docx_bytes": 46355
     },
     {
       "stem": "rami-dmaur-flutter-en-short",
@@ -40,14 +40,14 @@
     {
       "stem": "rami-dmaur-flutter-ru-short",
       "pages": 2,
-      "pdf_bytes": 113906,
-      "docx_bytes": 40260
+      "pdf_bytes": 114271,
+      "docx_bytes": 40295
     },
     {
       "stem": "rami-dmaur-flutter-ru-full",
       "pages": 6,
-      "pdf_bytes": 189324,
-      "docx_bytes": 45415
+      "pdf_bytes": 189692,
+      "docx_bytes": 45450
     },
     {
       "stem": "rami-dmaur-backend-en-short",
@@ -64,14 +64,14 @@
     {
       "stem": "rami-dmaur-backend-ru-short",
       "pages": 2,
-      "pdf_bytes": 115330,
-      "docx_bytes": 40114
+      "pdf_bytes": 115698,
+      "docx_bytes": 40147
     },
     {
       "stem": "rami-dmaur-backend-ru-full",
       "pages": 4,
-      "pdf_bytes": 143881,
-      "docx_bytes": 42228
+      "pdf_bytes": 144248,
+      "docx_bytes": 42261
     },
     {
       "stem": "rami-dmaur-ml-en-short",
@@ -88,14 +88,14 @@
     {
       "stem": "rami-dmaur-ml-ru-short",
       "pages": 2,
-      "pdf_bytes": 114892,
-      "docx_bytes": 40133
+      "pdf_bytes": 115256,
+      "docx_bytes": 40160
     },
     {
       "stem": "rami-dmaur-ml-ru-full",
       "pages": 3,
-      "pdf_bytes": 124863,
-      "docx_bytes": 41051
+      "pdf_bytes": 125228,
+      "docx_bytes": 41081
     },
     {
       "stem": "rami-dmaur-fullstack-en-short",
@@ -112,14 +112,14 @@
     {
       "stem": "rami-dmaur-fullstack-ru-short",
       "pages": 2,
-      "pdf_bytes": 116263,
-      "docx_bytes": 40256
+      "pdf_bytes": 116628,
+      "docx_bytes": 40292
     },
     {
       "stem": "rami-dmaur-fullstack-ru-full",
       "pages": 5,
-      "pdf_bytes": 162019,
-      "docx_bytes": 43913
+      "pdf_bytes": 162388,
+      "docx_bytes": 43950
     },
     {
       "stem": "rami-dmaur-product-en-short",
@@ -136,14 +136,14 @@
     {
       "stem": "rami-dmaur-product-ru-short",
       "pages": 2,
-      "pdf_bytes": 101675,
-      "docx_bytes": 39662
+      "pdf_bytes": 102041,
+      "docx_bytes": 39698
     },
     {
       "stem": "rami-dmaur-product-ru-full",
       "pages": 2,
-      "pdf_bytes": 107978,
-      "docx_bytes": 40143
+      "pdf_bytes": 108346,
+      "docx_bytes": 40179
     }
   ]
 }

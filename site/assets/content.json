@@ -2,7 +2,10 @@
   "version": 1,
   "updated": "2026-10-27",
   "person": {
-    "name": "Rami Dmaur",
+    "name": {
+      "en": "Rami Dmaur",
+      "ru": "Рами Дмоур"
+    },
     "email": "timurwelike@gmail.com",
     "github": "https://github.com/RamiDmour",
     "telegram": "https://t.me/RamiDmour",
@@ -4148,8 +4151,8 @@
       "location": "Poland · Europe/Warsaw",
       "worktype": "Full-time & contracts",
       "portraitNote": "Curious about the whole system.\nResponsible for the result.",
-      "specializations": "Specializations",
-      "chooseFocus": "One engineer. Choose a focus.",
+      "specializations": "Areas of expertise",
+      "chooseFocus": "Areas of expertise",
       "copyProfile": "Copy profile link",
       "chooseProfile": "Choose profile",
       "sharedHistory": "Same career. Relevant detail.",
@@ -4383,8 +4386,8 @@
       "location": "Польша · Europe/Warsaw",
       "worktype": "Full-time и контракты",
       "portraitNote": "Интересуюсь всей системой.\nОтвечаю за результат.",
-      "specializations": "Специализации",
-      "chooseFocus": "Один инженер. Выберите направление.",
+      "specializations": "Компетенции",
+      "chooseFocus": "Компетенции",
       "copyProfile": "Скопировать ссылку",
       "chooseProfile": "Выбрать профиль",
       "sharedHistory": "Общий опыт. Нужные подробности.",
@@ -4459,7 +4462,7 @@
       "reload": "Обновить страницу",
       "themeDark": "Включить тёмную тему",
       "themeLight": "Включить светлую тему",
-      "home": "Rami Dmaur — главная",
+      "home": "Рами Дмоур — главная",
       "unknownProject": "Проект по этой ссылке не найден. Открыто портфолио.",
       "stages": [
         [
