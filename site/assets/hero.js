@@ -6,15 +6,15 @@
   const local=value=>typeof value==='object'&&value!==null?value[config.lang]??value.en:value;
   const text=key=>config.ui[key];
   const selected=()=>list[index];
-  const media=p=>p.media?.screens?.length?p.media.screens:[{label:{en:'Overview',ru:'Обзор'},layout:'workspace',...(p.image||{})}];
+  const media=p=>window.PortfolioShowcase.getScreens(p);
   const screenIndex=p=>Math.min(screens.get(p.id)||0,media(p).length-1);
   const context=p=>({lang:config.lang,ui:config.ui,eager:p.id===selected()?.id,color:config.colors[config.projects.indexOf(p)%config.colors.length]});
   const content=p=>({...p.hero,...p.hero?.profiles?.[config.profile]});
   function frame(p){return window.PortfolioShowcase.renderDevice(p,media(p)[screenIndex(p)],context(p));}
   function thumbnails(){
     const p=selected(),active=screenIndex(p),icons={documents:'▤',scan:'⊞',search:'⌕',video:'▷',player:'▷',episodes:'▷',finance:'◈',assets:'◈',loans:'↗',coinhold:'◈',research:'⌁',property:'⌂'};
-    root().querySelector('.hero-screen-nav').innerHTML=media(p).map((screen,i)=>`<button type="button" class="hero-screen-choice" data-hero-screen="${i}" aria-pressed="${i===active}" aria-label="${esc(local(screen.label))}"><span class="hero-screen-thumb" aria-hidden="true">${screen.src?`<img src="${esc(screen.src)}" alt="" loading="lazy" draggable="false">`:`<span>${icons[screen.layout]||'⊞'}</span><i></i><i></i>`}</span><span>${esc(local(screen.label))}</span></button>`).join('');
-    root().querySelector('.hero-screen-disclosure').textContent=media(p)[active].src?text('actualScreen'):text('screenSketch');
+    root().querySelector('.hero-screen-nav').innerHTML=media(p).map((screen,i)=>`<button type="button" class="hero-screen-choice" data-hero-screen="${i}" aria-pressed="${i===active}" aria-label="${esc(local(screen.label))}"><span class="hero-screen-thumb" aria-hidden="true">${screen.src?window.PortfolioShowcase.renderCapture(screen,context(p),true):`<span>${icons[screen.layout]||'⊞'}</span><i></i><i></i>`}</span><span>${esc(local(screen.label))}</span></button>`).join('');
+    root().querySelector('.hero-screen-disclosure').innerHTML=window.PortfolioShowcase.disclosure(media(p)[active],context(p));
   }
   function paint(announce=false){
     const p=selected(),copy=content(p),count=list.length;
@@ -45,7 +45,7 @@
   function enlarge(){const p=selected();window.PortfolioShowcase.openScreen(p,screenIndex(p),context(p),chooseScreen);}
   function mount(options){
     const previous=config?.profile===options.profile?selected()?.id:null;config=options;
-    list=options.ids.map(id=>options.projects.find(p=>p.id===id)).filter(Boolean);
+    list=options.ids.map(id=>options.projects.find(p=>p.id===id)).filter(p=>p&&media(p).length);
     if(!list.length){root().hidden=true;return;}root().hidden=false;
     index=Math.max(0,list.findIndex(p=>p.id===previous));
     root().setAttribute('aria-roledescription',text('heroCarouselRole'));

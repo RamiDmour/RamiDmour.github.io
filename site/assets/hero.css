@@ -38,3 +38,11 @@
 
 :root[data-theme=light] .hero-stage-top .mono,:root[data-theme=light] .hero-ownership,:root[data-theme=light] .hero-product-contribution .mono,:root[data-theme=light] .hero-screen-thumb{color:var(--accent)}
 .hero-screen-choice>span:last-child{min-width:0;overflow-wrap:anywhere}
+.hero-screen-nav{flex-wrap:wrap}
+.hero-screen-choice{flex:0 1 calc(33.333% - 7px);max-width:calc(33.333% - 7px)}
+@media(max-width:580px){
+  .hero-screen-choice{flex-basis:calc(50% - 4px);max-width:calc(50% - 4px);justify-content:flex-start;text-align:left;font-size:9px;line-height:1.45}
+  .hero-screen-choice>span:last-child{overflow-wrap:normal}
+}
+.hero:has(#hero-showcase[hidden]){grid-template-columns:minmax(0,780px);justify-content:start}
+.hero:has(#hero-showcase[hidden]) .hero-copy{padding-top:0}

@@ -686,23 +686,110 @@
           {
             "layout": "documents",
             "label": {
-              "en": "Documents",
-              "ru": "Документы"
-            }
+              "en": "Document library",
+              "ru": "Библиотека документов"
+            },
+            "src": "assets/projects/scanchamp-figma-library.png",
+            "alt": {
+              "en": "scanchamp: Document library",
+              "ru": "scanchamp: Библиотека документов"
+            },
+            "width": 402,
+            "height": 874,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=5535-37214"
           },
           {
             "layout": "scan",
             "label": {
-              "en": "Camera",
-              "ru": "Камера"
-            }
+              "en": "Document scanning",
+              "ru": "Сканирование документа"
+            },
+            "src": "assets/projects/scanchamp-figma-camera.png",
+            "alt": {
+              "en": "scanchamp: Document scanning",
+              "ru": "scanchamp: Сканирование документа"
+            },
+            "width": 402,
+            "height": 874,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=2803-20399"
+          },
+          {
+            "layout": "scan",
+            "label": {
+              "en": "Image enhancement",
+              "ru": "Улучшение изображения"
+            },
+            "src": "assets/projects/scanchamp-figma-filters.png",
+            "alt": {
+              "en": "scanchamp: Image enhancement",
+              "ru": "scanchamp: Улучшение изображения"
+            },
+            "width": 602,
+            "height": 1074,
+            "sourceType": "figma",
+            "crop": {
+              "x": 100,
+              "y": 100,
+              "width": 402,
+              "height": 874
+            },
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3406-25852"
+          },
+          {
+            "layout": "scan",
+            "label": {
+              "en": "Perspective correction",
+              "ru": "Коррекция перспективы"
+            },
+            "src": "assets/projects/scanchamp-figma-crop.png",
+            "alt": {
+              "en": "scanchamp: Perspective correction",
+              "ru": "scanchamp: Коррекция перспективы"
+            },
+            "width": 602,
+            "height": 1074,
+            "sourceType": "figma",
+            "crop": {
+              "x": 100,
+              "y": 200,
+              "width": 402,
+              "height": 874
+            },
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3406-26250"
           },
           {
             "layout": "search",
             "label": {
-              "en": "PDF search",
-              "ru": "Поиск по PDF"
-            }
+              "en": "Text recognition",
+              "ru": "Распознавание текста"
+            },
+            "src": "assets/projects/scanchamp-figma-ocr.png",
+            "alt": {
+              "en": "scanchamp: Text recognition",
+              "ru": "scanchamp: Распознавание текста"
+            },
+            "width": 402,
+            "height": 874,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3113-18478"
+          },
+          {
+            "layout": "search",
+            "label": {
+              "en": "Search inside PDFs",
+              "ru": "Поиск внутри PDF"
+            },
+            "src": "assets/projects/scanchamp-figma-search.png",
+            "alt": {
+              "en": "scanchamp: Search inside PDFs",
+              "ru": "scanchamp: Поиск внутри PDF"
+            },
+            "width": 402,
+            "height": 874,
+            "sourceType": "figma",
+            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3099-17577"
           }
         ]
       }
@@ -810,25 +897,70 @@
         "theme": "cinema",
         "screens": [
           {
-            "layout": "video",
+            "layout": "player",
             "label": {
-              "en": "Discover",
-              "ru": "Сериалы"
-            }
+              "en": "Discover series",
+              "ru": "Каталог сериалов"
+            },
+            "src": "assets/projects/shortly-aitv_2.webp",
+            "alt": {
+              "en": "shortly: Discover series",
+              "ru": "shortly: Каталог сериалов"
+            },
+            "width": 1242,
+            "height": 2208,
+            "sourceType": "store",
+            "crop": {
+              "x": 248,
+              "y": 470,
+              "width": 744,
+              "height": 1606
+            },
+            "sourceUrl": "https://apps.apple.com/app/id6740913417"
           },
           {
             "layout": "player",
             "label": {
-              "en": "Watch",
-              "ru": "Просмотр"
-            }
+              "en": "Video player",
+              "ru": "Видеоплеер"
+            },
+            "src": "assets/projects/shortly-aitv_1.webp",
+            "alt": {
+              "en": "shortly: Video player",
+              "ru": "shortly: Видеоплеер"
+            },
+            "width": 1242,
+            "height": 2208,
+            "sourceType": "store",
+            "crop": {
+              "x": 248,
+              "y": 470,
+              "width": 744,
+              "height": 1606
+            },
+            "sourceUrl": "https://apps.apple.com/app/id6740913417"
           },
           {
-            "layout": "episodes",
+            "layout": "player",
             "label": {
-              "en": "Episodes",
-              "ru": "Эпизоды"
-            }
+              "en": "Saved series",
+              "ru": "Сохранённые сериалы"
+            },
+            "src": "assets/projects/shortly-aitv_3.webp",
+            "alt": {
+              "en": "shortly: Saved series",
+              "ru": "shortly: Сохранённые сериалы"
+            },
+            "width": 1242,
+            "height": 2208,
+            "sourceType": "store",
+            "crop": {
+              "x": 248,
+              "y": 470,
+              "width": 744,
+              "height": 1606
+            },
+            "sourceUrl": "https://apps.apple.com/app/id6740913417"
           }
         ]
       }
@@ -908,25 +1040,70 @@
         "theme": "finance",
         "screens": [
           {
-            "layout": "loans",
+            "layout": "finance",
             "label": {
-              "en": "Loans",
-              "ru": "Loans"
-            }
+              "en": "Crypto-backed borrowing",
+              "ru": "Займы под залог криптовалюты"
+            },
+            "src": "assets/projects/emcd-play-05.png",
+            "alt": {
+              "en": "emcd: Crypto-backed borrowing",
+              "ru": "emcd: Займы под залог криптовалюты"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "crop": {
+              "x": 220,
+              "y": 496,
+              "width": 640,
+              "height": 1374
+            },
+            "sourceUrl": "https://play.google.com/store/apps/details?id=io.emcd.emcd_flutter.prod&hl=en&gl=US"
           },
           {
-            "layout": "coinhold",
+            "layout": "finance",
             "label": {
               "en": "Coinhold",
               "ru": "Coinhold"
-            }
+            },
+            "src": "assets/projects/emcd-play-04.png",
+            "alt": {
+              "en": "emcd: Coinhold",
+              "ru": "emcd: Coinhold"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "crop": {
+              "x": 220,
+              "y": 496,
+              "width": 640,
+              "height": 1374
+            },
+            "sourceUrl": "https://play.google.com/store/apps/details?id=io.emcd.emcd_flutter.prod&hl=en&gl=US"
           },
           {
-            "layout": "assets",
+            "layout": "finance",
             "label": {
-              "en": "Assets",
-              "ru": "Активы"
-            }
+              "en": "Wallet overview",
+              "ru": "Обзор кошелька"
+            },
+            "src": "assets/projects/emcd-play-02.png",
+            "alt": {
+              "en": "emcd: Wallet overview",
+              "ru": "emcd: Обзор кошелька"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "crop": {
+              "x": 220,
+              "y": 496,
+              "width": 640,
+              "height": 1374
+            },
+            "sourceUrl": "https://play.google.com/store/apps/details?id=io.emcd.emcd_flutter.prod&hl=en&gl=US"
           }
         ]
       }
@@ -1204,24 +1381,27 @@
         "theme": "finance",
         "screens": [
           {
-            "layout": "market",
+            "layout": "octy-intro",
+            "kind": "concept",
             "label": {
-              "en": "Marketplace",
-              "ru": "Маркетплейс"
+              "en": "Crypto marketplace",
+              "ru": "Криптомаркетплейс"
             }
           },
           {
-            "layout": "video",
+            "layout": "octy-feed",
+            "kind": "concept",
             "label": {
-              "en": "Video feed",
-              "ru": "Видеолента"
+              "en": "Video shopping",
+              "ru": "Покупки через видео"
             }
           },
           {
-            "layout": "assets",
+            "layout": "octy-game",
+            "kind": "concept",
             "label": {
-              "en": "Wallet",
-              "ru": "Кошелёк"
+              "en": "Crypto Match-3",
+              "ru": "Crypto Match-3"
             }
           }
         ]
@@ -1370,29 +1550,7 @@
       "media": {
         "device": "phone",
         "theme": "property",
-        "screens": [
-          {
-            "layout": "property",
-            "label": {
-              "en": "Properties",
-              "ru": "Недвижимость"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Deal",
-              "ru": "Сделка"
-            }
-          },
-          {
-            "layout": "finance",
-            "label": {
-              "en": "Escrow",
-              "ru": "Escrow"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -1458,29 +1616,7 @@
       "media": {
         "device": "phone",
         "theme": "finance",
-        "screens": [
-          {
-            "layout": "assets",
-            "label": {
-              "en": "Wallet",
-              "ru": "Кошелёк"
-            }
-          },
-          {
-            "layout": "finance",
-            "label": {
-              "en": "Transfers",
-              "ru": "Переводы"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Activity",
-              "ru": "Операции"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -1530,25 +1666,38 @@
         "theme": "workspace",
         "screens": [
           {
-            "layout": "workspace",
+            "layout": "market",
             "label": {
-              "en": "Workspace",
-              "ru": "Работа"
-            }
+              "en": "Payslips",
+              "ru": "Расчётные листы"
+            },
+            "src": "assets/projects/success-craft-apple-03.webp",
+            "alt": {
+              "en": "success-craft: Payslips",
+              "ru": "success-craft: Расчётные листы"
+            },
+            "width": 1242,
+            "height": 2208,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://apps.apple.com/us/app/tigris-work-vacancies/id1612461379?uo=4"
           },
           {
-            "layout": "workspace",
+            "layout": "market",
             "label": {
-              "en": "Documents",
-              "ru": "Документы"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Planning",
-              "ru": "Планирование"
-            }
+              "en": "Time reporting",
+              "ru": "Учёт рабочего времени"
+            },
+            "src": "assets/projects/success-craft-apple-04.webp",
+            "alt": {
+              "en": "success-craft: Time reporting",
+              "ru": "success-craft: Учёт рабочего времени"
+            },
+            "width": 1242,
+            "height": 2208,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://apps.apple.com/us/app/tigris-work-vacancies/id1612461379?uo=4"
           }
         ]
       }
@@ -1619,23 +1768,68 @@
           {
             "layout": "property",
             "label": {
-              "en": "Home",
-              "ru": "Главная"
-            }
+              "en": "Mortgage rates",
+              "ru": "Ипотечные ставки"
+            },
+            "src": "assets/projects/dwella-dwella_1.webp",
+            "alt": {
+              "en": "dwella: Mortgage rates",
+              "ru": "dwella: Ипотечные ставки"
+            },
+            "width": 600,
+            "height": 1299,
+            "sourceType": "store",
+            "crop": {
+              "x": 74,
+              "y": 250,
+              "width": 452,
+              "height": 968
+            },
+            "sourceUrl": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter"
           },
           {
-            "layout": "workspace",
+            "layout": "property",
             "label": {
-              "en": "Mortgage",
-              "ru": "Ипотека"
-            }
+              "en": "AI copilot",
+              "ru": "AI-помощник"
+            },
+            "src": "assets/projects/dwella-dwella_2.webp",
+            "alt": {
+              "en": "dwella: AI copilot",
+              "ru": "dwella: AI-помощник"
+            },
+            "width": 600,
+            "height": 1299,
+            "sourceType": "store",
+            "crop": {
+              "x": 74,
+              "y": 250,
+              "width": 452,
+              "height": 968
+            },
+            "sourceUrl": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter"
           },
           {
-            "layout": "workspace",
+            "layout": "property",
             "label": {
-              "en": "Calculator",
-              "ru": "Калькулятор"
-            }
+              "en": "Readiness score",
+              "ru": "Индекс готовности"
+            },
+            "src": "assets/projects/dwella-dwella_3.webp",
+            "alt": {
+              "en": "dwella: Readiness score",
+              "ru": "dwella: Индекс готовности"
+            },
+            "width": 600,
+            "height": 1299,
+            "sourceType": "store",
+            "crop": {
+              "x": 74,
+              "y": 250,
+              "width": 452,
+              "height": 968
+            },
+            "sourceUrl": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter"
           }
         ]
       }
@@ -1689,23 +1883,50 @@
           {
             "layout": "postal",
             "label": {
-              "en": "Parcels",
-              "ru": "Отправления"
-            }
+              "en": "Parcels and tracking",
+              "ru": "Отправления и отслеживание"
+            },
+            "src": "assets/projects/belpost-play-03.png",
+            "alt": {
+              "en": "belpost: Parcels and tracking",
+              "ru": "belpost: Отправления и отслеживание"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=by.naveksoft.belpost&hl=en&gl=US"
           },
           {
-            "layout": "workspace",
+            "layout": "postal",
             "label": {
-              "en": "Tracking",
-              "ru": "Отслеживание"
-            }
+              "en": "Create a shipment",
+              "ru": "Оформление отправления"
+            },
+            "src": "assets/projects/belpost-play-04.png",
+            "alt": {
+              "en": "belpost: Create a shipment",
+              "ru": "belpost: Оформление отправления"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=by.naveksoft.belpost&hl=en&gl=US"
           },
           {
-            "layout": "workspace",
+            "layout": "postal",
             "label": {
-              "en": "Services",
-              "ru": "Услуги"
-            }
+              "en": "Postal services",
+              "ru": "Почтовые услуги"
+            },
+            "src": "assets/projects/belpost-play-05.png",
+            "alt": {
+              "en": "belpost: Postal services",
+              "ru": "belpost: Почтовые услуги"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=by.naveksoft.belpost&hl=en&gl=US"
           }
         ]
       }
@@ -1756,25 +1977,38 @@
         "theme": "property",
         "screens": [
           {
-            "layout": "property",
+            "layout": "market",
             "label": {
-              "en": "Auctions",
-              "ru": "Аукционы"
-            }
+              "en": "Live bidding",
+              "ru": "Торги в реальном времени"
+            },
+            "src": "assets/projects/rad-apple-05.webp",
+            "alt": {
+              "en": "rad: Live bidding",
+              "ru": "rad: Торги в реальном времени"
+            },
+            "width": 1240,
+            "height": 2688,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://apps.apple.com/us/app/%D1%8D%D1%82%D0%BF-%D1%80%D0%B0%D0%B4-lot-online-ru/id1600503389?uo=4"
           },
           {
-            "layout": "workspace",
+            "layout": "market",
             "label": {
-              "en": "Map",
-              "ru": "Карта"
-            }
-          },
-          {
-            "layout": "property",
-            "label": {
-              "en": "Listing",
-              "ru": "Объявление"
-            }
+              "en": "Price dynamics",
+              "ru": "Динамика цены"
+            },
+            "src": "assets/projects/rad-apple-03.webp",
+            "alt": {
+              "en": "rad: Price dynamics",
+              "ru": "rad: Динамика цены"
+            },
+            "width": 1240,
+            "height": 2688,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://apps.apple.com/us/app/%D1%8D%D1%82%D0%BF-%D1%80%D0%B0%D0%B4-lot-online-ru/id1600503389?uo=4"
           }
         ]
       }
@@ -1828,23 +2062,36 @@
           {
             "layout": "market",
             "label": {
-              "en": "Catalog",
-              "ru": "Каталог"
-            }
+              "en": "Product catalog",
+              "ru": "Каталог товаров"
+            },
+            "src": "assets/projects/groshyk-play-05.png",
+            "alt": {
+              "en": "groshyk: Product catalog",
+              "ru": "groshyk: Каталог товаров"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=by.groshik.app&hl=en&gl=US"
           },
           {
-            "layout": "workspace",
+            "layout": "market",
             "label": {
-              "en": "Offers",
-              "ru": "Предложения"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Profile",
-              "ru": "Профиль"
-            }
+              "en": "Barcode scanner",
+              "ru": "Сканер товаров"
+            },
+            "src": "assets/projects/groshyk-play-07.png",
+            "alt": {
+              "en": "groshyk: Barcode scanner",
+              "ru": "groshyk: Сканер товаров"
+            },
+            "width": 1080,
+            "height": 1920,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=by.groshik.app&hl=en&gl=US"
           }
         ]
       }
@@ -1898,23 +2145,36 @@
           {
             "layout": "market",
             "label": {
-              "en": "Catalog",
-              "ru": "Каталог"
-            }
+              "en": "Product catalog",
+              "ru": "Каталог товаров"
+            },
+            "src": "assets/projects/chesnok-play-03.png",
+            "alt": {
+              "en": "chesnok: Product catalog",
+              "ru": "chesnok: Каталог товаров"
+            },
+            "width": 1080,
+            "height": 1743,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=ru.chesnok.app&hl=en&gl=US"
           },
           {
-            "layout": "workspace",
+            "layout": "market",
             "label": {
-              "en": "Offers",
-              "ru": "Предложения"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Profile",
-              "ru": "Профиль"
-            }
+              "en": "Barcode scanner",
+              "ru": "Сканер товаров"
+            },
+            "src": "assets/projects/chesnok-play-05.png",
+            "alt": {
+              "en": "chesnok: Barcode scanner",
+              "ru": "chesnok: Сканер товаров"
+            },
+            "width": 1080,
+            "height": 1746,
+            "sourceType": "store",
+            "presentation": "poster",
+            "sourceUrl": "https://play.google.com/store/apps/details?id=ru.chesnok.app&hl=en&gl=US"
           }
         ]
       }
@@ -1996,29 +2256,7 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Activity",
-              "ru": "Активность"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Nutrition",
-              "ru": "Питание"
-            }
-          },
-          {
-            "layout": "research",
-            "label": {
-              "en": "Overview",
-              "ru": "Обзор"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2107,29 +2345,7 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Assistant",
-              "ru": "Помощник"
-            }
-          },
-          {
-            "layout": "documents",
-            "label": {
-              "en": "Documents",
-              "ru": "Документы"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Editor",
-              "ru": "Редактор"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2174,29 +2390,7 @@
       "media": {
         "device": "phone",
         "theme": "cinema",
-        "screens": [
-          {
-            "layout": "video",
-            "label": {
-              "en": "Stories",
-              "ru": "Истории"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Editor",
-              "ru": "Редактор"
-            }
-          },
-          {
-            "layout": "video",
-            "label": {
-              "en": "Library",
-              "ru": "Библиотека"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2241,29 +2435,7 @@
       "media": {
         "device": "phone",
         "theme": "finance",
-        "screens": [
-          {
-            "layout": "finance",
-            "label": {
-              "en": "Overview",
-              "ru": "Обзор"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Portfolio",
-              "ru": "Портфель"
-            }
-          },
-          {
-            "layout": "research",
-            "label": {
-              "en": "Insights",
-              "ru": "Аналитика"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2307,29 +2479,7 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Overview",
-              "ru": "Обзор"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Workspace",
-              "ru": "Рабочее пространство"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Profile",
-              "ru": "Профиль"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2376,29 +2526,7 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Clinics",
-              "ru": "Клиники"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Map",
-              "ru": "Карта"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Profile",
-              "ru": "Профиль"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2443,29 +2571,7 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Workspace",
-              "ru": "Рабочее пространство"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Chat",
-              "ru": "Чат"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Calls",
-              "ru": "Звонки"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2509,29 +2615,7 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "learning",
-            "label": {
-              "en": "Learn",
-              "ru": "Обучение"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Practice",
-              "ru": "Практика"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Progress",
-              "ru": "Прогресс"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2617,29 +2701,7 @@
       "media": {
         "device": "browser",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "search",
-            "label": {
-              "en": "Document search",
-              "ru": "Поиск документов"
-            }
-          },
-          {
-            "layout": "documents",
-            "label": {
-              "en": "Results",
-              "ru": "Результаты"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Workspace",
-              "ru": "Рабочее пространство"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2683,29 +2745,7 @@
       "media": {
         "device": "browser",
         "theme": "research",
-        "screens": [
-          {
-            "layout": "research",
-            "label": {
-              "en": "Video analysis",
-              "ru": "Видеоаналитика"
-            }
-          },
-          {
-            "layout": "research",
-            "label": {
-              "en": "Stream",
-              "ru": "Видеопоток"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Overview",
-              "ru": "Обзор"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2771,29 +2811,7 @@
       "media": {
         "device": "browser",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Connected device",
-              "ru": "Устройство"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Voice control",
-              "ru": "Голосовое управление"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Integration",
-              "ru": "Интеграция"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -2901,29 +2919,7 @@
       "media": {
         "device": "browser",
         "theme": "research",
-        "screens": [
-          {
-            "layout": "research",
-            "label": {
-              "en": "Image analysis",
-              "ru": "Анализ изображений"
-            }
-          },
-          {
-            "layout": "research",
-            "label": {
-              "en": "Evaluation",
-              "ru": "Оценка моделей"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Batch processing",
-              "ru": "Пакетная обработка"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -3059,29 +3055,7 @@
       "media": {
         "device": "phone",
         "theme": "research",
-        "screens": [
-          {
-            "layout": "research",
-            "label": {
-              "en": "Sensor recording",
-              "ru": "Запись сенсоров"
-            }
-          },
-          {
-            "layout": "research",
-            "label": {
-              "en": "Signal",
-              "ru": "Сигнал"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Screening",
-              "ru": "Скрининг"
-            }
-          }
-        ]
+        "screens": []
       }
     },
     {
@@ -3235,29 +3209,7 @@
       "media": {
         "device": "browser",
         "theme": "workspace",
-        "screens": [
-          {
-            "layout": "learning",
-            "label": {
-              "en": "Learning",
-              "ru": "Обучение"
-            }
-          },
-          {
-            "layout": "workspace",
-            "label": {
-              "en": "Exercises",
-              "ru": "Задания"
-            }
-          },
-          {
-            "layout": "video",
-            "label": {
-              "en": "Video lessons",
-              "ru": "Видеоуроки"
-            }
-          }
-        ]
+        "screens": []
       }
     }
   ],
@@ -3677,7 +3629,36 @@
       "heroScreens": "Screens",
       "heroContribution": "What I owned",
       "heroCatalog": "Explore the full catalog",
-      "heroSwipe": "Swipe or use the arrows"
+      "heroSwipe": "Swipe or use the arrows",
+      "storeScreen": "Store visual · current product version; my contribution is described below.",
+      "figmaScreen": "Interface design exported from Figma",
+      "ndaConcept": "Illustrative concept · original interface under NDA",
+      "mediaSource": "Source",
+      "octyTagline": "Find it. Love it. Make it yours.",
+      "octyIntro": "Video shopping meets crypto.",
+      "octyExplore": "Explore the marketplace",
+      "octyEarn": "Play. Unlock rewards.",
+      "octyEarnText": "Mini-games with a loyalty system",
+      "octyWallet": "Your crypto, one wallet",
+      "octyWalletText": "BTC · ETH · TON · USDT",
+      "octyDemo": "Concept preview",
+      "octyForYou": "For you",
+      "octyFollowing": "Following",
+      "octyProduct": "Studio headphones",
+      "octyProductDetail": "Sound you can feel.",
+      "octyBuy": "View product",
+      "octyPrice": "Demo price",
+      "octyShop": "Shop",
+      "octyGames": "Play",
+      "octyBalance": "Wallet",
+      "octyProfile": "Profile",
+      "octyGameTag": "Match. Collect. Repeat.",
+      "octyScore": "Score",
+      "octyTime": "Time",
+      "octyGoal": "Match 3 tokens to score points",
+      "octyReady": "Ready to play?",
+      "octyStart": "Start game",
+      "octyNoLive": "Visual demo · no real purchases or rewards"
     },
     "ru": {
       "skip": "Перейти к содержимому",
@@ -3877,7 +3858,36 @@
       "heroScreens": "Экраны",
       "heroContribution": "За что отвечал",
       "heroCatalog": "Весь каталог проектов",
-      "heroSwipe": "Листайте свайпом или стрелками"
+      "heroSwipe": "Листайте свайпом или стрелками",
+      "storeScreen": "Визуал из магазина · актуальная версия продукта; мой вклад описан ниже.",
+      "figmaScreen": "Дизайн интерфейса из Figma",
+      "ndaConcept": "Демонстрационный макет · оригинальный интерфейс под NDA",
+      "mediaSource": "Источник",
+      "octyTagline": "Увидел. Влюбился. Купил.",
+      "octyIntro": "Видеошопинг встречается с криптой.",
+      "octyExplore": "Открыть маркетплейс",
+      "octyEarn": "Играй. Открывай награды.",
+      "octyEarnText": "Мини-игры с системой лояльности",
+      "octyWallet": "Твоя крипта в одном кошельке",
+      "octyWalletText": "BTC · ETH · TON · USDT",
+      "octyDemo": "Демонстрационный макет",
+      "octyForYou": "Для тебя",
+      "octyFollowing": "Подписки",
+      "octyProduct": "Студийные наушники",
+      "octyProductDetail": "Звук, который чувствуешь.",
+      "octyBuy": "Смотреть товар",
+      "octyPrice": "Пример цены",
+      "octyShop": "Магазин",
+      "octyGames": "Игры",
+      "octyBalance": "Кошелёк",
+      "octyProfile": "Профиль",
+      "octyGameTag": "Собирай. Совмещай. Повторяй.",
+      "octyScore": "Очки",
+      "octyTime": "Время",
+      "octyGoal": "Собирай по 3 токена и набирай очки",
+      "octyReady": "Готов к игре?",
+      "octyStart": "Начать игру",
+      "octyNoLive": "Макет · без реальных покупок и наград"
     }
   }
 }
