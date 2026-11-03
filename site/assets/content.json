@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-11-03",
   "person": {
     "name": {
       "en": "Rami Dmaur",
@@ -47,8 +47,8 @@
         "ru": "Моя основная экспертиза — Flutter. Также разрабатываю backend, интегрирую ML и руковожу небольшими командами: могу отвечать за приложение и решения, связывающие весь продукт."
       },
       "summary": {
-        "en": "Software Engineer with 7+ years of commercial experience and around 6 years working with Flutter. Experience includes TypeScript/Node.js and Python backend development, applied ML, architecture and leading small teams. Built products from scratch, delivered financial features and modernized legacy applications.",
-        "ru": "Software Engineer с 7+ годами коммерческого опыта и около 6 лет работы с Flutter. Опыт включает backend на TypeScript/Node.js и Python, прикладной ML, архитектуру и руководство небольшими командами. Создавал продукты с нуля, выпускал финансовые функции и модернизировал legacy-приложения."
+        "en": "Software Engineer with 7+ years of commercial experience and around 6 years working with Flutter. Senior Flutter expertise, Middle-level Backend and Android, and Junior-level applied ML. Experience in architecture and leading small teams; built financial features and modernized legacy applications.",
+        "ru": "Software Engineer с 7+ годами коммерческого опыта и около 6 лет работы с Flutter. Основная экспертиза — Senior Flutter; Backend и Android — Middle, прикладной ML — Junior. Архитектура и руководство небольшими командами, финансовые сценарии и модернизация legacy-приложений."
       },
       "skills": [
         "Flutter / Dart",
@@ -74,8 +74,8 @@
         "ru": "Software Engineer"
       },
       "focusLabel": {
-        "en": "Senior Flutter · Backend · Applied ML · Technical leadership",
-        "ru": "Senior Flutter · Backend · Прикладной ML · Руководство"
+        "en": "Senior Flutter · Middle Backend · Middle Android · Junior Applied ML · Technical leadership",
+        "ru": "Senior Flutter · Middle Backend · Middle Android · Junior ML · Руководство"
       },
       "fit": {
         "en": "Building a product from scratch, evolving a complex mobile app or connecting mobile, backend and ML.",
@@ -87,7 +87,21 @@
         "shortly",
         "octy",
         "dwella"
-      ]
+      ],
+      "sitePitch": {
+        "title": {
+          "en": "Complex products.",
+          "ru": "Беру ответственность"
+        },
+        "accent": {
+          "en": "Clear ownership.",
+          "ru": "за сложный продукт."
+        },
+        "intro": {
+          "en": "Flutter applications, backend services and ML integration. I make architecture decisions, work through complex parts of a system and help the team turn them into working software.",
+          "ru": "Flutter-приложения, серверные сервисы и ML-интеграции. Принимаю архитектурные решения, разбираюсь в сложных участках системы и помогаю команде довести их до реализации."
+        }
+      }
     },
     "flutter": {
       "label": {
@@ -134,8 +148,8 @@
         "ru": "Senior Flutter Engineer"
       },
       "focusLabel": {
-        "en": "Senior Flutter · Native integrations · Architecture",
-        "ru": "Senior Flutter · Нативные интеграции · Архитектура"
+        "en": "Senior Flutter · Middle Android · Native integrations · Architecture",
+        "ru": "Senior Flutter · Middle Android · Нативные интеграции · Архитектура"
       },
       "fit": {
         "en": "Complex Flutter products: camera and image processing, financial workflows, performance and legacy migrations.",
@@ -147,7 +161,21 @@
         "shortly",
         "meetpay",
         "dwella"
-      ]
+      ],
+      "sitePitch": {
+        "title": {
+          "en": "Flutter for",
+          "ru": "Flutter для"
+        },
+        "accent": {
+          "en": "demanding products.",
+          "ru": "сложных продуктов."
+        },
+        "intro": {
+          "en": "Camera and image processing, financial workflows and native integrations. I evolve architecture, resolve performance problems and modernize legacy code.",
+          "ru": "Камера и обработка изображений, финансовые сценарии, нативные интеграции. Развиваю архитектуру, устраняю проблемы производительности и модернизирую legacy-код."
+        }
+      }
     },
     "backend": {
       "label": {
@@ -167,8 +195,8 @@
         "ru": "API, модели данных и сервисы в контексте всей системы. Опыт мобильной разработки помогает проектировать взаимодействие сервера с приложением и пользователем."
       },
       "summary": {
-        "en": "Software Engineer with backend development experience in TypeScript/Node.js and Python. Designed APIs and data models, implemented financial operations, multi-chain integrations, escrow workflows and document sharing. Experience with NestJS, Fastify, FastAPI, Flask, PostgreSQL, Redis and Docker.",
-        "ru": "Software Engineer с опытом backend-разработки на TypeScript/Node.js и Python. Проектировал API и модели данных, реализовывал финансовые операции, multi-chain-интеграции, escrow и обмен документами. Работал с NestJS, Fastify, FastAPI, Flask, PostgreSQL, Redis и Docker."
+        "en": "Middle Backend Engineer with experience in TypeScript/Node.js and Python. Designed APIs and data models, implemented financial operations, multi-chain integrations, escrow workflows and document sharing. Experience with NestJS, Fastify, FastAPI, Flask, PostgreSQL, Redis and Docker.",
+        "ru": "Middle Backend Engineer с опытом разработки на TypeScript/Node.js и Python. Проектировал API и модели данных, реализовывал финансовые операции, multi-chain-интеграции, escrow и обмен документами. Работал с NestJS, Fastify, FastAPI, Flask, PostgreSQL, Redis и Docker."
       },
       "skills": [
         "TypeScript / Node.js",
@@ -190,12 +218,12 @@
         "iot"
       ],
       "resumeTitle": {
-        "en": "Backend Engineer",
-        "ru": "Backend Engineer"
+        "en": "Middle Backend Engineer",
+        "ru": "Middle Backend Engineer"
       },
       "focusLabel": {
-        "en": "TypeScript / Python · APIs · Data models",
-        "ru": "TypeScript / Python · API · Модели данных"
+        "en": "Middle Backend · TypeScript / Python · APIs · Data models",
+        "ru": "Middle Backend · TypeScript / Python · API · Модели данных"
       },
       "fit": {
         "en": "APIs and services for financial operations, marketplaces and document workflows, designed with the client application in mind.",
@@ -218,7 +246,21 @@
         "scanchamp",
         "workfusion",
         "ai-lawyer"
-      ]
+      ],
+      "sitePitch": {
+        "title": {
+          "en": "Backend for",
+          "ru": "Backend для"
+        },
+        "accent": {
+          "en": "complex operations.",
+          "ru": "сложных операций."
+        },
+        "intro": {
+          "en": "APIs, data models, transactions and integrations. Built financial workflows, escrow transactions and document-sharing services with the mobile client in mind.",
+          "ru": "API, модели данных, транзакции и интеграции. Реализовывал финансовые сценарии, escrow-сделки и обмен документами с учётом работы мобильного клиента."
+        }
+      }
     },
     "ml": {
       "label": {
@@ -238,8 +280,8 @@
         "ru": "Компьютерное зрение, OCR и оценка моделей в прикладных системах. Исследую данные, сравниваю подходы и учитываю ограничения интеграции на устройствах."
       },
       "summary": {
-        "en": "Software Engineer with applied ML experience in computer vision, OCR, dataset preparation, model evaluation and mobile inference integration. Developed reinforcement learning models with TensorFlow/Keras and educational vision and sensor classifiers. Combines ML research with application engineering.",
-        "ru": "Software Engineer с опытом прикладного ML: компьютерное зрение, OCR, подготовка датасетов, оценка моделей и мобильный inference. Разрабатывал RL-модели на TensorFlow/Keras и учебные классификаторы изображений и сенсорных данных. Соединяю исследование моделей с разработкой приложений."
+        "en": "Applied ML at Junior level, supported by software engineering experience. Computer vision, OCR, datasets, model evaluation and mobile inference. Developed reinforcement learning models with TensorFlow/Keras and educational vision and sensor classifiers; integrated models into applications.",
+        "ru": "Прикладной ML на уровне Junior с опытом разработки ПО. Компьютерное зрение, OCR, датасеты, оценка моделей и мобильный inference. RL-модели на TensorFlow/Keras, учебные классификаторы изображений и сенсорных данных, интеграция моделей в приложения."
       },
       "skills": [
         "Computer vision / OCR",
@@ -259,12 +301,12 @@
         "crowd"
       ],
       "resumeTitle": {
-        "en": "Software Engineer Applied ML",
-        "ru": "Software Engineer Applied ML"
+        "en": "Junior Applied ML Engineer",
+        "ru": "Junior Applied ML Engineer"
       },
       "focusLabel": {
-        "en": "Computer vision · OCR · Mobile inference",
-        "ru": "Компьютерное зрение · OCR · Мобильный inference"
+        "en": "Junior Applied ML · Computer vision · OCR · Mobile inference",
+        "ru": "Junior ML · Компьютерное зрение · OCR · Мобильный inference"
       },
       "fit": {
         "en": "Computer vision and OCR in applications: dataset preparation, model comparison, runtime integration and performance diagnostics.",
@@ -283,7 +325,21 @@
         "foot-neuro",
         "tremor",
         "ct-teacher"
-      ]
+      ],
+      "sitePitch": {
+        "title": {
+          "en": "Applied ML.",
+          "ru": "Прикладной ML."
+        },
+        "accent": {
+          "en": "Inside the product.",
+          "ru": "Внутри продукта."
+        },
+        "intro": {
+          "en": "Computer vision and OCR: from dataset preparation and model comparison to on-device inference. I connect research with integration and performance diagnostics.",
+          "ru": "Компьютерное зрение и OCR: от подготовки датасета и сравнения моделей до inference на устройстве. Соединяю исследование с интеграцией и диагностикой производительности."
+        }
+      }
     },
     "fullstack": {
       "label": {
@@ -330,8 +386,8 @@
         "ru": "Full Stack Engineer"
       },
       "focusLabel": {
-        "en": "Mobile · APIs · Data · Technical leadership",
-        "ru": "Mobile · API · Данные · Руководство"
+        "en": "Senior Flutter · Middle Backend · Middle Android · Junior Applied ML · Technical leadership",
+        "ru": "Senior Flutter · Middle Backend · Middle Android · Junior ML · Руководство"
       },
       "fit": {
         "en": "A mobile product and its backend, taken from architecture to implementation with technical leadership for a small team.",
@@ -343,7 +399,21 @@
         "onetouch",
         "ai-lawyer",
         "ct-teacher"
-      ]
+      ],
+      "sitePitch": {
+        "title": {
+          "en": "Mobile and backend.",
+          "ru": "Клиент и сервер."
+        },
+        "accent": {
+          "en": "Designed together.",
+          "ru": "Как единая система."
+        },
+        "intro": {
+          "en": "Design Flutter clients and APIs together: data, financial operations, documents and AI integration. Take responsibility for technical decisions and coordinate implementation within a small team.",
+          "ru": "Проектирую Flutter-приложения и API вместе: данные, финансовые операции, документы и AI-интеграции. Беру на себя технические решения и организацию реализации небольшой командой."
+        }
+      }
     },
     "product": {
       "label": {
@@ -423,6 +493,20 @@
       "skillsTitle": {
         "en": "Core competencies",
         "ru": "Ключевые компетенции"
+      },
+      "sitePitch": {
+        "title": {
+          "en": "Product direction.",
+          "ru": "Соединяю продукт"
+        },
+        "accent": {
+          "en": "Technical delivery.",
+          "ru": "и разработку."
+        },
+        "intro": {
+          "en": "Work directly with founders, translate product needs into implementation plans and form development teams. Experience includes Octy, OneTouch and my personal AI/EdTech prototype CT Teacher.",
+          "ru": "Работаю напрямую с фаундерами, превращаю продуктовые задачи в план реализации и формирую команду. Опыт — Octy, OneTouch и собственный AI/EdTech-прототип CT Teacher."
+        }
       }
     }
   },
