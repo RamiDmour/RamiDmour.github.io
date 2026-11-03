@@ -65,6 +65,7 @@
 .poster-frame{border-radius:12px;padding:3px;background:var(--panel);box-shadow:0 14px 30px #0003;border-color:var(--line)}
 .poster-frame .device-screen{border-radius:8px}
 .gallery-disclosure a,.hero-screen-disclosure a{white-space:nowrap;text-decoration:underline;text-underline-offset:3px;color:inherit}
+.gallery-disclosure:empty,.hero-screen-disclosure:empty{display:none}
 .project-card.featured:not(:has(.project-gallery)){grid-template-columns:1fr}
 .project-card:not(:has(.project-gallery)) .project-body{padding-block:36px}
 .hero-screen-thumb>.capture-viewport{display:block;position:relative;width:100%;height:100%}
@@ -96,6 +97,10 @@
 .project-card:not(:has(.project-gallery)) .project-body>.tags{margin-top:18px}
 /* Match the visible screen height while retaining each source's native aspect ratio. */
 .phone-frame.has-capture{width:calc(var(--device-width)*var(--capture-aspect)*19.5/9)}
+/* Fit older 16:9 captures into the shared portrait shell; retain every source pixel. */
+.phone-frame.fitted-capture{width:var(--device-width)}
+.phone-frame.fitted-capture .device-screen{aspect-ratio:9/19.5;background:#fff}
+.phone-frame.fitted-capture .capture-viewport{height:auto;aspect-ratio:var(--capture-aspect);background:#fff}
 @media print{.project-grid[data-packed]{display:block}.project-card{grid-row:auto!important;grid-column:auto!important}}
 
 .project-card .card-takeaway ul{margin:10px 0 0;padding-left:17px;color:var(--text);font-size:12px;line-height:1.75}

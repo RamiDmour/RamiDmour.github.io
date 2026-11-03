@@ -120,6 +120,30 @@
       "pages": 5,
       "pdf_bytes": 160662,
       "docx_bytes": 43770
+    },
+    {
+      "stem": "rami-dmaur-product-en-short",
+      "pages": 2,
+      "pdf_bytes": 88353,
+      "docx_bytes": 39157
+    },
+    {
+      "stem": "rami-dmaur-product-en-full",
+      "pages": 2,
+      "pdf_bytes": 93675,
+      "docx_bytes": 39552
+    },
+    {
+      "stem": "rami-dmaur-product-ru-short",
+      "pages": 2,
+      "pdf_bytes": 101675,
+      "docx_bytes": 39662
+    },
+    {
+      "stem": "rami-dmaur-product-ru-full",
+      "pages": 2,
+      "pdf_bytes": 107978,
+      "docx_bytes": 40143
     }
   ]
 }

@@ -341,6 +341,86 @@
         "ai-lawyer",
         "ct-teacher"
       ]
+    },
+    "product": {
+      "label": {
+        "en": "Product Owner",
+        "ru": "Product Owner"
+      },
+      "title": {
+        "en": "Product owner.",
+        "ru": "Product owner."
+      },
+      "accent": {
+        "en": "With engineering depth.",
+        "ru": "С инженерной глубиной."
+      },
+      "intro": {
+        "en": "I connect founders, product decisions and implementation. I have owned product direction and technical delivery in Octy and OneTouch, and develop CT Teacher as my own AI learning-platform prototype.",
+        "ru": "Соединяю фаундеров, продуктовые решения и реализацию. В Octy и OneTouch совмещал ответственность за продукт и техническую разработку; CT Teacher развиваю как собственный прототип AI-платформы обучения."
+      },
+      "summary": {
+        "en": "Product Owner with a software engineering background since 2019. Owned products in Octy and OneTouch, working directly with founders, planning implementation and forming development teams. Connect product decisions with hands-on mobile, backend and AI expertise. Develop CT Teacher as a personal EdTech prototype.",
+        "ru": "Product Owner с опытом коммерческой разработки с 2019 года. В Octy и OneTouch отвечал за продукт целиком: общался с фаундерами, планировал реализацию и формировал команды. Соединяю продуктовые решения с практической экспертизой в mobile, backend и AI. CT Teacher развиваю как собственный EdTech-прототип."
+      },
+      "skills": [
+        {
+          "en": "Product ownership",
+          "ru": "Ответственность за продукт"
+        },
+        {
+          "en": "Stakeholder communication",
+          "ru": "Коммуникация со стейкхолдерами"
+        },
+        {
+          "en": "Planning & decomposition",
+          "ru": "Планирование и декомпозиция"
+        },
+        {
+          "en": "Technical feasibility",
+          "ru": "Техническая реализуемость"
+        },
+        {
+          "en": "Hiring & mentoring",
+          "ru": "Найм и менторинг"
+        },
+        {
+          "en": "AI prototyping",
+          "ru": "AI-прототипирование"
+        },
+        "Mobile / Backend / ML"
+      ],
+      "order": [
+        "octy",
+        "onetouch",
+        "ct-teacher"
+      ],
+      "resumeProjects": [
+        "octy",
+        "onetouch",
+        "ct-teacher"
+      ],
+      "resumeTitle": {
+        "en": "Product Owner",
+        "ru": "Product Owner"
+      },
+      "focusLabel": {
+        "en": "Product ownership · Founders · Team leadership · Technical delivery",
+        "ru": "Ответственность за продукт · Фаундеры · Команда · Реализация"
+      },
+      "fit": {
+        "en": "An early-stage or technically complex product that needs a link between founders, a development team and implementation across mobile, backend and AI.",
+        "ru": "Продукт на ранней стадии или со сложной технической частью, где нужно связать фаундеров, команду и реализацию в mobile, backend и AI."
+      },
+      "heroProjects": [
+        "octy",
+        "onetouch",
+        "ct-teacher"
+      ],
+      "skillsTitle": {
+        "en": "Core competencies",
+        "ru": "Ключевые компетенции"
+      }
     }
   },
   "projects": [
@@ -636,16 +716,16 @@
       },
       "hero": {
         "ownership": {
-          "en": "From zero to release",
-          "ru": "С нуля до релиза"
+          "en": "On-device ML & document processing",
+          "ru": "On-device ML и обработка документов"
         },
         "summary": {
           "en": "A document scanner with OCR, PDF search and an editor.",
           "ru": "Сканер документов с OCR, поиском по PDF и редактором."
         },
         "contribution": {
-          "en": "Started the app from scratch and took it to release; continue developing CV, OCR and camera performance.",
-          "ru": "Начал приложение с нуля и довёл до релиза; продолжаю развивать CV, OCR и производительность камеры."
+          "en": "Built OCR-backed PDF search with persistent caching, fuzzy matching and page highlights; developed processing workers and performance diagnostics. Continue tuning models and camera performance.",
+          "ru": "Разработал OCR-поиск по PDF с постоянным кешем, нечётким сопоставлением и подсветкой страниц; рабочие isolates и диагностику обработки. Продолжаю настраивать модели и оптимизировать камеру."
         },
         "profiles": {
           "backend": {
@@ -696,8 +776,7 @@
             },
             "width": 402,
             "height": 874,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/?node-id=4130-33009"
+            "sourceType": "figma"
           },
           {
             "layout": "scan",
@@ -712,8 +791,7 @@
             },
             "width": 402,
             "height": 874,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=2803-20399"
+            "sourceType": "figma"
           },
           {
             "layout": "scan",
@@ -734,8 +812,7 @@
               "y": 100,
               "width": 402,
               "height": 874
-            },
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3406-25852"
+            }
           },
           {
             "layout": "scan",
@@ -756,8 +833,7 @@
               "y": 200,
               "width": 402,
               "height": 874
-            },
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3406-26250"
+            }
           },
           {
             "layout": "search",
@@ -772,8 +848,7 @@
             },
             "width": 402,
             "height": 874,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3113-18478"
+            "sourceType": "figma"
           },
           {
             "layout": "search",
@@ -788,8 +863,7 @@
             },
             "width": 402,
             "height": 874,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/r5lobEIpEQwcBFS8tl4ROq/Scanners?node-id=3099-17577"
+            "sourceType": "figma"
           }
         ]
       }
@@ -915,8 +989,7 @@
               "y": 470,
               "width": 744,
               "height": 1606
-            },
-            "sourceUrl": "https://apps.apple.com/app/id6740913417"
+            }
           },
           {
             "layout": "player",
@@ -937,8 +1010,7 @@
               "y": 470,
               "width": 744,
               "height": 1606
-            },
-            "sourceUrl": "https://apps.apple.com/app/id6740913417"
+            }
           },
           {
             "layout": "player",
@@ -959,8 +1031,7 @@
               "y": 470,
               "width": 744,
               "height": 1606
-            },
-            "sourceUrl": "https://apps.apple.com/app/id6740913417"
+            }
           }
         ]
       }
@@ -1022,16 +1093,16 @@
       "link": null,
       "hero": {
         "ownership": {
-          "en": "Shipped Loans",
-          "ru": "Выпустил Loans"
+          "en": "Loans & Coinhold financial workflows",
+          "ru": "Финансовые сценарии Loans и Coinhold"
         },
         "summary": {
-          "en": "Loans and Coinhold inside a crypto-finance platform.",
-          "ru": "Loans и Coinhold внутри криптофинансовой платформы."
+          "en": "Lending and yield products within the EMCD platform.",
+          "ru": "Займы и доходные продукты внутри платформы EMCD."
         },
         "contribution": {
-          "en": "Owned Flutter development and maintenance of Loans and Coinhold; released Loans to users.",
-          "ru": "Отвечал за Flutter-разработку и сопровождение Loans и Coinhold; выпустил Loans для пользователей."
+          "en": "Owned the Flutter client: loan calculations, availability checks, activation and repayment; Coinhold deposits, withdrawals and history. Improved architecture and performance across these workflows.",
+          "ru": "Отвечал за Flutter-клиент: расчёт займа, проверки доступности, активацию и погашение; пополнение, вывод и историю Coinhold. Улучшал архитектуру и производительность этих сценариев."
         }
       },
       "cardContent": {
@@ -1082,8 +1153,7 @@
               "y": 496,
               "width": 640,
               "height": 1374
-            },
-            "sourceUrl": "https://play.google.com/store/apps/details?id=io.emcd.emcd_flutter.prod&hl=en&gl=US"
+            }
           },
           {
             "layout": "finance",
@@ -1104,8 +1174,7 @@
               "y": 496,
               "width": 640,
               "height": 1374
-            },
-            "sourceUrl": "https://play.google.com/store/apps/details?id=io.emcd.emcd_flutter.prod&hl=en&gl=US"
+            }
           },
           {
             "layout": "finance",
@@ -1126,8 +1195,7 @@
               "y": 496,
               "width": 640,
               "height": 1374
-            },
-            "sourceUrl": "https://play.google.com/store/apps/details?id=io.emcd.emcd_flutter.prod&hl=en&gl=US"
+            }
           }
         ]
       }
@@ -1144,7 +1212,8 @@
         "flutter",
         "backend",
         "ml",
-        "fullstack"
+        "fullstack",
+        "product"
       ],
       "stack": [
         "NestJS",
@@ -1357,6 +1426,53 @@
               "ru": "Исследовал reward design, сравнивал политики лояльности в симуляции, создавал инструменты анализа обучения и поведения политики."
             }
           ]
+        },
+        "product": {
+          "role": {
+            "en": "Product Owner / Team Lead",
+            "ru": "Product Owner / Team Lead"
+          },
+          "description": {
+            "en": "A video-commerce marketplace with multi-chain crypto payments and loyalty experiments. Combined end-to-end product responsibility, direct founder communication and technical leadership.",
+            "ru": "Видеомаркетплейс с криптоплатежами в нескольких сетях и экспериментами с лояльностью. Совмещал ответственность за продукт целиком, прямое общение с фаундерами и техническое руководство."
+          },
+          "bullets": [
+            {
+              "en": "Owned the product as a whole, working directly with founders and translating product decisions into implementation plans and technical tasks.",
+              "ru": "Отвечал за продукт целиком, напрямую работал с фаундерами и переводил продуктовые решения в план реализации и технические задачи."
+            },
+            {
+              "en": "Formed the development team, hired and mentored two Flutter developers and a designer, and coordinated technical delivery.",
+              "ru": "Сформировал команду: нанял и обучал двух Flutter-разработчиков и дизайнера, координировал техническую реализацию."
+            },
+            {
+              "en": "Connected marketplace and financial workflows: video discovery, seller verification, buyer-to-owner roles, internal balances, conversion and checkout using several crypto assets.",
+              "ru": "Связал сценарии маркетплейса и финансовой части: товарную видеоленту, проверку продавцов, роли от покупателя до owner, балансы, конвертацию и оплату несколькими криптоактивами."
+            },
+            {
+              "en": "Combined architecture and backend work with research into game-based loyalty using DQN/PPO; evaluated the ML approaches through simulation.",
+              "ru": "Совмещал архитектуру и backend с исследованием игровой лояльности на DQN/PPO; оценивал ML-подходы в симуляции."
+            }
+          ],
+          "stack": [
+            "NestJS",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "Redis",
+            "Docker",
+            "Flutter",
+            "TensorFlow",
+            "DQN",
+            "PPO"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Owned the product with founders; formed the team, hired and mentored two Flutter developers and a designer, and coordinated implementation.",
+              "ru": "Отвечал за продукт совместно с фаундерами; сформировал команду, нанял и обучал двух Flutter-разработчиков и дизайнера, координировал реализацию."
+            }
+          ]
         }
       },
       "hero": {
@@ -1395,6 +1511,16 @@
             "contribution": {
               "en": "Developed DQN/PPO approaches, a custom simulation environment and tools for evaluating policy behavior.",
               "ru": "Разрабатывал DQN/PPO, собственную среду симуляции и инструменты оценки поведения политики."
+            }
+          },
+          "product": {
+            "ownership": {
+              "en": "Product ownership & technical delivery",
+              "ru": "Продуктовая ответственность и реализация"
+            },
+            "contribution": {
+              "en": "Owned the product as a whole, working directly with founders and translating product decisions into implementation plans and technical tasks.",
+              "ru": "Отвечал за продукт целиком, напрямую работал с фаундерами и переводил продуктовые решения в план реализации и технические задачи."
             }
           }
         }
@@ -1445,7 +1571,8 @@
       "profiles": [
         "flutter",
         "backend",
-        "fullstack"
+        "fullstack",
+        "product"
       ],
       "stack": [
         "FastAPI",
@@ -1554,6 +1681,47 @@
               "ru": "Разрабатывал escrow-интеграцию Ethereum/TON и TypeScript/Express-мост к TON; согласовывал оплату, подтверждение сделки, споры и возвраты."
             }
           ]
+        },
+        "product": {
+          "role": {
+            "en": "Product Owner / Team Lead",
+            "ru": "Product Owner / Team Lead"
+          },
+          "description": {
+            "en": "A real-estate marketplace with crypto escrow transactions. Combined product ownership and founder communication with team formation and backend implementation.",
+            "ru": "Маркетплейс недвижимости со сделками через крипто-escrow. Совмещал продуктовую ответственность и общение с фаундерами с формированием команды и реализацией backend."
+          },
+          "bullets": [
+            {
+              "en": "Owned the product end to end and worked directly with founders, connecting the intended transaction flow to the development work.",
+              "ru": "Отвечал за продукт целиком и напрямую общался с фаундерами, связывая задуманный сценарий сделки с работой разработки."
+            },
+            {
+              "en": "Formed the team and presented the technical solution to investors.",
+              "ru": "Сформировал команду и представлял техническое решение инвесторам."
+            },
+            {
+              "en": "Took full responsibility for the backend: listings, search, seller verification, KYC/AML-related workflows and purchase through escrow contracts on Ethereum and TON.",
+              "ru": "Полностью взял backend: объявления, поиск, проверку продавцов, KYC/AML-сценарии и покупку через escrow-контракты Ethereum и TON."
+            }
+          ],
+          "stack": [
+            "FastAPI",
+            "Python",
+            "SQLAlchemy",
+            "Solidity",
+            "Ethereum",
+            "TON",
+            "Docker",
+            "Flutter"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Owned the product with founders, formed the team and presented to investors; implemented listing, verification and Ethereum/TON escrow workflows.",
+              "ru": "Отвечал за продукт совместно с фаундерами, сформировал команду и представлял решение инвесторам; реализовывал объявления, верификацию и escrow Ethereum/TON."
+            }
+          ]
         }
       },
       "hero": {
@@ -1568,6 +1736,18 @@
         "contribution": {
           "en": "Owned the backend from listings and seller verification to Ethereum/TON escrow contracts.",
           "ru": "Полностью взял backend: от объявлений и проверки продавцов до escrow-контрактов Ethereum и TON."
+        },
+        "profiles": {
+          "product": {
+            "ownership": {
+              "en": "Product ownership & technical delivery",
+              "ru": "Продуктовая ответственность и реализация"
+            },
+            "contribution": {
+              "en": "Owned the product end to end and worked directly with founders, connecting the intended transaction flow to the development work.",
+              "ru": "Отвечал за продукт целиком и напрямую общался с фаундерами, связывая задуманный сценарий сделки с работой разработки."
+            }
+          }
         }
       },
       "cardContent": {
@@ -1774,8 +1954,7 @@
             },
             "width": 1024,
             "height": 618,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/8mBgoJhX4GtJt1KK8lfcpx/?node-id=1-1273"
+            "sourceType": "figma"
           },
           {
             "layout": "workspace",
@@ -1790,8 +1969,7 @@
             },
             "width": 1512,
             "height": 912,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/JIsYPOGo1OOJg3xxb4dw26/?node-id=15536-32590"
+            "sourceType": "figma"
           }
         ]
       }
@@ -1894,8 +2072,7 @@
               "y": 250,
               "width": 452,
               "height": 968
-            },
-            "sourceUrl": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter"
+            }
           },
           {
             "layout": "property",
@@ -1916,8 +2093,7 @@
               "y": 250,
               "width": 452,
               "height": 968
-            },
-            "sourceUrl": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter"
+            }
           },
           {
             "layout": "property",
@@ -1938,8 +2114,7 @@
               "y": 250,
               "width": 452,
               "height": 968
-            },
-            "sourceUrl": "https://play.google.com/store/apps/details?id=com.panco.dwella.dwella_flutter"
+            }
           }
         ]
       }
@@ -2019,8 +2194,7 @@
             },
             "width": 1080,
             "height": 1920,
-            "sourceType": "store",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=by.naveksoft.belpost&hl=en&gl=US"
+            "sourceType": "store"
           },
           {
             "layout": "postal",
@@ -2035,8 +2209,7 @@
             },
             "width": 1080,
             "height": 1920,
-            "sourceType": "store",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=by.naveksoft.belpost&hl=en&gl=US"
+            "sourceType": "store"
           },
           {
             "layout": "postal",
@@ -2051,8 +2224,7 @@
             },
             "width": 1080,
             "height": 1920,
-            "sourceType": "store",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=by.naveksoft.belpost&hl=en&gl=US"
+            "sourceType": "store"
           }
         ]
       }
@@ -2132,8 +2304,7 @@
             "width": 1240,
             "height": 2688,
             "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://apps.apple.com/us/app/%D1%8D%D1%82%D0%BF-%D1%80%D0%B0%D0%B4-lot-online-ru/id1600503389?uo=4"
+            "presentation": "poster"
           },
           {
             "layout": "market",
@@ -2149,8 +2320,7 @@
             "width": 1240,
             "height": 2688,
             "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://apps.apple.com/us/app/%D1%8D%D1%82%D0%BF-%D1%80%D0%B0%D0%B4-lot-online-ru/id1600503389?uo=4"
+            "presentation": "poster"
           }
         ]
       }
@@ -2231,8 +2401,7 @@
             "width": 1080,
             "height": 1920,
             "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=by.groshik.app&hl=en&gl=US"
+            "presentation": "poster"
           },
           {
             "layout": "market",
@@ -2248,8 +2417,7 @@
             "width": 1080,
             "height": 1920,
             "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=by.groshik.app&hl=en&gl=US"
+            "presentation": "poster"
           }
         ]
       }
@@ -2330,8 +2498,7 @@
             "width": 1080,
             "height": 1743,
             "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=ru.chesnok.app&hl=en&gl=US"
+            "presentation": "poster"
           },
           {
             "layout": "market",
@@ -2347,8 +2514,7 @@
             "width": 1080,
             "height": 1746,
             "sourceType": "store",
-            "presentation": "poster",
-            "sourceUrl": "https://play.google.com/store/apps/details?id=ru.chesnok.app&hl=en&gl=US"
+            "presentation": "poster"
           }
         ]
       }
@@ -2468,8 +2634,7 @@
             },
             "width": 360,
             "height": 800,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/pOJvrXXXS0ySnVyrhR9W1b/?node-id=173-879"
+            "sourceType": "figma"
           },
           {
             "layout": "workspace",
@@ -2484,8 +2649,7 @@
             },
             "width": 360,
             "height": 800,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/pOJvrXXXS0ySnVyrhR9W1b/?node-id=173-554"
+            "sourceType": "figma"
           },
           {
             "layout": "workspace",
@@ -2500,8 +2664,7 @@
             },
             "width": 360,
             "height": 800,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/pOJvrXXXS0ySnVyrhR9W1b/?node-id=173-826"
+            "sourceType": "figma"
           }
         ]
       }
@@ -2691,8 +2854,7 @@
             },
             "width": 375,
             "height": 812,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=405-32278"
+            "sourceType": "figma"
           },
           {
             "layout": "workspace",
@@ -2707,8 +2869,7 @@
             },
             "width": 375,
             "height": 812,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=405-34099"
+            "sourceType": "figma"
           },
           {
             "layout": "workspace",
@@ -2723,8 +2884,7 @@
             },
             "width": 375,
             "height": 812,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=575-59262"
+            "sourceType": "figma"
           },
           {
             "layout": "workspace",
@@ -2739,8 +2899,7 @@
             },
             "width": 375,
             "height": 812,
-            "sourceType": "figma",
-            "sourceUrl": "https://www.figma.com/design/DPBT1vLaEvnn1tCucXyegQ/?node-id=574-34784"
+            "sourceType": "figma"
           }
         ]
       }
@@ -2803,6 +2962,7 @@
           }
         ]
       },
+      "websiteHidden": true,
       "image": null,
       "media": {
         "device": "phone",
@@ -2859,6 +3019,7 @@
           }
         ]
       },
+      "websiteHidden": true,
       "image": null,
       "media": {
         "device": "phone",
@@ -3185,6 +3346,7 @@
       },
       "details": [],
       "link": null,
+      "websiteHidden": true,
       "image": null,
       "media": {
         "device": "browser",
@@ -3536,7 +3698,8 @@
       "profiles": [
         "backend",
         "ml",
-        "fullstack"
+        "fullstack",
+        "product"
       ],
       "stack": [
         "Python",
@@ -3641,6 +3804,49 @@
               "ru": "Исследовал AI-генерацию заданий/видеоуроков и синтез речи; интегрировал модельные инструменты и рендеринг в личный учебный прототип."
             }
           ]
+        },
+        "product": {
+          "role": {
+            "en": "Product Owner / Developer · Personal project",
+            "ru": "Product Owner / Разработчик · Pet-проект"
+          },
+          "description": {
+            "en": "A personal AI learning-platform prototype. Own the concept, product direction and implementation, exploring a connected experience of exercises, video lessons and educational games.",
+            "ru": "Собственный прототип AI-платформы обучения. Отвечаю за концепцию, развитие продукта и реализацию: исследую связанный учебный опыт из заданий, видеоуроков и образовательных игр."
+          },
+          "bullets": [
+            {
+              "en": "Define and develop the product as a whole, combining the learning experience, content workflows and technical implementation.",
+              "ru": "Самостоятельно определяю и развиваю продукт, соединяя учебный сценарий, процессы подготовки контента и техническую реализацию."
+            },
+            {
+              "en": "Prototyped AI-generated exercises and variants, complete video lessons, speech synthesis and learning games.",
+              "ru": "Прототипировал AI-генерацию заданий и аналогов, полноценных видеоуроков, синтез речи и учебные игры."
+            },
+            {
+              "en": "Developed the Python backend and Telegram/React client; explored content generation, rendering, access control and learner progress within a research prototype.",
+              "ru": "Развивал Python-backend и Telegram/React-клиент; исследовал генерацию и рендеринг контента, управление доступом и учебный прогресс в исследовательском прототипе."
+            }
+          ],
+          "stack": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Redis",
+            "React",
+            "TypeScript",
+            "aiogram",
+            "Docker",
+            "AI integration",
+            "ffmpeg"
+          ],
+          "details": [],
+          "shortBullets": [
+            {
+              "en": "Define product direction and prototype AI-generated exercises, video lessons, speech and games within a Python/Telegram/React learning platform.",
+              "ru": "Определяю развитие продукта и прототипирую AI-генерацию заданий, видеоуроков, речи и игр в учебной платформе на Python/Telegram/React."
+            }
+          ]
         }
       },
       "hero": {
@@ -3665,6 +3871,16 @@
             "contribution": {
               "en": "Developed FastAPI/aiogram components with async SQLAlchemy, PostgreSQL, Redis and content-generation workflows.",
               "ru": "Развивал FastAPI/aiogram с async SQLAlchemy, PostgreSQL, Redis и процессами генерации контента."
+            }
+          },
+          "product": {
+            "ownership": {
+              "en": "Product ownership & technical delivery",
+              "ru": "Продуктовая ответственность и реализация"
+            },
+            "contribution": {
+              "en": "Define and develop the product as a whole, combining the learning experience, content workflows and technical implementation.",
+              "ru": "Самостоятельно определяю и развиваю продукт, соединяя учебный сценарий, процессы подготовки контента и техническую реализацию."
             }
           }
         }
@@ -4037,10 +4253,10 @@
       "originLabel": "BEFORE THE FIRST JOB",
       "originTitle": "It started as a hobby.",
       "earlyCode": "Explore early code",
-      "proofScan": "From zero to release",
-      "proofScanText": "Architecture, camera, OCR and backend",
-      "proofEmcd": "Loans shipped",
-      "proofEmcdText": "Owned Loans and Coinhold in Flutter",
+      "proofScan": "Search inside scanned PDFs",
+      "proofScanText": "Built incremental OCR indexing, persistent caching, fuzzy matching and page highlights.",
+      "proofEmcd": "Financial product workflows",
+      "proofEmcdText": "Loans calculation, activation and repayment; Coinhold deposits and withdrawals.",
       "fitLabel": "Where I can help",
       "quickActions": "Contact and résumé",
       "writeMe": "Get in touch",
@@ -4080,7 +4296,7 @@
       "journeyFirstJob": "Commercial development",
       "journeyNowTitle": "See the system. Own the result.",
       "journeyNowText": "Flutter is my strongest specialization. Backend, applied ML and team leadership let me connect product decisions with implementation — from starting ScanChamp to building analytics tooling and financial workflows.",
-      "journeyScan": "ScanChamp · from zero to release",
+      "journeyScan": "ScanChamp · camera, ML & PDF search",
       "journeyShortly": "Shortly · analytics tooling",
       "journeyOcty": "Octy · architecture & leadership",
       "moreContribution": "More of my contribution ({count})",
@@ -4122,7 +4338,13 @@
       "octyGoal": "Match 3 tokens to score points",
       "octyReady": "Ready to play?",
       "octyStart": "Start game",
-      "octyNoLive": "Visual demo · no real purchases or rewards"
+      "octyNoLive": "Visual demo · no real purchases or rewards",
+      "proofShortly": "Analytics checked in code",
+      "proofShortlyText": "Built typed event generation, lint for missing integrations and a persistent delivery queue with retries.",
+      "proofLeadership": "Architecture & technical leadership",
+      "proofLeadershipText": "Designed mobile and backend systems, hired and mentored developers, and coordinated technical delivery.",
+      "proofSystems": "Complex product workflows",
+      "proofSystemsText": "Developed financial workflows, on-device document processing, OCR search and analytics infrastructure."
     },
     "ru": {
       "skip": "Перейти к содержимому",
@@ -4266,10 +4488,10 @@
       "originLabel": "ДО ПЕРВОЙ РАБОТЫ",
       "originTitle": "Началось с увлечения.",
       "earlyCode": "Посмотреть ранний код",
-      "proofScan": "С нуля до релиза",
-      "proofScanText": "Архитектура, камера, OCR и backend",
-      "proofEmcd": "Выпустил Loans",
-      "proofEmcdText": "Отвечал за Loans и Coinhold во Flutter",
+      "proofScan": "Поиск внутри сканов",
+      "proofScanText": "Разработал инкрементальный OCR-индекс, постоянный кеш, нечёткий поиск и подсветку страниц.",
+      "proofEmcd": "Финансовые сценарии",
+      "proofEmcdText": "Расчёт, активация и погашение Loans; пополнение и вывод Coinhold.",
       "fitLabel": "Где буду полезен",
       "quickActions": "Связаться и скачать резюме",
       "writeMe": "Написать мне",
@@ -4309,7 +4531,7 @@
       "journeyFirstJob": "Коммерческая разработка",
       "journeyNowTitle": "Видеть систему. Отвечать за результат.",
       "journeyNowText": "Flutter — моя основная специализация. Backend, прикладной ML и руководство помогают связывать продуктовые решения с реализацией: от запуска ScanChamp до инфраструктуры аналитики и финансовых сценариев.",
-      "journeyScan": "ScanChamp · с нуля до релиза",
+      "journeyScan": "ScanChamp · камера, ML и поиск по PDF",
       "journeyShortly": "Shortly · инструменты аналитики",
       "journeyOcty": "Octy · архитектура и руководство",
       "moreContribution": "Ещё о моём вкладе ({count})",
@@ -4351,7 +4573,13 @@
       "octyGoal": "Собирай по 3 токена и набирай очки",
       "octyReady": "Готов к игре?",
       "octyStart": "Начать игру",
-      "octyNoLive": "Макет · без реальных покупок и наград"
+      "octyNoLive": "Макет · без реальных покупок и наград",
+      "proofShortly": "Аналитика с проверкой в коде",
+      "proofShortlyText": "Создал генерацию типизированных событий, lint для пропущенных интеграций и постоянную очередь с повторами отправки.",
+      "proofLeadership": "Архитектура и техническое лидерство",
+      "proofLeadershipText": "Проектировал мобильные и серверные системы, нанимал и обучал разработчиков, координировал техническую реализацию.",
+      "proofSystems": "Сложные продуктовые сценарии",
+      "proofSystemsText": "Разрабатывал финансовые сценарии, обработку документов на устройстве, OCR-поиск и инфраструктуру аналитики."
     }
   }
 }

@@ -41,6 +41,8 @@ body{padding-bottom:100px}
 .proof-strip .proof-project strong{display:block;font-size:21px;line-height:1.25;margin-top:6px;letter-spacing:-.03em}
 .proof-project button>span:last-child{position:absolute;right:0;top:2px;color:var(--accent);font-size:17px}
 .proof-project button:hover strong{text-decoration:underline;text-underline-offset:4px}
+.proof-strip .proof-summary strong{margin-top:0}
+@media(max-width:580px){.proof-strip>.proof-summary{grid-column:1/-1;border-left:0!important;padding-left:0!important;border-top:1px solid var(--line);padding-top:20px}}
 .proof-strip .proof-project p{font-size:11px;line-height:1.7;margin-top:9px}
 .profile-section{border-top:0;padding-top:27px;padding-bottom:27px}
 .profile-fit{display:grid;grid-template-columns:145px 1fr;gap:22px;align-items:baseline;margin-top:23px;padding-top:19px;border-top:1px solid var(--line)}

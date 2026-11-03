@@ -6,8 +6,7 @@
   const local=(value,lang)=>typeof value==='object'&&value!==null?value[lang]??value.en:value;
   const getScreens=project=>(project.media?.screens||[]).filter(screen=>screen.src||screen.kind==='concept');
   function disclosure(screen,ctx){
-    const key=screen.kind==='concept'?'ndaConcept':screen.sourceType==='figma'?'figmaScreen':screen.sourceType==='store'?'storeScreen':'actualScreen';
-    return escape(ctx.ui[key])+(screen.sourceUrl?` <a href="${escape(screen.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(ctx.ui.mediaSource)} ↗</a>`:'');
+    return screen.kind==='concept'?escape(ctx.ui.ndaConcept):'';
   }
   function capture(screen,ctx,thumbnail=false){
     const c=screen.crop,w=screen.width,h=screen.height;
@@ -40,8 +39,10 @@
   function device(project,screen,ctx,extra=''){
     const isBrowser=project.media?.device==='browser',poster=screen.presentation==='poster';
     const c=screen.crop,aspect=screen.src?(c?c.width/c.height:screen.width/screen.height):null;
+    // Short portrait captures use the same shell as modern phones, without stretching or cropping UI.
+    const fitted=screen.src&&!isBrowser&&!poster&&aspect>.5;
     const visual=screen.src?capture(screen,ctx):concept(screen,ctx);
-    return `<span class="device-frame ${poster?'poster-frame':isBrowser?'browser-frame':'phone-frame'} ${screen.src?'has-capture':''} ${extra}" data-visual-theme="${escape(project.media?.theme||'workspace')}"${aspect?` style="--capture-aspect:${aspect}"`:''}>${isBrowser?'<span class="browser-chrome"><i></i><i></i><i></i><span></span></span>':screen.src?'':'<span class="phone-island" aria-hidden="true"></span>'}<span class="device-screen">${visual}</span>${isBrowser||screen.src?'':'<span class="phone-home" aria-hidden="true"></span>'}</span>`;
+    return `<span class="device-frame ${poster?'poster-frame':isBrowser?'browser-frame':'phone-frame'} ${screen.src?'has-capture':''} ${fitted?'fitted-capture':''} ${extra}" data-visual-theme="${escape(project.media?.theme||'workspace')}"${aspect?` style="--capture-aspect:${aspect}"`:''}>${isBrowser?'<span class="browser-chrome"><i></i><i></i><i></i><span></span></span>':screen.src?'':'<span class="phone-island" aria-hidden="true"></span>'}<span class="device-screen">${visual}</span>${isBrowser||screen.src?'':'<span class="phone-home" aria-hidden="true"></span>'}</span>`;
   }
   function gallery(project,ctx){
     const screens=getScreens(project);if(!screens.length)return '';
