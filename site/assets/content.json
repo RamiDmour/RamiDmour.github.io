@@ -2671,7 +2671,7 @@
     },
     {
       "id": "ai-lawyer",
-      "name": "AI Lawyer",
+      "name": "Legal Aid Ally (AI Lawyer)",
       "employer": "TimRusGroup",
       "domain": {
         "en": "Legal technology",
@@ -2705,7 +2705,7 @@
         "ru": "Flutter / Backend Developer"
       },
       "details": [],
-      "link": null,
+      "link": "https://apps.apple.com/by/app/legal-aid-ally-ai-assistance/id1670090810",
       "resumeContent": {
         "backend": {
           "description": {
@@ -2749,7 +2749,8 @@
         "contribution": {
           "en": "Built a Flask backend and its client integration, including text formatting and signing workflows.",
           "ru": "Разработал Flask-backend и интеграцию с клиентом, включая форматирование и сценарии подписания текстов."
-        }
+        },
+        "label": "Legal Aid Ally"
       },
       "cardContent": {
         "description": {
@@ -2775,7 +2776,29 @@
       "media": {
         "device": "phone",
         "theme": "workspace",
-        "screens": []
+        "screens": [
+          {
+            "layout": "documents",
+            "label": {
+              "en": "Legal document categories",
+              "ru": "Категории юридических документов"
+            },
+            "src": "assets/projects/legal-aid-ally-apple-03.jpg",
+            "alt": {
+              "en": "Legal Aid Ally: legal document categories",
+              "ru": "Legal Aid Ally: категории юридических документов"
+            },
+            "width": 1284,
+            "height": 2778,
+            "sourceType": "store",
+            "crop": {
+              "x": 195,
+              "y": 744,
+              "width": 894,
+              "height": 1937
+            }
+          }
+        ]
       }
     },
     {
