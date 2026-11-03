@@ -127,3 +127,12 @@
 .screen-viewer-device{container-type:inline-size}
 .screen-viewer-device .device-frame{max-width:100cqw}
 .screen-viewer-device .browser-frame.has-capture{--device-width:min(680px,100cqw)}
+
+/* The full catalog is discoverable before and after the three highlights. */
+.work-heading-actions{display:flex;flex-direction:column;align-items:stretch;gap:16px;max-width:340px;flex:0 0 340px}
+.work-heading-actions .section-description{max-width:none}
+.catalog-toggle{justify-content:space-between;gap:18px;min-height:50px;box-shadow:0 6px 18px #0001}
+.work-bottom .catalog-toggle{min-width:280px}
+@media(max-width:800px){.work-heading-actions{flex-basis:280px;max-width:280px}}
+@media(max-width:580px){.work-heading-actions{max-width:none;margin-top:16px}.work-heading-actions .section-description{margin-top:0}.catalog-toggle,.work-bottom .catalog-toggle{width:100%;min-width:0;min-height:52px;text-align:left}}
+@media print{.catalog-toggle{display:none!important}}
